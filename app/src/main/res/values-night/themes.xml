@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Dootawas" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_background_night</item>
+<!--        <item name="android:windowSplashScreenAnimatedIcon">@drawable/dootawas_no_bg_dark</item>-->
+        <item name="android:forceDarkAllowed">false</item>
+    </style>
+</resources>

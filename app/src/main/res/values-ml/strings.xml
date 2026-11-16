@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">നോട്ട്എക്സ്</string>
+
+
+    <string name="cancel">റദ്ദാക്കുക</string>
+
+
+
+
+
+    <string name="enter_phone_number">നിങ്ങളുടെ ഫോൺ നമ്പർ നൽകുക</string>
+    <string name="verify">സ്ഥിരീകരിക്കുക</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <string name="settings">സെറ്റിംഗ്സ്</string>
+    <string name="account_settings">അക്കൗണ്ട് സെറ്റിംഗ്സ്</string>
+    <string name="notifications">നോട്ടിഫിക്കേഷനുകൾ</string>
+    <string name="chats">ചാറ്റുകൾ</string>
+    <string name="calls">കോളുകൾ</string>
+    <string name="privacy">സ്വകാര്യത</string>
+    <string name="storage_data">സ്റ്റോറേജും ഡാറ്റയും</string>
+    <string name="data_usage">ഡാറ്റ ഉപയോഗം</string>
+    <string name="appearance">രൂപഭാവം</string>
+    <string name="language">ഭാഷ</string>
+    <string name="help_support">സഹായവും പിന്തുണയും</string>
+    <string name="backup">ബാക്കപ്പ്</string>
+    <string name="block_list">ബ്ലോക്ക് ചെയ്ത കോൺടാക്റ്റുകൾ</string>
+    <string name="contribution">സംഭാവനകൾ</string>
+    <string name="back">തിരികെ</string>
+    <string name="name">പേര്</string>
+    <string name="phone_number">ഫോൺ നമ്പർ</string>
+    <string name="security">സുരക്ഷ</string>
+    <string name="delete">ഡിലീറ്റ് ചെയ്യുക</string>
+    <string name="delete_account">അക്കൗണ്ട് ഡിലീറ്റ് ചെയ്യുക</string>
+    <string name="app_passcode">ആപ്പ് പാസ്‌കോഡ്</string>
+    <string name="enter_4_digit_passcode">4 അക്ക പാസ്‌കോഡ് നൽകുക</string>
+    <string name="confirm_passcode">പാസ്‌കോഡ് സ്ഥിരീകരിക്കുക</string>
+    <string name="passcode_must_be_4_digits">പാസ്‌കോഡ് 4 അക്കങ്ങൾ ഉള്ളതായിരിക്കണം</string>
+    <string name="passcodes_do_not_match">പാസ്‌കോഡുകൾ പൊരുത്തപ്പെടുന്നില്ല</string>
+    <string name="save">സേവ് ചെയ്യുക</string>
+    <string name="enter_current_passcode">നിലവിലെ പാസ്‌കോഡ് നൽകുക</string>
+    <string name="incorrect_passcode">തെറ്റായ പാസ്‌കോഡ്</string>
+    <string name="disable">നിർജ്ജീവമാക്കുക</string>
+
+    <string name="theme">തീം</string>
+    <string name="wallpaper">വാൾപേപ്പർ</string>
+    <string name="font_size">ഫോണ്ട് സൈസ്</string>
+    <string name="font_size_value">ഫോണ്ട് സൈസ്: %1$d </string>
+    <string name="enter_key_is_send">Enter കീ സന്ദേശം അയക്കാൻ ഉപയോഗിക്കുക</string>
+    <string name="read_receipts">റീഡ് റെസീപ്റ്റുകൾ</string>
+    <string name="typing_indicators">ടൈപ്പിംഗ് സൂചകങ്ങൾ</string>
+    <string name="message_backup">സന്ദേശ ബാക്കപ്പ്</string>
+    <string name="auto_download_photos">ഫോട്ടോകൾ സ്വയം ഡൗൺലോഡ് ചെയ്യുക</string>
+    <string name="auto_download_videos">വീഡിയോകൾ സ്വയം ഡൗൺലോഡ് ചെയ്യുക</string>
+    <string name="auto_download_voice">വോയിസ് മെസ്സേജുകൾ സ്വയം ഡൗൺലോഡ് ചെയ്യുക</string>
+    <string name="auto_download_files">ഫയലുകൾ സ്വയം ഡൗൺലോഡ് ചെയ്യുക</string>
+    <string name="media_quality">മീഡിയ നിലവാരം</string>
+    <string name="save_to_gallery">ഗാലറിയിലേക്ക് സേവ് ചെയ്യുക</string>
+    <string name="mute_all_groups">എല്ലാ ഗ്രൂപ്പുകളും മ്യൂട്ട് ചെയ്യുക</string>
+    <string name="view_blocked_contacts">ബ്ലോക്ക് ചെയ്ത കോൺടാക്റ്റുകൾ കാണുക</string>
+
+    <string name="contact_list">കോൺടാക്റ്റ് ലിസ്റ്റ്</string>
+    <string name="blocked_contacts">ബ്ലോക്ക് ചെയ്ത കോൺടാക്റ്റുകൾ</string>
+    <string name="last_seen">അവസാനം കണ്ടത് (Last Seen)</string>
+    <string name="online_status">ഓൺലൈൻ സ്റ്റാറ്റസ്</string>
+    <string name="profile_photo">പ്രൊഫൈൽ ഫോട്ടോ</string>
+
+    <string name="bio_about">ബയോ/വിവരണം</string>
+    <string name="who_can_message_me">ആർക്കൊക്കെ എനിക്ക് സന്ദേശം അയക്കാം</string>
+    <string name="group_invites">ഗ്രൂപ്പ് ക്ഷണം</string>
+    <string name="notify_new_device">പുതിയ ഉപകരണത്തിൽ നിന്ന് ലോഗിൻ ചെയ്യുമ്പോൾ അറിയിക്കുക</string>
+    <string name="suspicious_activity_alerts">സംശയാസ്പദമായ പ്രവർത്തന അറിയിപ്പുകൾ</string>
+    <string name="everyone">എല്ലാവരും</string>
+    <string name="nobody">ആരുമില്ല</string>
+
+    <string name="allow_calls_from">ഇവരിൽ നിന്നുള്ള കോളുകൾ അനുവദിക്കുക</string>
+    <string name="speaker_by_default">ഡിഫോൾട്ടായി സ്പീക്കർ ഉപയോഗിക്കുക</string>
+    <string name="video_call_quality">വീഡിയോ കോൾ നിലവാരം</string>
+    <string name="ringtone">റിംഗ്‌ടോൺ</string>
+
+    <string name="help_center">ഹെൽപ്പ് സെന്റർ</string>
+    <string name="contact_support">സപ്പോർട്ടുമായി ബന്ധപ്പെടുക</string>
+    <string name="terms_conditions">നിബന്ധനകളും വ്യവസ്ഥകളും</string>
+    <string name="privacy_policy">സ്വകാര്യതാ നയം</string>
+    <string name="report_issue">ഒരു പ്രശ്നം റിപ്പോർട്ട് ചെയ്യുക</string>
+
+    <string name="use_system_language">സിസ്റ്റം ഭാഷ ഉപയോഗിക്കുക</string>
+    <string name="appearance_settings">രൂപഭാവ സെറ്റിംഗ്സ്</string>
+    <string name="no_blocked_contacts">ബ്ലോക്ക് ചെയ്ത കോൺടാക്റ്റുകൾ ഒന്നുമില്ല</string>
+    <string name="restore_started">റീസ്റ്റോർ ആരംഭിച്ചു…</string>
+    <string name="backup_folder_set">ബാക്കപ്പ് ഫോൾഡർ സജ്ജമാക്കി!</string>
+    <string name="local_backup">ലോക്കൽ ബാക്കപ്പ്</string>
+    <string name="enable_backup">ബാക്കപ്പ് പ്രാപ്തമാക്കുക</string>
+    <string name="select_backup_folder">ബാക്കപ്പ് ഫോൾഡർ തിരഞ്ഞെടുക്കുക</string>
+    <string name="include_media">മീഡിയ ഉൾപ്പെടുത്തുക</string>
+    <string name="auto_backup_every">സ്വയം ബാക്കപ്പ് ചെയ്യേണ്ട ഇടവേള:</string>
+    <string name="last_backup">അവസാന ബാക്കപ്പ്:</string>
+    <string name="next_backup">അടുത്ത ബാക്കപ്പ്:</string>
+    <string name="no_backups_yet">ഇതുവരെ ബാക്കപ്പുകൾ ഒന്നുമില്ല.</string>
+    <string name="select_backup_folder_first">ആദ്യം ബാക്കപ്പ് ഫോൾഡർ തിരഞ്ഞെടുക്കുക!</string>
+    <string name="backup_started">ബാക്കപ്പ് ആരംഭിച്ചു…</string>
+    <string name="backup_now">ഇപ്പോൾ ബാക്കപ്പ് ചെയ്യുക</string>
+    <string name="restore_from_backup_file">ബാക്കപ്പ് ഫയലിൽ നിന്ന് റീസ്റ്റോർ ചെയ്യുക</string>
+
+    <string name="mobile_data_limit">മൊബൈൽ ഡാറ്റ പരിധി</string>
+    <string name="wifi_usage">Wi-Fi ഉപയോഗം</string>
+    <string name="unlimited">പരിധിയില്ലാത്തത് (Unlimited)</string>
+    <string name="restricted">നിയന്ത്രിതമായത് (Restricted)</string>
+    <string name="storage_management">സ്റ്റോറേജ് മാനേജ്‌മെന്റ്</string>
+    <string name="view_storage_usage">സ്റ്റോറേജ് ഉപയോഗം കാണുക</string>
+    <string name="backup_restore">ബാക്കപ്പും റീസ്റ്റോറും</string>
+    <string name="days">ദിവസങ്ങൾ</string>
+
+    <string name="messages">സന്ദേശങ്ങൾ</string>
+    <string name="media">മീഡിയ</string>
+    <string name="sent">അയച്ചത്</string>
+    <string name="received">ലഭിച്ചത്</string>
+
+    <string name="mobile_data_title">📶 മൊബൈൽ ഡാറ്റ</string>
+    <string name="wifi_title">📡 Wi-Fi</string>
+
+    <string name="global">ഗ്ലോബൽ</string>
+    <string name="enable_all_notifications">എല്ലാ നോട്ടിഫിക്കേഷനുകളും ഓൺ ചെയ്യുക</string>
+    <string name="new_message_sound">പുതിയ സന്ദേശത്തിന്റെ ശബ്ദം</string>
+    <string name="vibrate_on_message">സന്ദേശം വരുമ്പോൾ വൈബ്രേറ്റ് ചെയ്യുക</string>
+
+    <string name="message_notifications">സന്ദേശ നോട്ടിഫിക്കേഷനുകൾ</string>
+    <string name="new_messages">പുതിയ സന്ദേശങ്ങൾ</string>
+    <string name="group_chats">ഗ്രൂപ്പ് ചാറ്റുകൾ</string>
+    <string name="mentions">പരാമർശങ്ങൾ (Mentions)</string>
+
+    <string name="call_notifications">കോൾ നോട്ടിഫിക്കേഷനുകൾ</string>
+    <string name="incoming_calls">വരുന്ന കോളുകൾ</string>
+    <string name="missed_call_alerts">മിസ്ഡ് കോൾ അറിയിപ്പുകൾ</string>
+
+    <string name="in_app_notifications">ആപ്പിനുള്ളിലെ നോട്ടിഫിക്കേഷനുകൾ</string>
+    <string name="popup_previews">പോപ്പ്-അപ്പ് പ്രിവ്യൂകൾ</string>
+    <string name="badge_count">ബാഡ്ജ് എണ്ണം</string>
+
+    <string name="do_not_disturb">തടസ്സപ്പെടുത്തരുത് (DND)</string>
+    <string name="enable_dnd">DND ഓൺ ചെയ്യുക</string>
+
+    <string name="close">അടയ്ക്കുക</string>
+    <string name="scan_to_share">പങ്കുവെക്കാൻ സ്കാൻ ചെയ്യുക</string>
+    <string name="qr_code">QR കോഡ്</string>
+    <string name="qr_error">QR കോഡ് സൃഷ്ടിക്കുന്നതിൽ പിശക്</string>
+
+    <string name="logout">ലോഗ് ഔട്ട്</string>
+    <string name="logout_confirmation">നിങ്ങൾക്ക് തീർച്ചയായും ലോഗ് ഔട്ട് ചെയ്യണമെന്നുണ്ടോ?</string>
+    <string name="yes">അതെ</string>
+    <string name="delete_warning">നിങ്ങളുടെ എല്ലാ ഡാറ്റയും സെർവറിൽ നിന്ന് ഉടൻ തന്നെ ശാശ്വതമായി ഡിലീറ്റ് ചെയ്യപ്പെടും. ഈ പ്രവർത്തനം തിരുത്താൻ കഴിയില്ല.\n\nമുമ്പോട്ട് പോകാൻ CONFIRM എന്ന് ടൈപ്പ് ചെയ്യുക.</string>
+    <string name="type_confirm_label">CONFIRM എന്ന് ടൈപ്പ് ചെയ്യുക</string>
+    <string name="cleaning_up">വൃത്തിയാക്കുന്നു?</string>
+    <string name="confirm_keyword">CONFIRM</string>
+
+    <string name="led_indicator">LED സൂചകം</string>
+    <string name="select_led_color">LED നിറം തിരഞ്ഞെടുക്കുക</string>
+
+    <string name="led_off">ഓഫ്</string>
+    <string name="led_red">ചുവപ്പ്</string>
+    <string name="led_green">പച്ച</string>
+    <string name="led_blue">നീല</string>
+    <string name="led_yellow">മഞ്ഞ</string>
+    <string name="led_purple">പർപ്പിൾ</string>
+
+    <string name="confirmation">സ്ഥിരീകരണം</string>
+    <string name="delete_both_sides">രണ്ടുഭാഗത്തുനിന്നും ഡിലീറ്റ് ചെയ്യുക</string>
+    <string name="no">അല്ല</string>
+    <string name="confirm_action">പ്രവർത്തനം സ്ഥിരീകരിക്കുക</string>
+    <string name="confirm">സ്ഥിരീകരിക്കുക</string>
+
+    <string name="remove_profile_image_confirmation">നിങ്ങൾക്ക് പ്രൊഫൈൽ ചിത്രം നീക്കം ചെയ്യണമെന്ന് ഉറപ്പാണോ?</string>
+    <string name="reset_all_data_usage">🔄 എല്ലാ ഡാറ്റ ഉപയോഗവും റീസെറ്റ് ചെയ്യുക</string>
+    <string name="coming_soon">ഉടൻ വരുന്നു</string>
+
+    <string name="invalid_phone_number">അസാധുവായ ഫോൺ നമ്പർ.</string>
+    <string name="invalid_phone_format">ഫോൺ നമ്പറിന്റെ ഫോർമാറ്റ് തെറ്റാണ്.</string>
+    <string name="invalid_country">അസാധുവായ രാജ്യം.</string>
+    <string name="no_network">നെറ്റ്‌വർക്ക് ലഭ്യമായിട്ടില്ല. ദയവായി പിന്നീട് വീണ്ടും ശ്രമിക്കുക.</string>
+    <string name="pre_release_notice">Dootawas പ്രീ-റിലീസ് അറിയിപ്പ്</string>
+
+    <string name="resend_otp">OTP വീണ്ടും അയക്കുക</string>
+    <string name="max_retry_reached">❌ പരമാവധി ശ്രമങ്ങളുടെ പരിധി കഴിഞ്ഞു!</string>
+    <string name="enter_complete_otp">പൂർണ്ണമായ OTP നൽകുക</string>
+    <string name="verify_otp">OTP സ്ഥിരീകരിക്കുക</string>
+    <string name="finish">പൂർത്തിയാക്കുക</string>
+    <string name="setup_profile">നിങ്ങളുടെ പ്രൊഫൈൽ സജ്ജമാക്കുക</string>
+    <string name="add_profile_picture">എളുപ്പത്തിൽ തിരിച്ചറിയാൻ ഒരു പ്രൊഫൈൽ ചിത്രം ചേർക്കുക!</string>
+    <string name="enter_name">നിങ്ങളുടെ പേര് നൽകുക</string>
+    <string name="name_empty_error">പേര് നൽകേണ്ടത് നിർബന്ധമാണ്!</string>
+
+    <string name="group_calls_coming_soon">ഗ്രൂപ്പ് കോളുകൾ ഉടൻ വരുന്നു!</string>
+    <string name="scanned_phone_number">സ്കാൻ ചെയ്ത ഫോൺ നമ്പർ: %1$s</string>
+    <string name="stories_locked">സ്റ്റോറികൾ ലോക്ക് ചെയ്തിരിക്കുന്നു</string>
+    <string name="stories_unlock_msg">സ്ഥിരമായ പതിപ്പിൽ ഇവ അൺലോക്ക് ചെയ്യപ്പെടും ?</string>
+    <string name="search">തിരയുക</string>
+    <string name="already_invited">ഇതിനകം ക്ഷണിച്ചു കഴിഞ്ഞു.</string>
+
+    <string name="invite">ക്ഷണം അയക്കുക</string>
+    <string name="invited">ക്ഷണിച്ചു</string>
+    <string name="add">ചേർക്കുക</string>
+    <string name="added">ചേർത്തു</string>
+
+    <string name="tab_chats">ചാറ്റുകൾ</string>
+    <string name="tab_groups">ഗ്രൂപ്പുകൾ</string>
+    <string name="tab_calls">കോളുകൾ</string>
+    <string name="tab_stories">സ്റ്റോറികൾ</string>
+    <string name="no_messages_yet">ഇതുവരെ സന്ദേശങ്ങളൊന്നുമില്ല</string>
+    <string name="sos_contacts">SOS കോൺടാക്റ്റുകൾ</string>
+    <string name="add_sos_contact_number">SOS കോൺടാക്റ്റ് നമ്പർ ചേർക്കുക</string>
+    <string name="sos_contacts_description">നിങ്ങൾ SOS അയക്കുമ്പോൾ ഈ കോൺടാക്റ്റുകൾക്ക് നിങ്ങളുടെ ലൊക്കേഷനും അടിയന്തിര അറിയിപ്പുകളും ലഭിക്കും.</string>
+    <string name="no_sos_contacts">SOS കോൺടാക്റ്റുകൾ ഒന്നുമില്ല.</string>
+    <string name="remove">നീക്കം ചെയ്യുക</string>
+    <string name="tab_lists">ലിസ്റ്റുകൾ</string>
+
+    <string name="username_available">യൂസർനെയിം ലഭ്യമാണ്</string>
+    <string name="username_taken">യൂസർനെയിം ഇതിനകം ഉപയോഗത്തിലാണ്</string>
+    <string name="username">യൂസർനെയിം</string>
+    <string name="apply">ബാധകമാക്കുക</string>
+    <string name="set_username">യൂസർനെയിം നൽകുക</string>
+    <string name="edit">എഡിറ്റ് ചെയ്യുക</string>
+    <string name="choose_username">യൂസർനെയിം തിരഞ്ഞെടുക്കുക</string>
+    <string name="about">വിവരണം</string>
+    <string name="enter_about">വിവരണം നൽകുക</string>
+
+    <!-- User Settings Modal -->
+    <string name="user_settings_title">ഉപയോക്തൃ സെറ്റിംഗ്സ്</string>
+    <string name="name_not_set">പേര്: പേര് നൽകിയിട്ടില്ല</string>
+    <string name="refresh_balance">ബാലൻസ് പുതുക്കുക</string>
+    <string name="save_to_contacts">കോൺടാക്റ്റുകളിലേക്ക് സേവ് ചെയ്യുക</string>
+    <string name="name_label">പേര്: %1$s</string>
+    <string name="phone_label">ഫോൺ: %1$s</string>
+    <string name="e2e_always_enabled">നിങ്ങളുടെ സുരക്ഷയ്ക്കായി ഇത് എപ്പോഴും പ്രാപ്തമാക്കിയിരിക്കുന്നു.</string>
+
+    <!-- Reveal phone number -->
+    <string name="reveal_phone_number_title">എന്റെ ഫോൺ നമ്പർ കാണിക്കുക</string>
+    <string name="reveal_phone_number_on_description">നിങ്ങൾ സന്ദേശം അയക്കുന്ന എല്ലാവർക്കും നിങ്ങളുടെ ഫോൺ നമ്പർ കാണാം</string>
+    <string name="reveal_phone_number_off_description">പ്രദർശിപ്പിച്ചില്ലെങ്കിൽ, മറ്റുള്ളവർക്ക് നിങ്ങളുടെ ഫോൺ നമ്പറിന് പകരം യൂസർനെയിം മാത്രമേ കാണാൻ സാധിക്കൂ</string>
+    <string name="reveal_confirm_title">നിങ്ങളുടെ ഫോൺ നമ്പർ കാണിക്കണോ?</string>
+    <string name="reveal_confirm_description">ഈ വ്യക്തിക്ക് നിങ്ങളുടെ ഫോൺ നമ്പർ കാണാൻ സാധിക്കും. ഇത് പിന്നീട് മാറ്റാൻ കഴിയില്ല.</string>
+    <string name="reveal">കാണിക്കുക</string>
+
+    <!-- Wallpaper -->
+    <string name="wallpaper_title">വാൾപേപ്പർ</string>
+    <string name="delete_wallpaper">വാൾപേപ്പർ ഡിലീറ്റ് ചെയ്യുക</string>
+    <string name="remove_wallpaper_title">വാൾപേപ്പർ നീക്കം ചെയ്യുക</string>
+    <string name="remove_wallpaper_confirmation">നിങ്ങൾക്ക് ഈ വാൾപേപ്പർ നീക്കം ചെയ്യണോ?</string>
+
+    <!-- Appearance -->
+    <string name="appearance_title">രൂപഭാവം</string>
+
+    <!-- Media -->
+    <string name="media_title">മീഡിയ</string>
+    <string name="media_photo">ഫോട്ടോ</string>
+    <string name="media_video">വീഡിയോ</string>
+    <string name="media_audio">ഓഡിയോ</string>
+    <string name="media_document">രേഖ</string>
+    <string name="media_contact">കോൺടാക്റ്റ്</string>
+    <string name="media_location">ലൊക്കേഷൻ</string>
+
+    <!-- Contact save result -->
+    <string name="saved_to_contacts">കോൺടാക്റ്റുകളിൽ സേവ് ചെയ്തു</string>
+    <string name="cancelled">റദ്ദാക്കി</string>
+    <string name="unknown_result">അജ്ഞാതമായ ഫലം</string>
+
+    <!-- Disappearing messages -->
+    <string name="disappearing_messages_row_title">മറയുന്ന സന്ദേശങ്ങൾ</string>
+    <string name="disappearing_messages_title">മറയുന്ന സന്ദേശങ്ങൾ</string>
+    <string name="disappearing_messages_description">സ്വീകർത്താവ് വായിച്ചതിനുശേഷം ഈശ്ചിത സമയത്തിനുള്ളിൽ സന്ദേശങ്ങൾ താനേ മാഞ്ഞുപോകും.</string>
+    <string name="disappearing_off">ഓഫ്</string>
+
+    <!-- Disappearing duration plurals -->
+    <plurals name="disappearing_seconds">
+        <item quantity="one">%d സെക്കൻഡ്</item>
+        <item quantity="other">%d സെക്കൻഡുകൾ</item>
+    </plurals>
+
+    <plurals name="disappearing_minutes">
+        <item quantity="one">%d മിനിറ്റ്</item>
+        <item quantity="other">%d മിനിറ്റുകൾ</item>
+    </plurals>
+
+    <plurals name="disappearing_hours">
+        <item quantity="one">%d മണിക്കൂർ</item>
+        <item quantity="other">%d മണിക്കൂറുകൾ</item>
+    </plurals>
+
+    <plurals name="disappearing_days">
+        <item quantity="one">%d ദിവസം</item>
+        <item quantity="other">%d ദിവസങ്ങൾ</item>
+    </plurals>
+
+    <!-- Disappearing message duration picker -->
+    <string name="duration_picker_title">മറയുന്ന സന്ദേശം</string>
+    <string name="duration_picker_subtitle">വായിച്ചതിനുശേഷം താനേ മാഞ്ഞുപോകും.</string>
+    <string name="duration_picker_quick_presets_label">വേഗത്തിലുള്ള തെരഞ്ഞെടുപ്പുകൾ</string>
+    <string name="duration_picker_save_button">സെറ്റ് ചെയ്യുക</string>
+
+    <string name="duration_picker_days_label">ദിവസങ്ങൾ</string>
+    <string name="duration_picker_hours_label">മണിക്കൂറുകൾ</string>
+    <string name="duration_picker_minutes_label">മിനിറ്റുകൾ</string>
+    <string name="duration_picker_seconds_label">സെക്കൻഡുകൾ</string>
+
+    <string name="duration_preset_10s">10സെ</string>
+    <string name="duration_preset_30s">30സെ</string>
+    <string name="duration_preset_1m">1മി</string>
+    <string name="duration_preset_5m">5മി</string>
+    <string name="duration_preset_1h">1മണി</string>
+    <string name="duration_preset_24h">24മണി</string>
+    <string name="duration_preset_7d">7ദിനം</string>
+
+    <string name="send">അയക്കുക</string>
+    <string name="camera">ക്യാമറ</string>
+    <string name="blocked_contact_placeholder">നിങ്ങൾ ഈ കോൺടാക്റ്റിനെ ബ്ലോക്ക് ചെയ്തു..</string>
+
+    <!-- Privacy & Security section -->
+    <string name="privacy_security_title">സ്വകാര്യതയും സുരക്ഷയും</string>
+    <string name="e2e_encryption_title">എൻഡ്-ടു-എൻഡ് എൻക്രിപ്ഷൻ</string>
+    <string name="chat_settings_title">ചാറ്റ് സെറ്റിംഗ്സ്</string>
+
+    <!-- Hide Chat Strings -->
+    <string name="hide_chat_title">ചാറ്റ് മറയ്ക്കുക</string>
+    <string name="hide_chat_subtitle">പാസ്‌കീ ഉപയോഗിച്ച് ചാറ്റ് സുരക്ഷിതമാക്കുക</string>
+    <string name="hide_chat_dialog_title">ചാറ്റ് മറയ്ക്കുക</string>
+    <string name="hide_chat_dialog_description">ഈ ചാറ്റ് മറയ്ക്കാനും ലോക്ക് ചെയ്യാനും ഒരു പാസ്‌കീ നൽകുക. ഇത് വീണ്ടും തുറക്കാൻ ഇത് ആവശ്യമാണ്.</string>
+    <string name="passkey_label">പാസ്‌കീ</string>
+    <string name="confirm_passkey_label">പാസ്‌കീ സ്ഥിരീകരിക്കുക</string>
+    <string name="passkeys_do_not_match">പാസ്‌കീകൾ പൊരുത്തപ്പെടുന്നില്ല</string>
+    <string name="remove_hide_key">ഹൈഡ് കീ നീക്കം ചെയ്യുക</string>
+    <string name="hide_action">മറയ്ക്കുക</string>
+
+    <!-- Horizontal Attachment Menu Items -->
+    <string name="menu_bill">ബിൽ</string>
+    <string name="menu_list">ലിസ്റ്റ്</string>
+    <string name="menu_gallery">ഗാലറി</string>
+    <string name="menu_video">വീഡിയോ</string>
+    <string name="menu_audio">ഓഡിയോ</string>
+    <string name="menu_location">ലൊക്കേഷൻ</string>
+    <string name="menu_contact">കോൺടാക്റ്റ്</string>
+    <string name="menu_document">രേഖ</string>
+
+    <string name="group_settings_title">ഗ്രൂപ്പ് സെറ്റിംഗ്സ്</string>
+    <string name="profile_picture_title">പ്രൊഫൈൽ ചിത്രം</string>
+    <string name="edit_profile_picture_desc">പ്രൊഫൈൽ ചിത്രം എഡിറ്റ് ചെയ്യുക</string>
+    <string name="delete_profile_picture_desc">പ്രൊഫൈൽ ചിത്രം ഡിലീറ്റ് ചെയ്യുക</string>
+    <string name="members_title">അംഗങ്ങൾ</string>
+    <string name="swami_label">സ്വാമി</string>
+    <string name="collapse_desc">ചുരുക്കുക</string>
+    <string name="expand_desc">വികസിപ്പിക്കുക</string>
+    <string name="permissions_title">അനുമതികൾ</string>
+    <string name="permission_message">സന്ദേശം</string>
+    <string name="permission_call">കോൾ</string>
+    <string name="permission_add_members">അംഗങ്ങളെ ചേർക്കുക</string>
+    <string name="permission_update_profile">പ്രൊഫൈൽ അപ്‌ഡേറ്റ് ചെയ്യുക</string>
+    <string name="only_swami_can_change_permissions">സ്വാമിക്ക് മാത്രമേ അനുമതികൾ മാറ്റാൻ സാധിക്കൂ</string>
+    <string name="update_permissions_button">അനുമതികൾ അപ്‌ഡേറ്റ് ചെയ്യുക</string>
+    <string name="remove_member_button">അംഗത്തെ നീക്കം ചെയ്യുക</string>
+    <string name="add_members_button">അംഗങ്ങളെ ചേർക്കുക</string>
+    <string name="delete_group_button">ഗ്രൂപ്പ് ഡിലീറ്റ് ചെയ്യുക</string>
+    <string name="leave_group_button">ഗ്രൂപ്പിൽ നിന്ന് പുറത്തുപോവുക</string>
+    <string name="are_you_sure_message">നിങ്ങൾക്ക് ഉറപ്പാണോ?</string>
+
+    <string name="my_status_title">എന്റെ സ്റ്റാറ്റസ്</string>
+    <string name="tap_to_view_time">സമയം കാണാൻ ടാപ്പ് ചെയ്യുക ? %s</string>
+    <string name="tap_to_add_status_update">സ്റ്റാറ്റസ് നൽകാൻ ടാപ്പ് ചെയ്യുക</string>
+    <string name="my_story_title">എന്റെ സ്റ്റോറി</string>
+    <string name="recent_updates_title">സമീപകാല അപ്‌ഡേറ്റുകൾ</string>
+
+    <string name="type_a_message">സന്ദേശം ടൈപ്പ് ചെയ്യുക</string>
+    <string name="you_blocked_this_contact">നിങ്ങൾ ഈ കോൺടാക്റ്റിനെ ബ്ലോക്ക് ചെയ്തു..</string>
+    <string name="status_online">🟢 ഓൺലൈൻ</string>
+    <string name="status_long_ago">വളരെ പണ്ട്</string>
+    <string name="active_minutes_ago">%d മിനിറ്റ് മുൻപ് സജീവമായിരുന്നു</string>
+    <string name="active_hours_ago">%d മണിക്കൂർ മുൻപ് സജീവമായിരുന്നു</string>
+    <string name="active_days_ago">%d ദിവസം മുൻപ് സജീവമായിരുന്നു</string>
+
+    <string name="no_stories_yet">ഇതുവരെ സ്റ്റോറികളൊന്നുമില്ല</string>
+    <string name="search_placeholder_sync_hint">തിരയുക അല്ലെങ്കിൽ സിങ്ക് ചെയ്യാൻ താഴേക്ക് വലിക്കുക</string>
+
+        <string name="contribute_title">❤️ പദ്ധതിയെ പിന്തുണയ്ക്കുക</string>
+        <string name="contribute_subtitle">നിങ്ങളുടെ സംഭാവന ഞങ്ങളെ മുന്നോട്ട് നയിക്കുന്നു 🚀</string>
+        <string name="contribute_custom">ഇഷ്ടമുള്ള തുക ✏️</string>
+        <string name="contribute_enter_amount">തുക നൽകുക</string>
+        <string name="contribute_button">സംഭാവന ചെയ്യുക 🚀</string>
+        <string name="contribute_error_invalid">ശരിയായ തുക നൽകുക</string>
+        <string name="contribute_error_zero">തുക ₹0-ൽ കൂടുതലായിരിക്കണം</string>
+        <string name="contribute_error_max">പരമാവധി അനുവദനീയമായ തുക ₹10000 ആണ്</string>
+        <string name="add_new_chat">പുതിയ ചാറ്റ് ചേർക്കുക</string>
+        <string name="mode_phone">ഫോൺ</string>
+        <string name="mode_username">ഉപയോക്തൃനാമം</string>
+        <string name="label_username">ഉപയോക്തൃനാമം</string>
+        <string name="label_phone_number">ഫോൺ നമ്പർ</string>
+        <string name="placeholder_username">ഉപയോക്തൃനാമം</string>
+        <string name="placeholder_phone_number">ഫോൺ നമ്പർ നൽകുക</string>
+        <string name="username_supporting_text">ചെറിയ ഇംഗ്ലീഷ് അക്ഷരങ്ങളും അക്കങ്ങളും മാത്രം</string>
+        <string name="or_divider">അല്ലെങ്കിൽ</string>
+        <string name="camera_permission_required">ക്യാമറ അനുമതി ആവശ്യമാണ്</string>
+        <string name="scanner_align_qr">QR കോഡ് ഫ്രെയിമിനുള്ളിൽ ക്രമീകരിക്കുക</string>
+        <string name="scanner_paused">താൽക്കാലികമായി നിർത്തി</string>
+        <string name="flash">ഫ്ലാഷ്</string>
+        <string name="clear_current_contact">നിലവിലെ കോൺടാക്റ്റ് നീക്കം ചെയ്യുക</string>
+        <string name="profile_image_placeholder">ചിത്രം</string>
+        <string name="status_user_found">ഉപയോക്താവിനെ കണ്ടെത്തി</string>
+        <string name="status_checking">പരിശോധിക്കുന്നു…</string>
+        <string name="status_not_found">അക്കൗണ്ട് കണ്ടെത്തിയില്ല</string>
+        <string name="status_invalid_phone">അസാധുവായ ഫോൺ നമ്പർ</string>
+        <string name="status_error">പരിശോധിക്കുന്നതിൽ പിശക്</string>
+        <string name="status_already_added">ഇതിനകം ചേർത്തിട്ടുണ്ട്</string>
+        <string name="action_add">ചേർക്കുക</string>
+        <string name="action_invite">ക്ഷണിക്കുക</string>
+        <string name="action_retry">വീണ്ടും ശ്രമിക്കുക</string>
+        <string name="action_already_added">ഇതിനകം ചേർത്തിട്ടുണ്ട്</string>
+        <string name="search_placeholder_invite_hint">നിങ്ങൾക്ക് ഇഷ്ടപ്പെട്ട വ്യക്തിയെ ക്ഷണിക്കുക</string>
+        <string name="add_contact">കോൺടാക്റ്റ് ചേർക്കുക</string>
+
+</resources>

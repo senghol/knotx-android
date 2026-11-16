@@ -1,0 +1,47 @@
+CREATE TABLE dukaan (
+    id INTEGER NOT NULL PRIMARY KEY CHECK (id = 1),
+    name TEXT NOT NULL DEFAULT '',
+    gst TEXT NOT NULL DEFAULT '',
+    phone TEXT NOT NULL DEFAULT '',
+    email TEXT NOT NULL DEFAULT '',
+    address TEXT NOT NULL DEFAULT '',
+    upi_id TEXT NOT NULL DEFAULT '',
+    invoice_prefix TEXT NOT NULL DEFAULT 'INV-',
+    invoice_padding INTEGER NOT NULL DEFAULT 3,
+    next_invoice_number INTEGER NOT NULL DEFAULT 1,
+    default_tax_percent REAL NOT NULL DEFAULT 0.0,
+    default_notes TEXT NOT NULL DEFAULT '',
+    updated_at INTEGER NOT NULL DEFAULT 0
+);
+
+ensureRow:
+INSERT OR IGNORE INTO dukaan(id) VALUES (1);
+
+getDukan:
+SELECT * FROM dukaan WHERE id = 1;
+
+updateProfile:
+UPDATE dukaan
+SET name = :name,
+    gst = :gst,
+    phone = :phone,
+    email = :email,
+    address = :address,
+    upi_id = :upiId,
+    default_tax_percent = :defaultTaxPercent,
+    default_notes = :defaultNotes,
+    updated_at = :updatedAt
+WHERE id = 1;
+
+updateInvoiceFormat:
+UPDATE dukaan
+SET invoice_prefix = :prefix,
+    invoice_padding = :padding,
+    next_invoice_number = :nextNumber,
+    updated_at = :updatedAt
+WHERE id = 1;
+
+incrementInvoiceNumber:
+UPDATE dukaan
+SET next_invoice_number = next_invoice_number + 1
+WHERE id = 1;

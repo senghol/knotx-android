@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">నాట్‌ఎక్స్</string>
+    <string name="settings">సెట్టింగ్స్</string>
+    <string name="account_settings">ఖాతా సెట్టింగ్స్</string>
+    <string name="notifications">నోటిఫికేషన్లు</string>
+    <string name="chats">చాట్‌లు</string>
+    <string name="calls">కాల్స్</string>
+    <string name="privacy">ప్రైవసీ</string>
+    <string name="storage_data">சேமிப்பு மற்றும் தரவு</string>
+    <string name="data_usage">" தரவு பயன்பாடு"</string>
+    <string name="appearance">" தோற்றம்"</string>
+    <string name="language">భాష</string>
+    <string name="help_support">உதவி மற்றும் ஆதரவு</string>
+    <string name="backup">బ్యాకప్</string>
+    <string name="block_list">బ్లాక్ చేసిన కాంటాక్ట్స్</string>
+    <string name="contribution">సహాయాలు</string>
+    <string name="back">వెనుక</string>
+    <string name="name">పేరు</string>
+    <string name="phone_number">ఫోన్ నంబర్</string>
+    <string name="security">భద్రత</string>
+    <string name="delete">తొలగించు</string>
+    <string name="delete_account">ఖాతాను తొలగించు</string>
+    <string name="cancel">రద్దు చేయండి</string>
+    <string name="app_passcode">యాప్ పాస్‌కోడ్</string>
+    <string name="enter_4_digit_passcode">4 అంకెల పాస్‌కోడ్ నమోదు చేయండి</string>
+    <string name="confirm_passcode">పాస్‌కోడ్‌ను నిర్ధారించండి</string>
+    <string name="passcode_must_be_4_digits">పాస్‌కోడ్ 4 అంకెలు ఉండాలి</string>
+    <string name="passcodes_do_not_match">పాస్‌కోడ్‌లు సరిపోలడం లేదు</string>
+    <string name="save">సేవ్ చేయండి</string>
+    <string name="enter_current_passcode">ప్రస్తుత పాస్‌కోడ్ నమోదు చేయండి</string>
+    <string name="incorrect_passcode">తప్పు పాస్‌కోడ్</string>
+    <string name="disable">నిలిపివేయండి</string>
+
+    <string name="theme">థీమ్</string>
+    <string name="wallpaper">వాల్‌పేపర్</string>
+    <string name="font_size">ఫాంట్ పరిమాణం</string>
+    <string name="font_size_value">ఫాంట్ పరిమాణం: %1$d</string>
+    <string name="enter_key_is_send">ఎంటర్ కీ పంపు</string>
+    <string name="read_receipts">రీడ్ రిసీట్స్</string>
+    <string name="typing_indicators">టైపింగ్ సూచనలు</string>
+    <string name="message_backup">మెసేజ్ బ్యాకప్</string>
+    <string name="auto_download_photos">ఫోటోలు ఆటో డౌన్‌లోడ్</string>
+    <string name="auto_download_videos">వీడియోలు ఆటో డౌన్‌లోడ్</string>
+    <string name="auto_download_voice">వాయిస్ ఆటో డౌన్‌లోడ్</string>
+    <string name="auto_download_files">ఫైళ్లు ఆటో డౌన్‌లోడ్</string>
+    <string name="media_quality">మీడియా నాణ్యత</string>
+    <string name="save_to_gallery">గ్యాలరీలో సేవ్ చేయండి</string>
+    <string name="mute_all_groups">అన్ని గ్రూపులను మ్యూట్ చేయండి</string>
+    <string name="view_blocked_contacts">బ్లాక్ చేసిన కాంటాక్ట్స్ చూడండి</string>
+
+    <string name="contact_list">కాంటాక్ట్ జాబితా</string>
+    <string name="blocked_contacts">బ్లాక్ చేసిన కాంటాక్ట్స్</string>
+    <string name="last_seen">చివరిసారిగా చూసినది</string>
+    <string name="online_status">ఆన్‌లైన్ స్థితి</string>
+    <string name="profile_photo">ప్రొఫైల్ ఫోటో</string>
+    <string name="bio_about">బయో / గురించి</string>
+    <string name="who_can_message_me">ఎవరు నాకు సందేశం పంపగలరు</string>
+    <string name="group_invites">గ్రూప్ ఆహ్వానాలు</string>
+    <string name="notify_new_device">కొత్త పరికరం లాగిన్ నోటిఫికేషన్</string>
+    <string name="suspicious_activity_alerts">సందేహాస్పద కార్యకలాప హెచ్చరికలు</string>
+    <string name="everyone">అందరూ</string>
+    <string name="nobody">ఎవరూ కాదు</string>
+
+    <string name="allow_calls_from">కాల్ అనుమతి</string>
+    <string name="speaker_by_default">డిఫాల్ట్ స్పీకర్</string>
+    <string name="video_call_quality">వీడియో కాల్ నాణ్యత</string>
+    <string name="ringtone">రింగ్‌టోన్</string>
+
+    <string name="help_center">సహాయ కేంద్రం</string>
+    <string name="contact_support">మద్దతును సంప్రదించండి</string>
+    <string name="terms_conditions">నిబంధనలు మరియు షరతులు</string>
+    <string name="privacy_policy">గోప్యతా విధానం</string>
+    <string name="report_issue">సమస్యను నివేదించండి</string>
+
+    <string name="use_system_language">సిస్టమ్ భాషను ఉపయోగించండి</string>
+    <string name="appearance_settings">రూపురేఖల సెట్టింగ్స్</string>
+    <string name="no_blocked_contacts">బ్లాక్ చేసిన సంప్రదింపులు లేవు</string>
+    <string name="restore_started">పునరుద్ధరణ ప్రారంభమైంది…</string>
+    <string name="backup_folder_set">బ్యాకప్ ఫోల్డర్ సెట్ చేయబడింది!</string>
+    <string name="local_backup">లోకల్ బ్యాకప్</string>
+    <string name="enable_backup">బ్యాకప్ ప్రారంభించండి</string>
+    <string name="select_backup_folder">బ్యాకప్ ఫోల్డర్ ఎంచుకోండి</string>
+    <string name="include_media">మీడియాను చేర్చండి</string>
+    <string name="auto_backup_every">ప్రతి ఆటో బ్యాకప్:</string>
+    <string name="last_backup">చివరి బ్యాకప్:</string>
+    <string name="next_backup">తదుపరి బ్యాకప్:</string>
+    <string name="no_backups_yet">ఇంకా బ్యాకప్ లేదు.</string>
+    <string name="select_backup_folder_first">ముందుగా బ్యాకప్ ఫోల్డర్ ఎంచుకోండి!</string>
+    <string name="backup_started">బ్యాకప్ ప్రారంభమైంది…</string>
+    <string name="backup_now">ఇప్పుడే బ్యాకప్ చేయండి</string>
+    <string name="restore_from_backup_file">బ్యాకప్ ఫైల్ నుండి పునరుద్ధరించండి</string>
+
+    <string name="mobile_data_limit">మొబైల్ డేటా పరిమితి</string>
+    <string name="wifi_usage">వై-ఫై వినియోగం</string>
+    <string name="unlimited">అపరిమిత</string>
+    <string name="restricted">పరిమిత</string>
+    <string name="storage_management">స్టోరేజ్ నిర్వహణ</string>
+    <string name="view_storage_usage">స్టోరేజ్ వినియోగాన్ని చూడండి</string>
+    <string name="backup_restore">బ్యాకప్ మరియు పునరుద్ధరణ</string>
+    <string name="days">రోజులు</string>
+
+    <string name="messages">సందేశాలు</string>
+    <string name="media">మీడియా</string>
+    <string name="sent">పంపినవి</string>
+    <string name="received">స్వీకరించినవి</string>
+
+    <string name="mobile_data_title">📶 మొబైల్ డేటా</string>
+    <string name="wifi_title">📡 వై-ఫై</string>
+
+    <string name="global">గ్లోబల్</string>
+    <string name="enable_all_notifications">అన్ని నోటిఫికేషన్లు ప్రారంభించండి</string>
+    <string name="new_message_sound">కొత్త సందేశ ధ్వని</string>
+    <string name="vibrate_on_message">సందేశంపై వైబ్రేట్</string>
+
+    <string name="message_notifications">సందేశ నోటిఫికేషన్లు</string>
+    <string name="new_messages">కొత్త సందేశాలు</string>
+    <string name="group_chats">గ్రూప్ చాట్‌లు</string>
+    <string name="mentions">మెన్షన్లు</string>
+
+    <string name="call_notifications">కాల్స్ నోటిఫికేషన్లు</string>
+    <string name="incoming_calls">వచ్చే కాల్స్</string>
+    <string name="missed_call_alerts">మిస్డ్ కాల్ అలర్ట్లు</string>
+
+    <string name="in_app_notifications">యాప్ లోపలి నోటిఫికేషన్లు</string>
+    <string name="popup_previews">పాప్-అప్ ప్రీవ్యూలు</string>
+    <string name="badge_count">బ్యాడ్జ్ సంఖ్య</string>
+
+    <string name="do_not_disturb">డూ నాట్ డిస్టర్బ్</string>
+    <string name="enable_dnd">DND ప్రారంభించండి</string>
+
+    <string name="close">మూసివేయండి</string>
+    <string name="scan_to_share">పంచుకోవడానికి స్కాన్ చేయండి</string>
+    <string name="qr_code">క్యూ ఆర్ కోడ్</string>
+    <string name="qr_error">క్యూ ఆర్ కోడ్ సృష్టించడంలో లోపం</string>
+
+    <string name="logout">లాగ్‌అవుట్</string>
+    <string name="logout_confirmation">మీరు ఖచ్చితంగా లాగ్‌అవుట్ చేయాలనుకుంటున్నారా?</string>
+    <string name="yes">అవును</string>
+    <string name="delete_warning">మీ డేటా మొత్తం వెంటనే సర్వర్ నుండి శాశ్వతంగా తొలగించబడుతుంది. ఈ చర్యను తిరిగి మార్చలేరు.\n\nకొనసాగించడానికి CONFIRM టైప్ చేయండి.</string>
+    <string name="type_confirm_label">CONFIRM టైప్ చేయండి</string>
+    <string name="cleaning_up">శుభ్రపరుస్తోంది…</string>
+    <string name="confirm_keyword">CONFIRM</string>
+
+    <string name="led_indicator">ఎల్ఈడి సూచిక</string>
+    <string name="select_led_color">ఎల్ఈడి రంగును ఎంచుకోండి</string>
+
+    <string name="led_off">ఆఫ్</string>
+    <string name="led_red">ఎరుపు</string>
+    <string name="led_green">ఆకుపచ్చ</string>
+    <string name="led_blue">నీలం</string>
+    <string name="led_yellow">పసుపు</string>
+    <string name="led_purple">ఊదా</string>
+
+    <string name="confirmation">నిర్ధారణ</string>
+    <string name="delete_both_sides">రెండు వైపులా తొలగించండి</string>
+    <string name="no">కాదు</string>
+    <string name="confirm_action">చర్యను నిర్ధారించండి</string>
+    <string name="confirm">నిర్ధారించండి</string>
+    <string name="remove_profile_image_confirmation">మీరు ఖచ్చితంగా ప్రొఫైల్ చిత్రాన్ని తొలగించాలనుకుంటున్నారా?</string>
+    <string name="coming_soon">త్వరలో వస్తోంది</string>
+    <string name="reset_all_data_usage">🔄 మొత్తం డేటా వినియోగాన్ని రీసెట్ చేయండి</string>
+
+    <string name="enter_phone_number">మీ ఫోన్ నంబర్ నమోదు చేయండి</string>
+    <string name="invalid_phone_number">చెల్లని ఫోన్ నంబర్.</string>
+    <string name="invalid_phone_format">ఫోన్ నంబర్ ఫార్మాట్ సరైనది కాదు.</string>
+    <string name="invalid_country">చెల్లని దేశం.</string>
+    <string name="no_network">నెట్‌వర్క్ అందుబాటులో లేదు. దయచేసి తర్వాత మళ్లీ ప్రయత్నించండి.</string>
+    <string name="verify">ధృవీకరించండి</string>
+    <string name="pre_release_notice">డూతావాస్ ప్రీ-రిలీజ్ నోటీస్</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <string name="resend_otp">OTP మళ్లీ పంపండి</string>
+    <string name="max_retry_reached">❌ గరిష్ట ప్రయత్నాలు పూర్తయ్యాయి!</string>
+    <string name="enter_complete_otp">పూర్తి OTP నమోదు చేయండి</string>
+    <string name="verify_otp">OTP ను ధృవీకరించండి</string>
+    <string name="finish">ముగించండి</string>
+    <string name="setup_profile">మీ ప్రొఫైల్‌ను సెటప్ చేయండి</string>
+    <string name="add_profile_picture">మెరుగైన గుర్తింపుకోసం ప్రొఫైల్ ఫోటో జోడించండి!</string>
+    <string name="enter_name">మీ పేరు నమోదు చేయండి</string>
+    <string name="name_empty_error">పేరు ఖాళీగా ఉండకూడదు!</string>
+
+    <string name="group_calls_coming_soon">గ్రూప్ కాల్స్ త్వరలో వస్తున్నాయి!</string>
+    <string name="scanned_phone_number">స్కాన్ చేసిన ఫోన్ నంబర్: %1$s</string>
+    <string name="stories_locked">స్టోరీలు లాక్ చేయబడ్డాయి</string>
+    <string name="stories_unlock_msg">అవి స్థిర విడుదలలో అన్‌లాక్ అవుతాయి 🔓</string>
+    <string name="search">శోధించండి</string>
+    <string name="already_invited">ఇప్పటికే ఆహ్వానించబడింది.</string>
+    <string name="invite">ఆహ్వానించండి</string>
+    <string name="invited">ఆహ్వానించబడింది</string>
+    <string name="add">జోడించండి</string>
+    <string name="added">జోడించబడింది</string>
+
+    <string name="tab_chats">చాట్స్</string>
+    <string name="tab_groups">గ్రూపులు</string>
+    <string name="tab_calls">కాల్స్</string>
+    <string name="tab_stories">స్టోరీస్</string>
+    <string name="no_messages_yet">ఇంకా సందేశాలు లేవు</string>
+    <string name="sos_contacts">ఎస్‌ఓఎస్ సంప్రదింపులు</string>
+    <string name="add_sos_contact_number">ఎస్‌ఓఎస్ సంప్రదింపు సంఖ్యను జోడించండి</string>
+    <string name="sos_contacts_description">మీరు ఎస్‌ఓఎస్ పంపినప్పుడు, ఈ సంప్రదింపులకు మీ స్థానం మరియు అత్యవసర హెచ్చరిక అందుతుంది.</string>
+    <string name="no_sos_contacts">ఎస్‌ఓఎస్ సంప్రదింపులు ఏవీ జోడించబడలేదు.</string>
+    <string name="remove">తొలగించు</string>
+    <string name="tab_lists">జాబితాలు</string>
+
+    <string name="username_available">వినియోగదారు పేరు అందుబాటులో ఉంది</string>
+    <string name="username_taken">వినియోగదారు పేరు ఇప్పటికే ఉపయోగంలో ఉంది</string>
+    <string name="username">వినియోగదారు పేరు</string>
+    <string name="apply">వర్తింపజేయి</string>
+    <string name="set_username">వినియోగదారు పేరును సెట్ చేయండి</string>
+    <string name="edit">సవరించు</string>
+    <string name="choose_username">యూజర్‌నేమ్ ఎంచుకోండి</string>
+    <string name="about">గురించి</string>
+    <string name="enter_about">మీ గురించి రాయండి</string>
+
+    <!-- User Settings Modal -->
+    <string name="user_settings_title">యూజర్ సెట్టింగ్‌లు</string>
+    <string name="name_not_set">పేరు: పేరు సెట్ చేయబడలేదు</string>
+    <string name="refresh_balance">బ్యాలెన్స్‌ను రిఫ్రెష్ చేయండి</string>
+    <string name="save_to_contacts">కాంటాక్ట్‌లలో సేవ్ చేయండి</string>
+    <string name="name_label">పేరు: %1$s</string>
+    <string name="phone_label">ఫోన్: %1$s</string>
+    <string name="e2e_always_enabled">మీ భద్రత కోసం ఇది ఎల్లప్పుడూ ప్రారంభించబడి ఉంటుంది.</string>
+
+    <!-- Reveal phone number -->
+    <string name="reveal_phone_number_title">నా ఫోన్ నంబర్‌ను చూపించు</string>
+    <string name="reveal_phone_number_on_description">మీరు మెసేజ్ పంపే ప్రతి ఒక్కరికీ మీ ఫోన్ నంబర్ కనిపిస్తుంది</string>
+    <string name="reveal_phone_number_off_description">మీరు నంబర్‌ను చూపించే వరకు, ఇతరులకు మీ నంబర్‌కు బదులుగా యూజర్‌నేమ్ కనిపిస్తుంది</string>
+    <string name="reveal_confirm_title">మీ ఫోన్ నంబర్‌ను చూపించాలా?</string>
+    <string name="reveal_confirm_description">ఈ కాంటాక్ట్ మీ ఫోన్ నంబర్‌ను చూడగలరు. దీనిని తర్వాత మార్చలేరు.</string>
+    <string name="reveal">చూపించు</string>
+
+    <!-- Wallpaper -->
+    <string name="wallpaper_title">వాల్‌పేపర్</string>
+    <string name="delete_wallpaper">వాల్‌పేపర్‌ను తొలగించు</string>
+    <string name="remove_wallpaper_title">వాల్‌పేపర్‌ను తీసివేయి</string>
+    <string name="remove_wallpaper_confirmation">మీరు ఈ వాల్‌పేపర్‌ను తీసివేయాలనుకుంటున్నారా?</string>
+
+    <!-- Appearance -->
+    <string name="appearance_title">రూపరూపాలు (Appearance)</string>
+
+    <!-- Media -->
+    <string name="media_title">మీడియా</string>
+    <string name="media_photo">ఫోటో</string>
+    <string name="media_video">వీడియో</string>
+    <string name="media_audio">ఆడియో</string>
+    <string name="media_document">డాక్యుమెంట్</string>
+    <string name="media_contact">కాంటాక్ట్</string>
+    <string name="media_location">లొకేషన్</string>
+
+    <!-- Contact save result -->
+    <string name="saved_to_contacts">కాంటాక్ట్‌లలో సేవ్ చేయబడింది</string>
+    <string name="cancelled">రద్దు చేయబడింది</string>
+    <string name="unknown_result">తెలియని ఫలితం</string>
+
+    <!-- Disappearing messages -->
+    <string name="disappearing_messages_row_title">మాయమయ్యే మెసేజ్‌లు</string>
+    <string name="disappearing_messages_title">మాయమయ్యే మెసేజ్‌లు</string>
+    <string name="disappearing_messages_description">స్వీకర్త చూసిన తర్వాత ఈ పరిమితి సమయానికి మెసేజ్‌లు మాయమవుతాయి.</string>
+    <string name="disappearing_off">ఆఫ్</string>
+
+    <!-- Disappearing duration plurals (used by formatDisappearingDuration) -->
+    <plurals name="disappearing_seconds">
+        <item quantity="one">%d సెకను</item>
+        <item quantity="other">%d సెకన్లు</item>
+    </plurals>
+
+    <plurals name="disappearing_minutes">
+        <item quantity="one">%d నిమిషం</item>
+        <item quantity="other">%d నిమిషాలు</item>
+    </plurals>
+
+    <plurals name="disappearing_hours">
+        <item quantity="one">%d గంట</item>
+        <item quantity="other">%d గంటలు</item>
+    </plurals>
+
+    <plurals name="disappearing_days">
+        <item quantity="one">%d రోజు</item>
+        <item quantity="other">%d రోజులు</item>
+    </plurals>
+
+    <!-- Disappearing message duration picker (new swipe-column version) -->
+    <string name="duration_picker_title">మాయమయ్యే మెసేజ్</string>
+    <string name="duration_picker_subtitle">చదివిన తర్వాత ఆటోమేటిక్‌గా మాయమవుతాయి.</string>
+    <string name="duration_picker_quick_presets_label">త్వరిత ఎంపికలు</string>
+    <string name="duration_picker_save_button">సెట్ చేయి</string>
+
+    <string name="duration_picker_days_label">రోజులు</string>
+    <string name="duration_picker_hours_label">గంటలు</string>
+    <string name="duration_picker_minutes_label">నిమిషాలు</string>
+    <string name="duration_picker_seconds_label">సెకన్లు</string>
+
+    <string name="duration_preset_10s">10సె</string>
+    <string name="duration_preset_30s">30సె</string>
+    <string name="duration_preset_1m">1ని</string>
+    <string name="duration_preset_5m">5ని</string>
+    <string name="duration_preset_1h">1గం</string>
+    <string name="duration_preset_24h">24గం</string>
+    <string name="duration_preset_7d">7రో</string>
+
+    <string name="send">పంపు</string>
+    <string name="camera">కెమెరా</string>
+    <string name="blocked_contact_placeholder">మీరు ఈ కాంటాక్ట్‌ను బ్లాక్ చేశారు..</string>
+
+    <!-- Privacy & Security section -->
+    <string name="privacy_security_title">గోప్యత &amp; భద్రత</string>
+    <string name="e2e_encryption_title">ఎండ్-టు-ఎండ్ ఎన్‌క్రిప్షన్</string>
+    <string name="chat_settings_title">చాట్ సెట్టింగ్‌లు</string>
+
+    <!-- Hide Chat Strings -->
+    <string name="hide_chat_title">చాట్‌ను దాచు</string>
+    <string name="hide_chat_subtitle">పాస్‌కీతో చాట్‌ను సురక్షితం చేయండి</string>
+    <string name="hide_chat_dialog_title">చాట్‌ను దాచు</string>
+    <string name="hide_chat_dialog_description">ఈ చాట్‌ను దాచడానికి మరియు లాక్ చేయడానికి పాస్‌కీని ఎంటర్ చేయండి. దీనిని మళ్లీ తెరవడానికి ఇది అవసరం.</string>
+    <string name="passkey_label">పాస్‌కీ</string>
+    <string name="confirm_passkey_label">పాస్‌కీని నిర్ధారించండి</string>
+    <string name="passkeys_do_not_match">పాస్‌కీలు సరిపోలలేదు</string>
+    <string name="remove_hide_key">హైడ్ కీని తీసివేయి</string>
+    <string name="hide_action">దాచు</string>
+
+    <!-- Horizontal Attachment Menu Items -->
+    <string name="menu_bill">బిల్లు</string>
+    <string name="menu_list">జాబితా</string>
+    <string name="menu_gallery">గ్యాలరీ</string>
+    <string name="menu_video">వీడియో</string>
+    <string name="menu_audio">ఆడియో</string>
+    <string name="menu_location">లొకేషన్</string>
+    <string name="menu_contact">కాంటాక్ట్</string>
+    <string name="menu_document">డాక్యుమెంట్</string>
+
+    <string name="group_settings_title">గ్రూప్ సెట్టింగ్‌లు</string>
+    <string name="profile_picture_title">ప్రొఫైల్ పిక్చర్</string>
+    <string name="edit_profile_picture_desc">ప్రొఫైల్ పిక్చర్‌ను ఎడిట్ చేయండి</string>
+    <string name="delete_profile_picture_desc">ప్రొఫైల్ పిక్చర్‌ను తొలగించండి</string>
+    <string name="members_title">సభ్యులు</string>
+    <string name="swami_label">స్వామి</string>
+    <string name="collapse_desc">కుదించు</string>
+    <string name="expand_desc">విస్తరించు</string>
+    <string name="permissions_title">అనుమతులు</string>
+    <string name="permission_message">మెసేజ్</string>
+    <string name="permission_call">కాల్</string>
+    <string name="permission_add_members">సభ్యులను జోడించు</string>
+    <string name="permission_update_profile">ప్రొఫైల్‌ను అప్‌డేట్ చేయి</string>
+    <string name="only_swami_can_change_permissions">స్వామి మాత్రమే అనుమతులను మార్చగలరు</string>
+    <string name="update_permissions_button">అనుమతులను అప్‌డేట్ చేయి</string>
+    <string name="remove_member_button">సభ్యుడిని తీసివేయి</string>
+    <string name="add_members_button">సభ్యులను జోడించు</string>
+    <string name="delete_group_button">గ్రూప్‌ను తొలగించు</string>
+    <string name="leave_group_button">గ్రూప్ నుండి నిష్క్రమించు</string>
+    <string name="are_you_sure_message">మీరు ఖచ్చితంగా ఉన్నారా?</string>
+
+    <!-- Status / Stories -->
+    <string name="my_status_title">నా స్టేటస్</string>
+    <string name="tap_to_view_time">సమయాన్ని చూడటానికి ట్యాప్ చేయండి ? %s</string>
+    <string name="tap_to_add_status_update">స్టేటస్ అప్‌డేట్‌ను జోడించడానికి ట్యాప్ చేయండి</string>
+    <string name="my_story_title">నా స్టోరీ</string>
+    <string name="recent_updates_title">ఇటీవలి అప్‌డేట్‌లు</string>
+
+    <string name="type_a_message">మెసేజ్ టైప్ చేయండి</string>
+    <string name="you_blocked_this_contact">మీరు ఈ కాంటాక్ట్‌ను బ్లాక్ చేశారు..</string>
+    <string name="status_online">🟢 ఆన్‌లైన్</string>
+    <string name="status_long_ago">చాలా కాలం క్రితం</string>
+    <string name="active_minutes_ago">%d నిమిషాల క్రితం యాక్టివ్‌గా ఉన్నారు</string>
+    <string name="active_hours_ago">%d గంటల క్రితం యాక్టివ్‌గా ఉన్నారు</string>
+    <string name="active_days_ago">%d రోజుల క్రితం యాక్టివ్‌గా ఉన్నారు</string>
+
+    <string name="no_stories_yet">ఇంకా ఎటువంటి స్టోరీలు లేవు</string>
+    <string name="search_placeholder_sync_hint">శోధించండి లేదా అన్నింటినీ సింక్ చేయడానికి క్రిందికి ဆွဲండి</string>
+
+        <string name="contribute_title">❤️ ప్రాజెక్ట్‌కు మద్దతు ఇవ్వండి</string>
+        <string name="contribute_subtitle">మీ సహకారం మమ్మల్ని ముందుకు నడిపిస్తుంది 🚀</string>
+        <string name="contribute_custom">ఇతర మొత్తం ✏️</string>
+        <string name="contribute_enter_amount">మొత్తాన్ని నమోదు చేయండి</string>
+        <string name="contribute_button">సహకరించండి 🚀</string>
+        <string name="contribute_error_invalid">సరైన మొత్తాన్ని నమోదు చేయండి</string>
+        <string name="contribute_error_zero">మొత్తం ₹0 కంటే ఎక్కువగా ఉండాలి</string>
+        <string name="contribute_error_max">గరిష్టంగా అనుమతించబడిన మొత్తం ₹10000</string>
+        <string name="add_new_chat">కొత్త చాట్‌ను జోడించండి</string>
+        <string name="mode_phone">ఫోన్</string>
+        <string name="mode_username">యూజర్‌నేమ్</string>
+        <string name="label_username">యూజర్‌నేమ్</string>
+        <string name="label_phone_number">ఫోన్ నంబర్</string>
+        <string name="placeholder_username">యూజర్‌నేమ్</string>
+        <string name="placeholder_phone_number">ఫోన్ నంబర్ నమోదు చేయండి</string>
+        <string name="username_supporting_text">చిన్న ఆంగ్ల అక్షరాలు మరియు సంఖ్యలు మాత్రమే</string>
+        <string name="or_divider">లేదా</string>
+        <string name="camera_permission_required">కెమెరా అనుమతి అవసరం</string>
+        <string name="scanner_align_qr">QR కోడ్‌ను ఫ్రేమ్ లోపల ఉంచండి</string>
+        <string name="scanner_paused">నిలిపివేయబడింది</string>
+        <string name="flash">ఫ్లాష్</string>
+        <string name="clear_current_contact">ప్రస్తుత పరిచయాన్ని తొలగించండి</string>
+        <string name="profile_image_placeholder">చిత్రం</string>
+        <string name="status_user_found">వినియోగదారు కనుగొనబడ్డారు</string>
+        <string name="status_checking">తనిఖీ చేస్తోంది…</string>
+        <string name="status_not_found">ఖాతా కనుగొనబడలేదు</string>
+        <string name="status_invalid_phone">చెల్లని ఫోన్ నంబర్</string>
+        <string name="status_error">తనిఖీలో లోపం</string>
+        <string name="status_already_added">ఇప్పటికే జోడించబడింది</string>
+        <string name="action_add">జోడించండి</string>
+        <string name="action_invite">ఆహ్వానించండి</string>
+        <string name="action_retry">మళ్లీ ప్రయత్నించండి</string>
+        <string name="action_already_added">ఇప్పటికే జోడించబడింది</string>
+        <string name="search_placeholder_invite_hint">మీకు ఇష్టమైన వ్యక్తిని ఆహ్వానించండి</string>
+        <string name="add_contact">పరిచయాన్ని జోడించండి</string>
+</resources>

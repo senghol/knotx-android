@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">நாட்எக்ஸ்</string>
+    <string name="settings">அமைப்புகள்</string>
+    <string name="account_settings">ఖాతా సెట్టింగ్స్</string>
+    <string name="notifications">அறிவிப்புகள்</string>
+    <string name="chats">அரட்டைகள்</string>
+    <string name="calls">அழைப்புகள்</string>
+    <string name="privacy">தனியுரிமை</string>
+    <string name="storage_data">சேமிப்பு மற்றும் தரவு</string>
+    <string name="data_usage">தரவு பயன்பாடு</string>
+    <string name="appearance">தோற்றம்</string>
+    <string name="language">மொழி</string>
+    <string name="help_support">உதவி</string>
+    <string name="backup">காப்புப்பிரதி</string>
+    <string name="block_list">தடை செய்யப்பட்ட தொடர்புகள்</string>
+    <string name="contribution">பங்களிப்புகள்</string>
+    <string name="back">பின்</string>
+    <string name="name">பெயர்</string>
+    <string name="phone_number">தொலைபேசி எண்</string>
+    <string name="security">பாதுகாப்பு</string>
+    <string name="delete">நீக்கு</string>
+    <string name="delete_account">கணக்கை நீக்கு</string>
+    <string name="app_passcode">பயன்பாட்டு கடவுச்சொல்</string>
+    <string name="enter_4_digit_passcode">4 இலக்க கடவுச்சொல்லை உள்ளிடவும்</string>
+    <string name="confirm_passcode">கடவுச்சொல்லை உறுதிப்படுத்தவும்</string>
+    <string name="passcode_must_be_4_digits">கடவுச்சொல் 4 இலக்கமாக இருக்க வேண்டும்</string>
+    <string name="cancel">ரத்து செய்யவும்</string>
+    <string name="passcodes_do_not_match">கடவுச்சொற்கள் பொருந்தவில்லை</string>
+    <string name="save">சேமிக்கவும்</string>
+    <string name="enter_current_passcode">தற்போதைய கடவுச்சொல்லை உள்ளிடவும்</string>
+    <string name="incorrect_passcode">தவறான கடவுச்சொல்</string>
+    <string name="disable">முடக்கு</string>
+    <string name="theme">தீம்</string>
+    <string name="wallpaper">வால்பேப்பர்</string>
+    <string name="font_size">எழுத்துரு அளவு</string>
+    <string name="font_size_value">எழுத்துரு அளவு: %1$d</string>
+    <string name="enter_key_is_send">என்டர் விசை அனுப்பு</string>
+    <string name="read_receipts">வாசிப்பு ரசீதுகள்</string>
+    <string name="typing_indicators">தட்டச்சு குறியீடுகள்</string>
+    <string name="message_backup">செய்தி காப்புப்பிரதி</string>
+    <string name="auto_download_photos">படங்கள் தானியங்கி பதிவிறக்கம்</string>
+    <string name="auto_download_videos">வீடியோக்கள் தானியங்கி பதிவிறக்கம்</string>
+    <string name="auto_download_voice">குரல் தானியங்கி பதிவிறக்கம்</string>
+    <string name="auto_download_files">கோப்புகள் தானியங்கி பதிவிறக்கம்</string>
+    <string name="media_quality">மீடியா தரம்</string>
+    <string name="save_to_gallery">கேலரியில் சேமிக்கவும்</string>
+    <string name="mute_all_groups">அனைத்து குழுக்களையும் மௌனப்படுத்து</string>
+    <string name="view_blocked_contacts">தடை செய்யப்பட்ட தொடர்புகளை காண்க</string>
+
+    <string name="contact_list">தொடர்பு பட்டியல்</string>
+    <string name="blocked_contacts">தடை செய்யப்பட்ட தொடர்புகள்</string>
+    <string name="last_seen">கடைசியாக பார்த்தது</string>
+    <string name="online_status">ஆன்லைன் நிலை</string>
+    <string name="profile_photo">சுயவிவர படம்</string>
+    <string name="bio_about">பயோ / பற்றி</string>
+    <string name="who_can_message_me">யார் எனக்கு செய்தி அனுப்பலாம்</string>
+    <string name="group_invites">குழு அழைப்புகள்</string>
+    <string name="notify_new_device">புதிய சாதன உள்நுழைவு அறிவிப்பு</string>
+    <string name="suspicious_activity_alerts">சந்தேகமான செயல்பாட்டு எச்சரிக்கை</string>
+    <string name="everyone">அனைவரும்</string>
+    <string name="nobody">யாரும் இல்லை</string>
+
+    <string name="allow_calls_from">அழைப்புகளை அனுமதி</string>
+    <string name="speaker_by_default">இயல்புநிலை ஸ்பீக்கர்</string>
+    <string name="video_call_quality">வீடியோ அழைப்பு தரம்</string>
+    <string name="ringtone">ரிங்டோன்</string>
+
+    <string name="help_center">உதவி மையம்</string>
+    <string name="contact_support">ஆதரவுடன் தொடர்புகொள்ளவும்</string>
+    <string name="terms_conditions">விதிமுறைகள் மற்றும் நிபந்தனைகள்</string>
+    <string name="privacy_policy">தனியுரிமைக் கொள்கை</string>
+    <string name="report_issue">பிரச்சினையை தெரிவிக்கவும்</string>
+
+    <string name="use_system_language">கணினி மொழியை பயன்படுத்தவும்</string>
+    <string name="appearance_settings">தோற்ற அமைப்புகள்</string>
+    <string name="no_blocked_contacts">தடைசெய்யப்பட்ட தொடர்புகள் இல்லை</string>
+    <string name="restore_started">மீட்டமைப்பு தொடங்கியது…</string>
+    <string name="backup_folder_set">காப்புப்பிரதி கோப்புறை அமைக்கப்பட்டது!</string>
+    <string name="local_backup">உள்ளூர் காப்புப்பிரதி</string>
+    <string name="enable_backup">காப்புப்பிரதி இயக்கு</string>
+    <string name="select_backup_folder">காப்புப்பிரதி கோப்புறையைத் தேர்வு செய்யவும்</string>
+    <string name="include_media">மீடியாவை சேர்க்கவும்</string>
+    <string name="auto_backup_every">தானியங்கி காப்புப்பிரதி ஒவ்வொரு:</string>
+    <string name="last_backup">கடைசி காப்புப்பிரதி:</string>
+    <string name="next_backup">அடுத்த காப்புப்பிரதி:</string>
+    <string name="no_backups_yet">இன்னும் காப்புப்பிரதி இல்லை.</string>
+    <string name="select_backup_folder_first">முதலில் காப்புப்பிரதி கோப்புறையைத் தேர்வு செய்யவும்!</string>
+    <string name="backup_started">காப்புப்பிரதி தொடங்கியது…</string>
+    <string name="backup_now">இப்போது காப்புப்பிரதி எடுக்கவும்</string>
+    <string name="restore_from_backup_file">காப்புப்பிரதி கோப்பிலிருந்து மீட்டமைக்கவும்</string>
+
+    <string name="mobile_data_limit">மொபைல் தரவு வரம்பு</string>
+    <string name="wifi_usage">வை-பை பயன்பாடு</string>
+    <string name="unlimited">வரம்பற்ற</string>
+    <string name="restricted">வரம்பிட்ட</string>
+    <string name="storage_management">சேமிப்பு மேலாண்மை</string>
+    <string name="view_storage_usage">சேமிப்பு பயன்பாட்டைப் பார்க்கவும்</string>
+    <string name="backup_restore">காப்புப்பிரதி மற்றும் மீட்டமை</string>
+    <string name="days">நாட்கள்</string>
+
+    <string name="messages">செய்திகள்</string>
+    <string name="media">மீடியா</string>
+    <string name="sent">அனுப்பப்பட்டது</string>
+    <string name="received">பெறப்பட்டது</string>
+
+    <string name="mobile_data_title">📶 மொபைல் தரவு</string>
+    <string name="wifi_title">📡 வை-பை</string>
+
+    <string name="global">உலகளாவிய</string>
+    <string name="enable_all_notifications">அனைத்து அறிவிப்புகளையும் இயக்கவும்</string>
+    <string name="new_message_sound">புதிய செய்தி ஒலி</string>
+    <string name="vibrate_on_message">செய்தியில் அதிர்வு</string>
+
+    <string name="message_notifications">செய்தி அறிவிப்புகள்</string>
+    <string name="new_messages">புதிய செய்திகள்</string>
+    <string name="group_chats">குழு அரட்டை</string>
+    <string name="mentions">குறிப்புகள்</string>
+
+    <string name="call_notifications">அழைப்பு அறிவிப்புகள்</string>
+    <string name="incoming_calls">வரும் அழைப்புகள்</string>
+    <string name="missed_call_alerts">தவறிய அழைப்பு எச்சரிக்கை</string>
+
+    <string name="in_app_notifications">அப்பிளிக்கேஷன் உள்ள அறிவிப்புகள்</string>
+    <string name="popup_previews">பாப்-அப் முன்னோட்டம்</string>
+    <string name="badge_count">பேட்ஜ் எண்ணிக்கை</string>
+
+    <string name="do_not_disturb">தொந்தரவு செய்ய வேண்டாம்</string>
+    <string name="enable_dnd">DND இயக்கு</string>
+
+    <string name="close">மூடு</string>
+    <string name="scan_to_share">பகிர ஸ்கேன் செய்யவும்</string>
+    <string name="qr_code">க்யூஆர் குறியீடு</string>
+    <string name="qr_error">க்யூஆர் குறியீடு உருவாக்குவதில் பிழை</string>
+
+    <string name="logout">வெளியேறு</string>
+    <string name="logout_confirmation">நீங்கள் நிச்சயமாக வெளியேற விரும்புகிறீர்களா?</string>
+    <string name="yes">ஆம்</string>
+    <string name="delete_warning">உங்கள் அனைத்து தரவும் உடனடியாக சேவையகத்தில் இருந்து நிரந்தரமாக நீக்கப்படும். இந்த செயலை மீண்டும் மாற்ற முடியாது.\n\nதொடர CONFIRM টাইப் செய்யவும்.</string>
+    <string name="type_confirm_label">CONFIRM টাইப் செய்யவும்</string>
+    <string name="cleaning_up">சுத்தம் செய்யப்படுகிறது…</string>
+    <string name="confirm_keyword">CONFIRM</string>
+
+    <string name="led_indicator">எல்இடி குறியீடு</string>
+    <string name="select_led_color">எல்இடி நிறத்தைத் தேர்வு செய்யவும்</string>
+
+    <string name="led_off">ஆஃப்</string>
+    <string name="led_red">சிவப்பு</string>
+    <string name="led_green">பச்சை</string>
+    <string name="led_blue">நீலம்</string>
+    <string name="led_yellow">மஞ்சள்</string>
+    <string name="led_purple">ஊதா</string>
+
+    <string name="confirmation">உறுதிப்படுத்தல்</string>
+    <string name="delete_both_sides">இரு பக்கங்களையும் நீக்கு</string>
+    <string name="no">இல்லை</string>
+    <string name="confirm_action">செயலை உறுதிப்படுத்து</string>
+    <string name="confirm">உறுதிப்படுத்து</string>
+    <string name="remove_profile_image_confirmation">நீங்கள் நிச்சயமாக சுயவிவரப் படத்தை நீக்க விரும்புகிறீர்களா?</string>
+    <string name="reset_all_data_usage">🔄 அனைத்து தரவு பயன்பாட்டையும் மீட்டமைக்கவும்</string>
+    <string name="coming_soon">விரைவில் வருகிறது</string>
+
+    <string name="enter_phone_number">உங்கள் தொலைபேசி எண்ணை உள்ளிடவும்</string>
+    <string name="invalid_phone_number">தவறான தொலைபேசி எண்.</string>
+    <string name="invalid_phone_format">தொலைபேசி எண்ணின் வடிவம் தவறானது.</string>
+    <string name="invalid_country">தவறான நாடு.</string>
+    <string name="no_network">நெட்வொர்க் இல்லை. தயவுசெய்து பின்னர் முயற்சிக்கவும்.</string>
+    <string name="verify">சரிபார்க்கவும்</string>
+    <string name="pre_release_notice">டூதாவாஸ் முன்-வெளியீட்டு அறிவிப்பு</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <string name="resend_otp">OTP மீண்டும் அனுப்பு</string>
+    <string name="max_retry_reached">❌ அதிகபட்ச முயற்சிகள் முடிந்துவிட்டன!</string>
+    <string name="enter_complete_otp">முழு OTP ஐ உள்ளிடவும்</string>
+    <string name="verify_otp">OTP ஐ சரிபார்க்கவும்</string>
+    <string name="finish">முடிக்கவும்</string>
+    <string name="setup_profile">உங்கள் சுயவிவரத்தை அமைக்கவும்</string>
+    <string name="add_profile_picture">நல்ல அடையாளத்திற்கு ஒரு சுயவிவரப் படத்தை சேர்க்கவும்!</string>
+    <string name="enter_name">உங்கள் பெயரை உள்ளிடவும்</string>
+    <string name="name_empty_error">பெயர் காலியாக இருக்க முடியாது!</string>
+
+    <string name="group_calls_coming_soon">குழு அழைப்புகள் விரைவில் வருகிறது!</string>
+    <string name="scanned_phone_number">ஸ்கேன் செய்யப்பட்ட தொலைபேசி எண்: %1$s</string>
+    <string name="stories_locked">ஸ்டோரிகள் பூட்டப்பட்டுள்ளன</string>
+    <string name="stories_unlock_msg">அவை நிலையான வெளியீட்டில் திறக்கப்படும் 🔓</string>
+    <string name="search">தேடு</string>
+    <string name="already_invited">ஏற்கனவே அழைக்கப்பட்டவர்.</string>
+
+    <string name="invite">அழைக்கவும்</string>
+    <string name="invited">அழைக்கப்பட்டது</string>
+    <string name="add">சேர்க்கவும்</string>
+    <string name="added">சேர்க்கப்பட்டது</string>
+
+    <string name="tab_chats">அரட்டைகள்</string>
+    <string name="tab_groups">குழுக்கள்</string>
+    <string name="tab_calls">அழைப்புகள்</string>
+    <string name="tab_stories">ஸ்டோரிகள்</string>
+    <string name="no_messages_yet">இன்னும் எந்த செய்தியும் இல்லை</string>
+
+    <string name="sos_contacts">எஸ்.ஓ.எஸ் தொடர்புகள்</string>
+    <string name="add_sos_contact_number">எஸ்.ஓ.எஸ் தொடர்பு எண்ணைச் சேர்க்கவும்</string>
+    <string name="sos_contacts_description">நீங்கள் எஸ்.ஓ.எஸ் அனுப்பும் போது, இந்த தொடர்புகள் உங்கள் இருப்பிடத்தையும் அவசர அறிவிப்பையும் பெறும்.</string>
+    <string name="no_sos_contacts">எஸ்.ஓ.எஸ் தொடர்புகள் எதுவும் சேர்க்கப்படவில்லை.</string>
+    <string name="remove">அகற்று</string>
+    <string name="tab_lists">பட்டியல்கள்</string>
+
+    <string name="username_available">பயனர்பெயர் கிடைக்கிறது</string>
+    <string name="username_taken">பயனர்பெயர் ஏற்கனவே பயன்படுத்தப்பட்டுள்ளது</string>
+    <string name="username">பயனர்பெயர்</string>
+    <string name="apply">பயன்படுத்து</string>
+    <string name="set_username">பயனர்பெயரை அமைக்கவும்</string>
+    <string name="edit">திருத்து</string>
+    <string name="choose_username">பயனர்பெயரைத் தேர்ந்தெடுக்கவும்</string>
+    <string name="about">பற்றி</string>
+    <string name="enter_about">உங்களைப் பற்றி எழுதுங்கள்</string>
+    <!-- User Settings Modal -->
+    <string name="user_settings_title">பயனர் அமைப்புகள்</string>
+    <string name="name_not_set">பெயர்: பெயர் அமைக்கப்படவில்லை</string>
+    <string name="refresh_balance">இருப்பை புதுப்பி</string>
+    <string name="save_to_contacts">தொடர்புகளில் சேமி</string>
+    <string name="name_label">பெயர்: %1$s</string>
+    <string name="phone_label">தொலைபேசி: %1$s</string>
+    <string name="e2e_always_enabled">உங்கள் பாதுகாப்பிற்காக இது எப்போதும் இயக்கத்தில் இருக்கும்.</string>
+
+    <!-- Reveal phone number -->
+    <string name="reveal_phone_number_title">என் தொலைபேசி எண்ணைக் காட்டு</string>
+    <string name="reveal_phone_number_on_description">நீங்கள் செய்தி அனுப்பும் அனைவருக்கும் உங்கள் தொலைபேசி எண் தெரியும்</string>
+    <string name="reveal_phone_number_off_description">நீங்கள் காண்பிக்கும் வரை, மற்றவர்களுக்கு உங்கள் எண்ணிற்குப் பதிலாகப் பயனர் பெயர் தெரியும்</string>
+    <string name="reveal_confirm_title">உங்கள் தொலைபேசி எண்ணைக் காட்டவா?</string>
+    <string name="reveal_confirm_description">இந்தத் தொடர்பு உங்கள் தொலைபேசி எண்ணைப் பார்க்க முடியும். இதை மீண்டும் மாற்ற முடியாது.</string>
+    <string name="reveal">காட்டு</string>
+
+    <!-- Wallpaper -->
+    <string name="wallpaper_title">வழிகாட்டுக் படம் (Wallpaper)</string>
+    <string name="delete_wallpaper">வால்பேப்பரை நீக்கு</string>
+    <string name="remove_wallpaper_title">வால்பேப்பரை அகற்று</string>
+    <string name="remove_wallpaper_confirmation">இந்த Wallpaper-ஐ அகற்ற விரும்புகிறீர்களா?</string>
+
+    <!-- Appearance -->
+    <string name="appearance_title">தோற்றம்</string>
+
+    <!-- Media -->
+    <string name="media_title">ஊடகம் (Media)</string>
+    <string name="media_photo">புகைப்படம்</string>
+    <string name="media_video">காணொளி</string>
+    <string name="media_audio">ஒலிப்பதிவு</string>
+    <string name="media_document">ஆவணம்</string>
+    <string name="media_contact">தொடர்பு</string>
+    <string name="media_location">இருப்பிடம்</string>
+
+    <!-- Contact save result -->
+    <string name="saved_to_contacts">தொடர்புகளில் சேமிக்கப்பட்டது</string>
+    <string name="cancelled">இரத்து செய்யப்பட்டது</string>
+    <string name="unknown_result">தெரியாத முடிவு</string>
+
+    <!-- Disappearing messages -->
+    <string name="disappearing_messages_row_title">மறையும் செய்திகள்</string>
+    <string name="disappearing_messages_title">மறையும் செய்திகள்</string>
+    <string name="disappearing_messages_description">பெறுநர் வாசித்த பிறகு இந்த குறிப்பிட்ட நேரத்தில் செய்திகள் மறைந்துவிடும்.</string>
+    <string name="disappearing_off">ஆஃப்</string>
+
+    <!-- Disappearing duration plurals (used by formatDisappearingDuration) -->
+    <plurals name="disappearing_seconds">
+        <item quantity="one">%d வினாடி</item>
+        <item quantity="other">%d வினாடிகள்</item>
+    </plurals>
+
+    <plurals name="disappearing_minutes">
+        <item quantity="one">%d நிமிடம்</item>
+        <item quantity="other">%d நிமிடங்கள்</item>
+    </plurals>
+
+    <plurals name="disappearing_hours">
+        <item quantity="one">%d மணிநேரம்</item>
+        <item quantity="other">%d மணிநேரம்</item>
+    </plurals>
+
+    <plurals name="disappearing_days">
+        <item quantity="one">%d நாள்</item>
+        <item quantity="other">%d நாட்கள்</item>
+    </plurals>
+
+    <!-- Disappearing message duration picker (new swipe-column version) -->
+    <string name="duration_picker_title">மறையும் செய்தி</string>
+    <string name="duration_picker_subtitle">படித்த பிறகு தானாகவே மறைந்துவிடும்.</string>
+    <string name="duration_picker_quick_presets_label">விரைவு தேர்வுகள்</string>
+    <string name="duration_picker_save_button">அமை</string>
+
+    <string name="duration_picker_days_label">நாட்கள்</string>
+    <string name="duration_picker_hours_label">மணிநேரம்</string>
+    <string name="duration_picker_minutes_label">நிமிடங்கள்</string>
+    <string name="duration_picker_seconds_label">வினாடிகள்</string>
+
+    <string name="duration_preset_10s">10வி</string>
+    <string name="duration_preset_30s">30வி</string>
+    <string name="duration_preset_1m">1நி</string>
+    <string name="duration_preset_5m">5நி</string>
+    <string name="duration_preset_1h">1ம</string>
+    <string name="duration_preset_24h">24ம</string>
+    <string name="duration_preset_7d">7நா</string>
+
+    <string name="send">அனுப்பு</string>
+    <string name="camera">கேமரா</string>
+    <string name="blocked_contact_placeholder">இந்தத் தொடர்பை நீங்கள் தடுத்துள்ளீர்கள் (Block)..</string>
+
+    <!-- Privacy & Security section -->
+    <string name="privacy_security_title">தனியுரிமை &amp; பாதுகாப்பு</string>
+    <string name="e2e_encryption_title">முழுமையான குறியாக்கம் (End-to-end encryption)</string>
+    <string name="chat_settings_title">உரையாடல் அமைப்புகள்</string>
+
+    <!-- Hide Chat Strings -->
+    <string name="hide_chat_title">உரையாடலை மறை</string>
+    <string name="hide_chat_subtitle">Passkey மூலம் உரையாடலைப் பாதுகாக்கவும்</string>
+    <string name="hide_chat_dialog_title">உரையாடலை மறை</string>
+    <string name="hide_chat_dialog_description">இந்த உரையாடலை மறைத்து பூட்ட ஒரு Passkey-ஐ உள்ளிடவும். மீண்டும் திறக்க இது தேவைப்படும்.</string>
+    <string name="passkey_label">பாஸ்கீ (Passkey)</string>
+    <string name="confirm_passkey_label">Passkey-ஐ உறுதிப்படுத்தவும்</string>
+    <string name="passkeys_do_not_match">Passkey பொருந்தவில்லை</string>
+    <string name="remove_hide_key">மறைக்கும் விசையை அகற்று</string>
+    <string name="hide_action">மறை</string>
+
+    <!-- Horizontal Attachment Menu Items -->
+    <string name="menu_bill">பில்</string>
+    <string name="menu_list">பட்டியல்</string>
+    <string name="menu_gallery">கேலரி</string>
+    <string name="menu_video">காணொளி</string>
+    <string name="menu_audio">ஒலிப்பதிவு</string>
+    <string name="menu_location">இருப்பிடம்</string>
+    <string name="menu_contact">தொடர்பு</string>
+    <string name="menu_document">ஆவணம்</string>
+
+    <string name="group_settings_title">குழு அமைப்புகள்</string>
+    <string name="profile_picture_title">சுயவிவரப் படம்</string>
+    <string name="edit_profile_picture_desc">சுயவிவரப் படத்தை மாற்று</string>
+    <string name="delete_profile_picture_desc">சுயவிவரப் படத்தை நீக்கு</string>
+    <string name="members_title">உறுப்பினர்கள்</string>
+    <string name="swami_label">சுவாமி</string>
+    <string name="collapse_desc">சுருக்கு</string>
+    <string name="expand_desc">விரிவாக்கு</string>
+    <string name="permissions_title">அனுமதிகள்</string>
+    <string name="permission_message">செய்தி</string>
+    <string name="permission_call">அழைப்பு</string>
+    <string name="permission_add_members">உறுப்பினர்களைச் சேர்</string>
+    <string name="permission_update_profile">சுயவிவரத்தைப் புதுப்பி</string>
+    <string name="only_swami_can_change_permissions">சுவாமி மட்டுமே அனுமதிகளை மாற்ற முடியும்</string>
+    <string name="update_permissions_button">அனுமதிகளைப் புதுப்பி</string>
+    <string name="remove_member_button">உறுப்பினரை அகற்று</string>
+    <string name="add_members_button">உறுப்பினர்களைச் சேர்</string>
+    <string name="delete_group_button">குழுவை நீக்கு</string>
+    <string name="leave_group_button">குழுவிலிருந்து வெளியேறு</string>
+    <string name="are_you_sure_message">நிச்சயமாக தொடர விரும்புகிறீர்களா?</string>
+
+    <!-- Status / Stories -->
+    <string name="my_status_title">எனது நிலை (Status)</string>
+    <string name="tap_to_view_time">நேரத்தைப் பார்க்க தட்டவும் ? %s</string>
+    <string name="tap_to_add_status_update">Status புதுப்பிப்பைச் சேர்க்க தட்டவும்</string>
+    <string name="my_story_title">எனது ஸ்டோரி</string>
+    <string name="recent_updates_title">சமீபத்திய புதுப்பிப்புகள்</string>
+
+    <string name="type_a_message">செய்தியைத் தட்டச்சு செய்க</string>
+    <string name="you_blocked_this_contact">இந்தத் தொடர்பை நீங்கள் தடுத்துள்ளீர்கள்..</string>
+    <string name="status_online">🟢 ஆன்லைன்</string>
+    <string name="status_long_ago">நீண்ட காலத்திற்கு முன்பு</string>
+    <string name="active_minutes_ago">%d நிமிடங்களுக்கு முன்பு செயல்பட்டது</string>
+    <string name="active_hours_ago">%d மணிநேரத்திற்கு முன்பு செயல்பட்டது</string>
+    <string name="active_days_ago">%d நாட்களுக்கு முன்பு செயல்பட்டது</string>
+    <string name="no_stories_yet">இன்னும் ஸ்டோரிகள் எதுவும் இல்லை</string>
+    <string name="search_placeholder_sync_hint">தேடவும் அல்லது அனைத்தையும் ஒத்திசைக்க கீழே இழுக்கவும்</string>
+
+        <string name="contribute_title">❤️ திட்டத்திற்கு ஆதரவளியுங்கள்</string>
+        <string name="contribute_subtitle">உங்கள் பங்களிப்பு எங்களைத் தொடர்ந்து செயல்பட வைக்கிறது 🚀</string>
+        <string name="contribute_custom">விருப்பத் தொகை ✏️</string>
+        <string name="contribute_enter_amount">தொகையை உள்ளிடவும்</string>
+        <string name="contribute_button">பங்களிக்கவும் 🚀</string>
+        <string name="contribute_error_invalid">சரியான தொகையை உள்ளிடவும்</string>
+        <string name="contribute_error_zero">தொகை ₹0-ஐ விட அதிகமாக இருக்க வேண்டும்</string>
+        <string name="contribute_error_max">அதிகபட்ச அனுமதிக்கப்பட்ட தொகை ₹10000</string>
+        <string name="add_new_chat">புதிய அரட்டையைச் சேர்க்கவும்</string>
+        <string name="mode_phone">தொலைபேசி</string>
+        <string name="mode_username">பயனர்பெயர்</string>
+        <string name="label_username">பயனர்பெயர்</string>
+        <string name="label_phone_number">தொலைபேசி எண்</string>
+        <string name="placeholder_username">பயனர்பெயர்</string>
+        <string name="placeholder_phone_number">தொலைபேசி எண்ணை உள்ளிடவும்</string>
+        <string name="username_supporting_text">சிறிய ஆங்கில எழுத்துகள் மற்றும் எண்கள் மட்டுமே</string>
+        <string name="or_divider">அல்லது</string>
+        <string name="camera_permission_required">கேமரா அனுமதி தேவை</string>
+        <string name="scanner_align_qr">QR குறியீட்டை சட்டகத்திற்குள் வைக்கவும்</string>
+        <string name="scanner_paused">இடைநிறுத்தப்பட்டது</string>
+        <string name="flash">ஃபிளாஷ்</string>
+        <string name="clear_current_contact">தற்போதைய தொடர்பை நீக்கவும்</string>
+        <string name="profile_image_placeholder">படம்</string>
+        <string name="status_user_found">பயனர் கண்டறியப்பட்டார்</string>
+        <string name="status_checking">சரிபார்க்கப்படுகிறது…</string>
+        <string name="status_not_found">கணக்கு எதுவும் கிடைக்கவில்லை</string>
+        <string name="status_invalid_phone">தவறான தொலைபேசி எண்</string>
+        <string name="status_error">சரிபார்ப்பதில் பிழை</string>
+        <string name="status_already_added">ஏற்கனவே சேர்க்கப்பட்டுள்ளது</string>
+        <string name="action_add">சேர்க்கவும்</string>
+        <string name="action_invite">அழைக்கவும்</string>
+        <string name="action_retry">மீண்டும் முயற்சிக்கவும்</string>
+        <string name="action_already_added">ஏற்கனவே சேர்க்கப்பட்டுள்ளது</string>
+        <string name="search_placeholder_invite_hint">உங்களுக்குப் பிடித்தவரை அழைக்கவும்</string>
+        <string name="add_contact">தொடர்பைச் சேர்க்கவும்</string>
+
+</resources>

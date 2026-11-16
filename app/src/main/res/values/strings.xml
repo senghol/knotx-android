@@ -1,0 +1,425 @@
+<resources>
+    <string name="app_name">KnotX</string>
+    <string name="cancel">Cancel</string>
+    <string name="enter_phone_number">Enter Your Phone Number</string>
+    <string name="verify">Verify</string>
+    <string name="settings">Settings</string>
+    <string name="account_settings">Account Settings</string>
+    <string name="notifications">Notifications</string>
+    <string name="chats">Chats</string>
+    <string name="calls">Calls</string>
+    <string name="privacy">Privacy</string>
+    <string name="storage_data">Storage &amp; Data</string>
+    <string name="data_usage">Data Usage</string>
+    <string name="appearance">Appearance</string>
+    <string name="language">Language</string>
+    <string name="help_support">Help &amp; Support</string>
+    <string name="backup">Backup</string>
+    <string name="block_list">Blocked Contacts</string>
+    <string name="contribution">Contributions</string>
+    <string name="back">Back</string>
+    <string name="name">Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="security">Security</string>
+    <string name="delete">Delete</string>
+    <string name="delete_account">Delete Account</string>
+    <string name="app_passcode">App Passcode</string>
+    <string name="enter_4_digit_passcode">Enter 4-digit Passcode</string>
+    <string name="confirm_passcode">Confirm Passcode</string>
+    <string name="passcode_must_be_4_digits">Passcode must be 4 digits</string>
+    <string name="passcodes_do_not_match">Passcodes do not match</string>
+    <string name="save">Save</string>
+    <string name="enter_current_passcode">Enter Current Passcode</string>
+    <string name="incorrect_passcode">Incorrect Passcode</string>
+    <string name="disable">Disable</string>
+
+    <string name="theme">Theme</string>
+    <string name="wallpaper">Wallpaper</string>
+    <string name="font_size">Font Size</string>
+    <string name="font_size_value">Font Size: %1$d </string>
+    <string name="enter_key_is_send">Enter Key Is Send</string>
+    <string name="read_receipts">Read Receipts</string>
+    <string name="typing_indicators">Typing Indicators</string>
+    <string name="message_backup">Message Backup</string>
+    <string name="auto_download_photos">Auto-Download Photos</string>
+    <string name="auto_download_videos">Auto-Download Videos</string>
+    <string name="auto_download_voice">Auto-Download Voice</string>
+    <string name="auto_download_files">Auto-Download Files</string>
+    <string name="media_quality">Media Quality</string>
+    <string name="save_to_gallery">Save to Gallery</string>
+    <string name="mute_all_groups">Mute All Groups</string>
+    <string name="view_blocked_contacts">View Blocked Contacts</string>
+
+    <string name="contact_list">Contact List</string>
+    <string name="blocked_contacts">Blocked Contacts</string>
+    <string name="last_seen">Last Seen</string>
+    <string name="online_status">Online Status</string>
+    <string name="profile_photo">Profile Photo</string>
+    <string name="bio_about">Bio/About</string>
+    <string name="who_can_message_me">Who Can Message Me</string>
+    <string name="group_invites">Group Invites</string>
+    <string name="notify_new_device">Notify on Login from New Device</string>
+    <string name="suspicious_activity_alerts">Suspicious Activity Alerts</string>
+    <string name="everyone">Everyone</string>
+    <string name="nobody">Nobody</string>
+
+    <string name="allow_calls_from">Allow Calls From</string>
+    <string name="speaker_by_default">Speaker by Default</string>
+    <string name="video_call_quality">Video Call Quality</string>
+    <string name="ringtone">Ringtone</string>
+
+    <string name="help_center">Help Center</string>
+    <string name="contact_support">Contact Support</string>
+    <string name="terms_conditions">Terms &amp; Conditions</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="report_issue">Report an Issue</string>
+
+    <string name="use_system_language">Use System Language</string>
+    <string name="appearance_settings">Appearance Settings</string>
+    <string name="no_blocked_contacts">No blocked contacts</string>
+    <string name="restore_started">Restore started…</string>
+    <string name="backup_folder_set">Backup folder set!</string>
+    <string name="local_backup">Local Backup</string>
+    <string name="enable_backup">Enable Backup</string>
+    <string name="select_backup_folder">Select Backup Folder</string>
+    <string name="include_media">Include Media</string>
+    <string name="auto_backup_every">Auto Backup Every:</string>
+    <string name="last_backup">Last Backup:</string>
+    <string name="next_backup">Next Backup:</string>
+    <string name="no_backups_yet">No backups yet.</string>
+    <string name="select_backup_folder_first">Select backup folder first!</string>
+    <string name="backup_started">Backup started…</string>
+    <string name="backup_now">Backup Now</string>
+    <string name="restore_from_backup_file">Restore From Backup File</string>
+
+    <string name="mobile_data_limit">Mobile Data Limit</string>
+    <string name="wifi_usage">Wi-Fi Usage</string>
+    <string name="unlimited">Unlimited</string>
+    <string name="restricted">Restricted</string>
+    <string name="storage_management">Storage Management</string>
+    <string name="view_storage_usage">View Storage Usage</string>
+    <string name="backup_restore">Backup &amp; Restore</string>
+    <string name="days">days</string>
+
+    <string name="messages">Messages</string>
+    <string name="media">Media</string>
+    <string name="sent">sent</string>
+    <string name="received">received</string>
+
+    <string name="mobile_data_title">Mobile Data</string>
+    <string name="wifi_title">Wi-Fi</string>
+
+    <string name="global">Global</string>
+    <string name="enable_all_notifications">Enable All Notifications</string>
+    <string name="new_message_sound">New Message Sound</string>
+    <string name="vibrate_on_message">Vibrate On Message</string>
+
+    <string name="message_notifications">Message Notifications</string>
+    <string name="new_messages">New Messages</string>
+    <string name="group_chats">Group Chats</string>
+    <string name="mentions">Mentions</string>
+
+    <string name="call_notifications">Call Notifications</string>
+    <string name="incoming_calls">Incoming Calls</string>
+    <string name="missed_call_alerts">Missed Call Alerts</string>
+
+    <string name="in_app_notifications">In-App Notifications</string>
+    <string name="popup_previews">Pop-up Previews</string>
+    <string name="badge_count">Badge Count</string>
+
+    <string name="do_not_disturb">Do Not Disturb</string>
+    <string name="enable_dnd">Enable DND</string>
+
+    <string name="close">Close</string>
+    <string name="scan_to_share">Scan to Share</string>
+    <string name="qr_code">QR Code</string>
+    <string name="qr_error">Error generating QR code</string>
+
+
+    <string name="logout">Logout</string>
+    <string name="logout_confirmation">Are you sure you want to logout?</string>
+    <string name="yes">Yes</string>
+    <string name="delete_warning">All of your data will be permanently deleted from the server immediately.This action cannot be undone.\n\nType CONFIRM to proceed.</string>
+    <string name="type_confirm_label">Type CONFIRM</string>
+    <string name="cleaning_up">Cleaning up…</string>
+    <string name="confirm_keyword">CONFIRM</string>
+
+    <string name="led_indicator">LED Indicator</string>
+    <string name="select_led_color">Select LED Color</string>
+
+    <string name="led_off">Off</string>
+    <string name="led_red">Red</string>
+    <string name="led_green">Green</string>
+    <string name="led_blue">Blue</string>
+    <string name="led_yellow">Yellow</string>
+    <string name="led_purple">Purple</string>
+
+    <string name="confirmation">Confirmation</string>
+    <string name="delete_both_sides">Delete both sides</string>
+    <string name="no">No</string>
+    <string name="confirm_action">Confirm Action</string>
+    <string name="confirm">Confirm</string>
+
+    <string name="remove_profile_image_confirmation">Are you sure you want to remove the profile image?</string>
+    <string name="reset_all_data_usage">🔄 Reset All Data Usage</string>
+    <string name="coming_soon">Coming Soon</string>
+
+    <string name="invalid_phone_number">Invalid phone number.</string>
+    <string name="invalid_phone_format">Invalid phone number format.</string>
+    <string name="invalid_country">Invalid country.</string>
+    <string name="no_network">No network available. Please try again later.</string>
+    <string name="pre_release_notice">Dootawas PreRelease Notice</string>
+
+    <string name="resend_otp">RESEND OTP</string>
+    <string name="max_retry_reached">❌ Max retry attempts reached!</string>
+    <string name="enter_complete_otp">Enter complete OTP</string>
+    <string name="verify_otp">Verify OTP</string>
+    <string name="finish">Finish</string>
+    <string name="setup_profile">Setup Your Profile</string>
+    <string name="add_profile_picture">Add a profile picture for better recognition!</string>
+    <string name="enter_name">Enter your Name</string>
+    <string name="name_empty_error">Name cannot be empty!</string>
+
+    <string name="group_calls_coming_soon">Group calls coming soon!</string>
+    <string name="scanned_phone_number">Scanned Phone Number: %1$s</string>
+    <string name="stories_locked">Stories are locked</string>
+    <string name="stories_unlock_msg">They’ll unlock in the stable release 🔓</string>
+    <string name="search">Search</string>
+    <string name="already_invited">Already Invited.</string>
+
+    <string name="invite">Invite</string>
+    <string name="invited">Invited</string>
+    <string name="add">Add</string>
+    <string name="added">Added</string>
+
+    <string name="tab_chats">Chats</string>
+    <string name="tab_groups">Groups</string>
+    <string name="tab_calls">Calls</string>
+    <string name="tab_stories">Stories</string>
+    <string name="no_messages_yet">No messages yet</string>
+    <string name="sos_contacts">SOS Contacts</string>
+    <string name="add_sos_contact_number">Add SOS contact number</string>
+    <string name="sos_contacts_description">These contacts will receive your location and emergency alerts when you send an SOS.</string>
+    <string name="no_sos_contacts">No SOS contacts.</string>
+    <string name="remove">Remove</string>
+    <string name="tab_lists">Lists</string>
+
+    <string name="username_available">Username available</string>
+    <string name="username_taken">Username already taken</string>
+    <string name="username">Username</string>
+    <string name="apply">Apply</string>
+    <string name="set_username">Set Username</string>
+    <string name="edit">Edit</string>
+    <string name="choose_username">Choose username</string>
+    <string name="about">About</string>
+    <string name="enter_about">Enter about</string>
+
+
+    <!-- User Settings Modal -->
+    <string name="user_settings_title">User Settings</string>
+    <string name="name_not_set">Name: No name set</string>
+    <string name="refresh_balance">Refresh balance</string>
+    <string name="save_to_contacts">Save to Contacts</string>
+    <string name="name_label">Name: %1$s</string>
+    <string name="phone_label">Phone: %1$s</string>
+    <string name="e2e_always_enabled">This is always enabled for your security.</string>
+
+    <!-- Reveal phone number -->
+    <string name="reveal_phone_number_title">Reveal my phone number</string>
+    <string name="reveal_phone_number_on_description">Your phone number is visible to everyone you message</string>
+    <string name="reveal_phone_number_off_description">Others see your username instead of your number, unless revealed</string>
+    <string name="reveal_confirm_title">Reveal your phone number?</string>
+    <string name="reveal_confirm_description">This contact will be able to see your phone number. This can\'t be undone.</string>
+    <string name="reveal">Reveal</string>
+
+    <!-- Wallpaper -->
+    <string name="wallpaper_title">Wallpaper</string>
+    <string name="delete_wallpaper">Delete Wallpaper</string>
+    <string name="remove_wallpaper_title">Remove Wallpaper</string>
+    <string name="remove_wallpaper_confirmation">Do you want to remove this wallpaper?</string>
+
+    <!-- Appearance -->
+    <string name="appearance_title">Appearance</string>
+
+    <!-- Media -->
+    <string name="media_title">Media</string>
+    <string name="media_photo">Photo</string>
+    <string name="media_video">Video</string>
+    <string name="media_audio">Audio</string>
+    <string name="media_document">Document</string>
+    <string name="media_contact">Contact</string>
+    <string name="media_location">Location</string>
+
+    <!-- Contact save result -->
+    <string name="saved_to_contacts">Saved to contacts</string>
+    <string name="cancelled">Cancelled</string>
+    <string name="unknown_result">Unknown result</string>
+
+    <!-- Disappearing messages -->
+    <string name="disappearing_messages_row_title">Disappearing messages</string>
+    <string name="disappearing_messages_title">Disappearing messages</string>
+    <string name="disappearing_messages_description">Messages disappear this long after the recipient reads them.</string>
+    <string name="disappearing_off">Off</string>
+
+
+    <!-- Disappearing duration plurals (used by formatDisappearingDuration) -->
+    <plurals name="disappearing_seconds">
+        <item quantity="one">%d second</item>
+        <item quantity="other">%d seconds</item>
+    </plurals>
+
+    <plurals name="disappearing_minutes">
+        <item quantity="one">%d minute</item>
+        <item quantity="other">%d minutes</item>
+    </plurals>
+
+    <plurals name="disappearing_hours">
+        <item quantity="one">%d hour</item>
+        <item quantity="other">%d hours</item>
+    </plurals>
+
+    <plurals name="disappearing_days">
+        <item quantity="one">%d day</item>
+        <item quantity="other">%d days</item>
+    </plurals>
+
+    <!-- Disappearing message duration picker (new swipe-column version) -->
+    <string name="duration_picker_title">Disappearing Message</string>
+    <string name="duration_picker_subtitle">Vanish automatically after being read.</string>
+    <string name="duration_picker_quick_presets_label">QUICK PRESETS</string>
+    <string name="duration_picker_save_button">Set</string>
+
+    <string name="duration_picker_days_label">DAYS</string>
+    <string name="duration_picker_hours_label">HOURS</string>
+    <string name="duration_picker_minutes_label">MINS</string>
+    <string name="duration_picker_seconds_label">SECS</string>
+
+    <string name="duration_preset_10s">10s</string>
+    <string name="duration_preset_30s">30s</string>
+    <string name="duration_preset_1m">1m</string>
+    <string name="duration_preset_5m">5m</string>
+    <string name="duration_preset_1h">1h</string>
+    <string name="duration_preset_24h">24h</string>
+    <string name="duration_preset_7d">7d</string>
+
+    <string name="send">Send</string>
+    <string name="camera">Camera</string>
+    <string name="blocked_contact_placeholder">You blocked this contact..</string>
+
+    <!-- Privacy & Security section -->
+    <string name="privacy_security_title">Privacy &amp; Security</string>
+    <string name="e2e_encryption_title">End-to-end encryption</string>
+    <string name="chat_settings_title">Chat Settings</string>
+
+    <!-- Hide Chat Strings -->
+    <string name="hide_chat_title">Hide Chat</string>
+    <string name="hide_chat_subtitle">Secure chat with a passkey</string>
+    <string name="hide_chat_dialog_title">Hide Chat</string>
+    <string name="hide_chat_dialog_description">Enter a passkey to hide and lock this chat. You\'ll need it to open it again.</string>
+    <string name="passkey_label">Passkey</string>
+    <string name="confirm_passkey_label">Confirm Passkey</string>
+    <string name="passkeys_do_not_match">Passkeys do not match</string>
+    <string name="remove_hide_key">Remove Hide Key</string>
+    <string name="hide_action">Hide</string>
+
+    <!-- Horizontal Attachment Menu Items -->
+    <string name="menu_bill">Bill</string>
+    <string name="menu_list">List</string>
+    <string name="menu_gallery">Image</string> //change this to all
+    <string name="menu_video">Video</string>
+    <string name="menu_audio">Audio</string>
+    <string name="menu_location">Location</string>
+    <string name="menu_contact">Contact</string>
+    <string name="menu_document">Document</string>
+
+    <string name="group_settings_title">Group Settings</string>
+    <string name="profile_picture_title">Profile Picture</string>
+    <string name="edit_profile_picture_desc">Edit Profile Picture</string>
+    <string name="delete_profile_picture_desc">Delete Profile Picture</string>
+    <string name="members_title">Members</string>
+    <string name="swami_label">Swami</string>
+    <string name="collapse_desc">Collapse</string>
+    <string name="expand_desc">Expand</string>
+    <string name="permissions_title">Permissions</string>
+    <string name="permission_message">Message</string>
+    <string name="permission_call">Call</string>
+    <string name="permission_add_members">Add Members</string>
+    <string name="permission_update_profile">Update Profile</string>
+    <string name="only_swami_can_change_permissions">Only Swami can change permissions</string>
+    <string name="update_permissions_button">Update Permissions</string>
+    <string name="remove_member_button">Remove Member</string>
+    <string name="add_members_button">Add Members</string>
+    <string name="delete_group_button">Delete Group</string>
+    <string name="leave_group_button">Leave Group</string>
+    <string name="are_you_sure_message">Are you sure?</string>
+
+    <string name="my_status_title">My Status</string>
+    <string name="tap_to_view_time">Tap to view • %s</string>
+    <string name="tap_to_add_status_update">Tap to add status update</string>
+    <string name="my_story_title">My Story</string>
+    <string name="recent_updates_title">Recent updates</string>
+
+    <string name="type_a_message">Type a message</string>
+    <string name="you_blocked_this_contact">You blocked this contact..</string>
+    <string name="status_online">🟢 Online</string>
+    <string name="status_long_ago">long ago</string>
+    <string name="active_minutes_ago">Active %dm ago</string>
+    <string name="active_hours_ago">Active %dh ago</string>
+    <string name="active_days_ago">Active %dd ago</string>
+
+    <string name="no_stories_yet">No stories yet</string>
+    <string name="search_placeholder_sync_hint">Search or Pull Down to Sync All</string>
+
+
+
+    <string name="contribute_title">❤️ Support the Project</string>
+    <string name="contribute_subtitle">Your contribution keeps us going 🚀</string>
+    <string name="contribute_custom">Custom ✏️</string>
+    <string name="contribute_enter_amount">Enter amount</string>
+    <string name="contribute_button">Contribute 🚀</string>
+
+    <string name="contribute_error_invalid">Enter a valid amount</string>
+    <string name="contribute_error_zero">Amount must be greater than ₹0</string>
+    <string name="contribute_error_max">Max allowed is ₹10000</string>
+
+    <!-- Top bar -->
+    <string name="add_new_chat">Add New Chat</string>
+
+    <!-- Search mode -->
+    <string name="mode_phone">Phone</string>
+    <string name="mode_username">Username</string>
+
+    <!-- Input -->
+    <string name="label_username">Username</string>
+    <string name="label_phone_number">Phone number</string>
+    <string name="placeholder_username">username</string>
+    <string name="placeholder_phone_number">Enter phone number</string>
+    <string name="username_supporting_text">Lowercase letters and numbers only</string>
+
+    <!-- Scanner -->
+    <string name="or_divider">OR</string>
+    <string name="camera_permission_required">Camera permission required</string>
+    <string name="scanner_align_qr">Align QR inside frame</string>
+    <string name="scanner_paused">Paused</string>
+    <string name="flash">Flash</string>
+
+    <!-- Result card -->
+    <string name="clear_current_contact">Clear current contact</string>
+    <string name="profile_image_placeholder">Img</string>
+    <string name="status_user_found">User found</string>
+    <string name="status_checking">Checking…</string>
+    <string name="status_not_found">No account found</string>
+    <string name="status_invalid_phone">Invalid phone number</string>
+    <string name="status_error">Error checking</string>
+    <string name="status_already_added">Already added</string>
+
+    <!-- Buttons -->
+    <string name="action_add">Add</string>
+    <string name="action_invite">Invite</string>
+    <string name="action_retry">Retry</string>
+    <string name="action_already_added">Already Added</string>
+
+    <string name="search_placeholder_invite_hint">Invite your favorite person</string>
+    <string name="add_contact">Add Contact</string>
+
+</resources>

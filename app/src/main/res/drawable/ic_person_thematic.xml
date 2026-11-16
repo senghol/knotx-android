@@ -1,0 +1,30 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- White circle background -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M12,2a10,10 0 1,1 0,20a10,10 0 1,1 0,-20z"/>
+
+    <!-- Person that NEVER goes outside the circle -->
+    <path
+        android:fillColor="#041A05"
+        android:pathData="
+            M12,11.5
+            c1.93,0 3.5,-1.57 3.5,-3.5
+            s-1.57,-3.5 -3.5,-3.5
+            s-3.5,1.57 -3.5,3.5
+            s1.57,3.5 3.5,3.5
+            z
+
+            M12,13
+            c-2.33,0 -7,1.17 -7,3.5
+            v2.5
+            h14
+            v-2.5
+            c0,-2.33 -4.67,-3.5 -7,-3.5
+            z"/>
+</vector>

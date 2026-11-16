@@ -1,0 +1,6 @@
+package com.senghol.knotx.utils.enums;
+
+public enum PersonalDataValues {
+GLOBAL_NOTIFICATION, TOTAL_DATA_USAGE, TOTAL_DATA_SENT, TOTAL_DATA_RECEIVED, APP_VERSION
+,DEFAULT_NOTIFICATION
+}

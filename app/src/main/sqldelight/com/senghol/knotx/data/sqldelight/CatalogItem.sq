@@ -1,0 +1,47 @@
+-- Saved items shown as hints while typing a bill line.
+-- name_key = trimmed + lowercased name, so "Milk" and "milk " are the same item.
+
+CREATE TABLE catalog_item (
+    id         TEXT NOT NULL PRIMARY KEY,
+    name       TEXT NOT NULL,
+    name_key   TEXT NOT NULL UNIQUE,
+    hsn        TEXT NOT NULL DEFAULT '',
+    price      REAL NOT NULL DEFAULT 0.0,
+    use_count  INTEGER NOT NULL DEFAULT 0,
+    updated_at INTEGER NOT NULL DEFAULT 0
+);
+
+-- Most-used first. Caller passes the lowercased query.
+searchItems:
+SELECT * FROM catalog_item
+WHERE name_key LIKE '%' || :query || '%'
+ORDER BY use_count DESC, name_key
+LIMIT 5;
+
+getByKey:
+SELECT * FROM catalog_item WHERE name_key = :nameKey;
+
+insertItem:
+INSERT INTO catalog_item(id, name, name_key, hsn, price, use_count, updated_at)
+VALUES (:id, :name, :nameKey, :hsn, :price, 0, :updatedAt);
+
+updateItem:
+UPDATE catalog_item
+SET name = :name, hsn = :hsn, price = :price, updated_at = :updatedAt
+WHERE name_key = :nameKey;
+
+-- Called when a bill containing the item is sent, so favourites float to the top.
+bumpUse:
+UPDATE catalog_item SET use_count = use_count + 1 WHERE name_key = :nameKey;
+
+getAllItems:
+SELECT * FROM catalog_item ORDER BY name_key;
+
+-- Edit from the management screen (name_key is rebuilt by the caller).
+updateItemById:
+UPDATE catalog_item
+SET name = :name, name_key = :nameKey, hsn = :hsn, price = :price, updated_at = :updatedAt
+WHERE id = :id;
+
+deleteItem:
+DELETE FROM catalog_item WHERE id = :id;

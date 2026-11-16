@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings">स्खूमौवु</string>
+    <string name="app_name">नॉटएक्स</string>
+    <string name="account_settings">खाता सेटिंग्स</string>
+    <string name="notifications">सूचनाएँ</string>
+    <string name="chats">चैट्स</string>
+    <string name="calls">कॉल्स</string>
+    <string name="privacy">"प्राइवेसी "</string>
+    <string name="storage_data">स्टोरेज और डेटा</string>
+    <string name="data_usage">डेटा उपयोग</string>
+    <string name="appearance">दिखावट</string>
+    <string name="language">भाषा</string>
+    <string name="help_support">सहायता और समर्थन</string>
+    <string name="backup">बैकअप</string>
+    <string name="block_list">ब्लॉक किए गए संपर्क</string>
+    <string name="contribution">योगदान</string>
+    <string name="back">वापस</string>
+    <string name="name">नाम</string>
+    <string name="phone_number">फोन नंबर</string>
+    <string name="security">सुरक्षा</string>
+    <string name="delete">हटाएं</string>
+    <string name="delete_account">खाता हटाएं</string>
+    <string name="app_passcode">ऐप पासकोड</string>
+    <string name="enter_4_digit_passcode">4 अंकों का पासकोड दर्ज करें</string>
+    <string name="confirm_passcode">पासकोड की पुष्टि करें</string>
+    <string name="passcode_must_be_4_digits">पासकोड 4 अंकों का होना चाहिए</string>
+    <string name="passcodes_do_not_match">पासकोड मेल नहीं खाते</string>
+    <string name="save">सहेजें</string>
+    <string name="enter_current_passcode">वर्तमान पासकोड दर्ज करें</string>
+    <string name="incorrect_passcode">गलत पासकोड</string>
+    <string name="disable">अक्षम करें</string>
+    <string name="cancel">रद्द करें</string>
+    <string name="theme">थीम</string>
+    <string name="wallpaper">वॉलपेपर</string>
+    <string name="font_size">फ़ॉन्ट आकार</string>
+    <string name="font_size_value">फ़ॉन्ट आकार: %1$d</string>
+    <string name="enter_key_is_send">एंटर कुंजी भेजें</string>
+    <string name="read_receipts">रीड रिसीट्स</string>
+    <string name="typing_indicators">टाइपिंग संकेत</string>
+    <string name="message_backup">संदेश बैकअप</string>
+    <string name="auto_download_photos">फ़ोटो स्वतः डाउनलोड</string>
+    <string name="auto_download_videos">वीडियो स्वतः डाउनलोड</string>
+    <string name="auto_download_voice">वॉइस स्वतः डाउनलोड</string>
+    <string name="auto_download_files">फ़ाइलें स्वतः डाउनलोड</string>
+    <string name="media_quality">मीडिया गुणवत्ता</string>
+    <string name="save_to_gallery">गैलरी में सहेजें</string>
+    <string name="mute_all_groups">सभी समूह म्यूट करें</string>
+    <string name="view_blocked_contacts">ब्लॉक किए गए संपर्क देखें</string>
+
+    <string name="contact_list">संपर्क सूची</string>
+    <string name="blocked_contacts">ब्लॉक किए गए संपर्क</string>
+    <string name="last_seen">अंतिम बार देखा गया</string>
+    <string name="online_status">ऑनलाइन स्थिति</string>
+    <string name="profile_photo">प्रोफ़ाइल फोटो</string>
+    <string name="bio_about">परिचय / बारे में</string>
+    <string name="who_can_message_me">मुझे कौन संदेश भेज सकता है</string>
+    <string name="group_invites">समूह निमंत्रण</string>
+    <string name="notify_new_device">नए डिवाइस से लॉगिन पर सूचित करें</string>
+    <string name="suspicious_activity_alerts">संदिग्ध गतिविधि अलर्ट</string>
+    <string name="everyone">सभी</string>
+    <string name="nobody">कोई नहीं</string>
+
+    <string name="allow_calls_from">कॉल की अनुमति</string>
+    <string name="speaker_by_default">डिफ़ॉल्ट रूप से स्पीकर</string>
+    <string name="video_call_quality">वीडियो कॉल गुणवत्ता</string>
+    <string name="ringtone">रिंगटोन</string>
+
+    <string name="help_center">सहायता केंद्र</string>
+    <string name="contact_support">संपर्क सहायता</string>
+    <string name="terms_conditions">नियम और शर्तें</string>
+    <string name="privacy_policy">गोपनीयता नीति</string>
+    <string name="report_issue">समस्या की रिपोर्ट करें</string>
+
+    <string name="use_system_language">सिस्टम भाषा का उपयोग करें</string>
+    <string name="appearance_settings">रूपरेखा सेटिंग्स</string>
+    <string name="no_blocked_contacts">कोई अवरुद्ध संपर्क नहीं</string>
+    <string name="restore_started">पुनर्स्थापना शुरू हो गई…</string>
+    <string name="backup_folder_set">बैकअप फ़ोल्डर सेट हो गया!</string>
+    <string name="local_backup">लोकल बैकअप</string>
+    <string name="enable_backup">बैकअप सक्षम करें</string>
+    <string name="select_backup_folder">बैकअप फ़ोल्डर चुनें</string>
+    <string name="include_media">मीडिया शामिल करें</string>
+    <string name="auto_backup_every">स्वचालित बैकअप हर:</string>
+    <string name="last_backup">अंतिम बैकअप:</string>
+    <string name="next_backup">अगला बैकअप:</string>
+    <string name="no_backups_yet">अभी तक कोई बैकअप नहीं।</string>
+    <string name="select_backup_folder_first">पहले बैकअप फ़ोल्डर चुनें!</string>
+    <string name="backup_started">बैकअप शुरू हो गया…</string>
+    <string name="backup_now">अभी बैकअप लें</string>
+    <string name="restore_from_backup_file">बैकअप फ़ाइल से पुनर्स्थापित करें</string>
+
+    <string name="mobile_data_limit">मोबाइल डेटा सीमा</string>
+    <string name="wifi_usage">वाई-फाई उपयोग</string>
+    <string name="unlimited">असीमित</string>
+    <string name="restricted">सीमित</string>
+    <string name="storage_management">स्टोरेज प्रबंधन</string>
+    <string name="view_storage_usage">स्टोरेज उपयोग देखें</string>
+    <string name="backup_restore">बैकअप और पुनर्स्थापना</string>
+    <string name="days">दिन</string>
+
+    <string name="messages">संदेश</string>
+    <string name="media">मीडिया</string>
+    <string name="sent">भेजे गए</string>
+    <string name="received">प्राप्त</string>
+
+    <string name="mobile_data_title">📶 मोबाइल डेटा</string>
+    <string name="wifi_title">📡 वाई-फाई</string>
+
+    <string name="global">वैश्विक</string>
+    <string name="enable_all_notifications">सभी सूचनाएँ सक्षम करें</string>
+    <string name="new_message_sound">नए संदेश की ध्वनि</string>
+    <string name="vibrate_on_message">संदेश पर वाइब्रेट</string>
+
+    <string name="message_notifications">संदेश सूचनाएँ</string>
+    <string name="new_messages">नए संदेश</string>
+    <string name="group_chats">समूह चैट</string>
+    <string name="mentions">उल्लेख</string>
+
+    <string name="call_notifications">कॉल सूचनाएँ</string>
+    <string name="incoming_calls">आने वाली कॉल</string>
+    <string name="missed_call_alerts">मिस्ड कॉल अलर्ट</string>
+
+    <string name="in_app_notifications">ऐप के भीतर सूचनाएँ</string>
+    <string name="popup_previews">पॉप-अप पूर्वावलोकन</string>
+    <string name="badge_count">बैज संख्या</string>
+
+    <string name="do_not_disturb">परेशान न करें</string>
+    <string name="enable_dnd">DND सक्षम करें</string>
+
+    <string name="close">बंद करें</string>
+    <string name="scan_to_share">साझा करने के लिए स्कैन करें</string>
+    <string name="qr_code">क्यूआर कोड</string>
+    <string name="qr_error">क्यूआर कोड बनाने में त्रुटि</string>
+
+
+    <string name="logout">लॉगआउट</string>
+    <string name="logout_confirmation">क्या आप वाकई लॉगआउट करना चाहते हैं?</string>
+    <string name="yes">हाँ</string>
+    <string name="delete_warning">आपका सारा डेटा तुरंत सर्वर से स्थायी रूप से हटा दिया जाएगा। यह क्रिया वापस नहीं की जा सकती।\n\nआगे बढ़ने के लिए CONFIRM टाइप करें।</string>
+    <string name="type_confirm_label">CONFIRM टाइप करें</string>
+    <string name="cleaning_up">सफाई की जा रही है…</string>
+    <string name="confirm_keyword">CONFIRM</string>
+
+    <string name="led_indicator">एलईडी संकेतक</string>
+    <string name="select_led_color">एलईडी रंग चुनें</string>
+
+    <string name="led_off">बंद</string>
+    <string name="led_red">लाल</string>
+    <string name="led_green">हरा</string>
+    <string name="led_blue">नीला</string>
+    <string name="led_yellow">पीला</string>
+    <string name="led_purple">बैंगनी</string>
+
+    <string name="confirmation">पुष्टि</string>
+    <string name="delete_both_sides">दोनों पक्ष हटाएँ</string>
+    <string name="no">नहीं</string>
+    <string name="confirm_action">कार्रवाई की पुष्टि करें</string>
+    <string name="confirm">पुष्टि करें</string>
+
+    <string name="remove_profile_image_confirmation">क्या आप वाकई प्रोफ़ाइल चित्र हटाना चाहते हैं?</string>
+    <string name="reset_all_data_usage">🔄 सभी डेटा उपयोग रीसेट करें</string>
+    <string name="coming_soon">जल्द आ रहा है</string>
+
+    <string name="enter_phone_number">अपना फोन नंबर दर्ज करें</string>
+    <string name="invalid_phone_number">अमान्य फोन नंबर।</string>
+    <string name="invalid_phone_format">फोन नंबर का प्रारूप अमान्य है।</string>
+    <string name="invalid_country">अमान्य देश।</string>
+    <string name="no_network">कोई नेटवर्क उपलब्ध नहीं है। कृपया बाद में पुनः प्रयास करें।</string>
+    <string name="verify">सत्यापित करें</string>
+    <string name="pre_release_notice">दूतावास प्री-रिलीज़ सूचना</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <string name="resend_otp">ओटीपी पुनः भेजें</string>
+    <string name="max_retry_reached">❌ अधिकतम पुनः प्रयास पूरे हो गए!</string>
+    <string name="enter_complete_otp">पूरा ओटीपी दर्ज करें</string>
+    <string name="verify_otp">ओटीपी सत्यापित करें</string>
+    <string name="finish">समाप्त</string>
+    <string name="setup_profile">अपनी प्रोफ़ाइल सेट करें</string>
+    <string name="add_profile_picture">बेहतर पहचान के लिए प्रोफ़ाइल चित्र जोड़ें!</string>
+    <string name="enter_name">अपना नाम दर्ज करें</string>
+    <string name="name_empty_error">नाम खाली नहीं हो सकता!</string>
+
+    <string name="group_calls_coming_soon">ग्रुप कॉल्स जल्द आ रही हैं!</string>
+    <string name="scanned_phone_number">स्कैन किया गया फोन नंबर: %1$s</string>
+    <string name="stories_locked">स्टोरीज़ लॉक हैं</string>
+    <string name="stories_unlock_msg">वे स्थिर संस्करण में अनलॉक होंगी 🔓</string>
+    <string name="search">खोजें</string>
+    <string name="already_invited">पहले से आमंत्रित।</string>
+
+    <string name="invite">आमंत्रित करें</string>
+    <string name="invited">आमंत्रित</string>
+    <string name="add">जोड़ें</string>
+    <string name="added">जोड़ा गया</string>
+
+    <string name="tab_chats">चैट्स</string>
+    <string name="tab_groups">ग्रुप्स</string>
+    <string name="tab_calls">कॉल्स</string>
+    <string name="tab_stories">स्टोरीज़</string>
+    <string name="no_messages_yet">अभी तक कोई संदेश नहीं</string>
+
+    <string name="sos_contacts">एसओएस संपर्क</string>
+    <string name="add_sos_contact_number">एसओएस संपर्क नंबर जोड़ें</string>
+    <string name="sos_contacts_description">जब आप एसओएस भेजेंगे, तो इन संपर्कों को आपका स्थान और आपातकालीन सूचना प्राप्त होगी।</string>
+    <string name="no_sos_contacts">कोई एसओएस संपर्क नहीं जोड़ा गया।</string>
+    <string name="remove">हटाएँ</string>
+    <string name="tab_lists">सूचियाँ</string>
+
+    <string name="username_available">उपयोगकर्ता नाम उपलब्ध है</string>
+    <string name="username_taken">उपयोगकर्ता नाम पहले से लिया जा चुका है</string>
+    <string name="username">उपयोगकर्ता नाम</string>
+    <string name="apply">लागू करें</string>
+    <string name="set_username">उपयोगकर्ता नाम सेट करें</string>
+    <string name="edit">संपादित करें</string>
+    <string name="choose_username">यूज़रनेम चुनें</string>
+    <string name="about">परिचय</string>
+    <string name="enter_about">अपने बारे में लिखें</string>
+
+    <!-- User Settings Modal -->
+    <string name="user_settings_title">उपयोगकर्ता सेटिंग्स</string>
+    <string name="name_not_set">नाम: कोई नाम सेट नहीं है</string>
+    <string name="refresh_balance">बैलेंस रिफ्रेश करें</string>
+    <string name="save_to_contacts">संपर्कों में सहेजें</string>
+    <string name="name_label">नाम: %1$s</string>
+    <string name="phone_label">फ़ोन: %1$s</string>
+    <string name="e2e_always_enabled">आपकी सुरक्षा के लिए यह हमेशा सक्षम रहता है।</string>
+
+    <!-- Reveal phone number -->
+    <string name="reveal_phone_number_title">मेरा फ़ोन नंबर दिखाएं</string>
+    <string name="reveal_phone_number_on_description">आपका फ़ोन नंबर उन सभी को दिखाई देगा जिन्हें आप संदेश भेजते हैं</string>
+    <string name="reveal_phone_number_off_description">जब तक आप न दिखाएं, तब तक दूसरों को आपके नंबर की जगह आपका उपयोगकर्ता नाम दिखाई देगा</string>
+    <string name="reveal_confirm_title">अपना फ़ोन नंबर दिखाएं?</string>
+    <string name="reveal_confirm_description">यह संपर्क आपका फ़ोन नंबर देख सकेगा। इसे बदला नहीं जा सकता।</string>
+    <string name="reveal">दिखाएं</string>
+
+    <!-- Wallpaper -->
+    <string name="wallpaper_title">वॉलपेपर</string>
+    <string name="delete_wallpaper">वॉलपेपर हटाएं</string>
+    <string name="remove_wallpaper_title">वॉलपेपर हटाएं</string>
+    <string name="remove_wallpaper_confirmation">क्या आप इस वॉलपेपर को हटाना चाहते हैं?</string>
+
+    <!-- Appearance -->
+    <string name="appearance_title">दिखावट</string>
+
+    <!-- Media -->
+    <string name="media_title">मीडिया</string>
+    <string name="media_photo">फ़ोटो</string>
+    <string name="media_video">वीडियो</string>
+    <string name="media_audio">ऑडियो</string>
+    <string name="media_document">दस्तावेज़</string>
+    <string name="media_contact">संपर्क</string>
+    <string name="media_location">स्थान</string>
+
+    <!-- Contact save result -->
+    <string name="saved_to_contacts">संपर्कों में सहेजा गया</string>
+    <string name="cancelled">रद्द किया गया</string>
+    <string name="unknown_result">अज्ञात परिणाम</string>
+
+    <!-- Disappearing messages -->
+    <string name="disappearing_messages_row_title">गायब होने वाले संदेश</string>
+    <string name="disappearing_messages_title">गायब होने वाले संदेश</string>
+    <string name="disappearing_messages_description">प्राप्तकर्ता द्वारा पढ़े जाने के इतने समय बाद संदेश गायब हो जाते हैं।</string>
+    <string name="disappearing_off">बंद</string>
+
+    <!-- Disappearing duration plurals (used by formatDisappearingDuration) -->
+    <plurals name="disappearing_seconds">
+        <item quantity="one">%d सेकंड</item>
+        <item quantity="other">%d सेकंड</item>
+    </plurals>
+
+    <plurals name="disappearing_minutes">
+        <item quantity="one">%d मिनट</item>
+        <item quantity="other">%d मिनट</item>
+    </plurals>
+
+    <plurals name="disappearing_hours">
+        <item quantity="one">%d घंटा</item>
+        <item quantity="other">%d घंटे</item>
+    </plurals>
+
+    <plurals name="disappearing_days">
+        <item quantity="one">%d दिन</item>
+        <item quantity="other">%d दिन</item>
+    </plurals>
+
+    <!-- Disappearing message duration picker (new swipe-column version) -->
+    <string name="duration_picker_title">गायब होने वाला संदेश</string>
+    <string name="duration_picker_subtitle">पढ़े जाने के बाद अपने आप गायब हो जाते हैं।</string>
+    <string name="duration_picker_quick_presets_label">त्वरित प्रीसेट</string>
+    <string name="duration_picker_save_button">सेट करें</string>
+
+    <string name="duration_picker_days_label">दिन</string>
+    <string name="duration_picker_hours_label">घंटे</string>
+    <string name="duration_picker_minutes_label">मिनट</string>
+    <string name="duration_picker_seconds_label">सेकंड</string>
+
+    <string name="duration_preset_10s">10से</string>
+    <string name="duration_preset_30s">30से</string>
+    <string name="duration_preset_1m">1मि</string>
+    <string name="duration_preset_5m">5मि</string>
+    <string name="duration_preset_1h">1घं</string>
+    <string name="duration_preset_24h">24घं</string>
+    <string name="duration_preset_7d">7दि</string>
+
+    <string name="send">भेजें</string>
+    <string name="camera">कैमरा</string>
+    <string name="blocked_contact_placeholder">आपने इस संपर्क को ब्लॉक कर दिया है..</string>
+
+    <!-- Privacy & Security section -->
+    <string name="privacy_security_title">गोपनीयता औरamp; सुरक्षा</string>
+    <string name="e2e_encryption_title">एंड-टू-एंड एन्क्रिप्शन</string>
+    <string name="chat_settings_title">चैट सेटिंग्स</string>
+
+    <!-- Hide Chat Strings -->
+    <string name="hide_chat_title">चैट छिपाएं</string>
+    <string name="hide_chat_subtitle">पास-की (Passkey) से चैट को सुरक्षित करें</string>
+    <string name="hide_chat_dialog_title">चैट छिपाएं</string>
+    <string name="hide_chat_dialog_description">इस चैट को छिपाने और लॉक करने के लिए एक पास-की दर्ज करें। इसे दोबारा खोलने के लिए आपको इसकी आवश्यकता होगी।</string>
+    <string name="passkey_label">पास-की</string>
+    <string name="confirm_passkey_label">पास-की की पुष्टि करें</string>
+    <string name="passkeys_do_not_match">पास-की मेल नहीं खाते</string>
+    <string name="remove_hide_key">छिपाने की कुंजी हटाएं</string>
+    <string name="hide_action">छिपाएं</string>
+
+    <!-- Horizontal Attachment Menu Items -->
+    <string name="menu_bill">बिल</string>
+    <string name="menu_list">सूची</string>
+    <string name="menu_gallery">गैलरी</string>
+    <string name="menu_video">वीडियो</string>
+    <string name="menu_audio">ऑडियो</string>
+    <string name="menu_location">स्थान</string>
+    <string name="menu_contact">संपर्क</string>
+    <string name="menu_document">दस्तावेज़</string>
+
+    <string name="group_settings_title">समूह सेटिंग्स</string>
+    <string name="profile_picture_title">प्रोफ़ाइल फ़ोटो</string>
+    <string name="edit_profile_picture_desc">प्रोफ़ाइल फ़ोटो संपादित करें</string>
+    <string name="delete_profile_picture_desc">प्रोफ़ाइल फ़ोटो हटाएं</string>
+    <string name="members_title">सदस्य</string>
+    <string name="swami_label">स्वामी</string>
+    <string name="collapse_desc">समेटें</string>
+    <string name="expand_desc">विस्तार करें</string>
+    <string name="permissions_title">अनुमतियां</string>
+    <string name="permission_message">संदेश</string>
+    <string name="permission_call">कॉल</string>
+    <string name="permission_add_members">सदस्य जोड़ें</string>
+    <string name="permission_update_profile">प्रोफ़ाइल अपडेट करें</string>
+    <string name="only_swami_can_change_permissions">केवल स्वामी ही अनुमतियां बदल सकते हैं</string>
+    <string name="update_permissions_button">अनुमतियां अपडेट करें</string>
+    <string name="remove_member_button">सदस्य हटाएं</string>
+    <string name="add_members_button">सदस्य जोड़ें</string>
+    <string name="delete_group_button">समूह हटाएं</string>
+    <string name="leave_group_button">समूह छोड़ें</string>
+    <string name="are_you_sure_message">क्या आप निश्चित हैं?</string>
+
+    <!-- Status / Stories -->
+    <string name="my_status_title">मेरा स्टेटस</string>
+    <string name="tap_to_view_time">समय देखने के लिए टैप करें ? %s</string>
+    <string name="tap_to_add_status_update">स्टेटस अपडेट जोड़ने के लिए टैप करें</string>
+    <string name="my_story_title">मेरी स्टोरी</string>
+    <string name="recent_updates_title">हाल के अपडेट</string>
+
+    <string name="type_a_message">संदेश टाइप करें</string>
+    <string name="you_blocked_this_contact">आपने इस संपर्क को ब्लॉक कर दिया है..</string>
+    <string name="status_online">🟢 ऑनलाइन</string>
+    <string name="status_long_ago">बहुत समय पहले</string>
+    <string name="active_minutes_ago">%d मिनट पहले सक्रिय</string>
+    <string name="active_hours_ago">%d घंटे पहले सक्रिय</string>
+    <string name="active_days_ago">%d दिन पहले सक्रिय</string>
+
+    <string name="no_stories_yet">अभी कोई स्टोरी नहीं है</string>
+    <string name="search_placeholder_sync_hint">खोजें या सभी को सिंक करने के लिए नीचे खींचें</string>
+
+
+        <string name="contribute_title">❤️ परियोजना का समर्थन करें</string>
+        <string name="contribute_subtitle">आपका योगदान हमें आगे बढ़ने में मदद करता है 🚀</string>
+        <string name="contribute_custom">अन्य राशि ✏️</string>
+        <string name="contribute_enter_amount">राशि दर्ज करें</string>
+        <string name="contribute_button">योगदान करें 🚀</string>
+        <string name="contribute_error_invalid">कृपया सही राशि दर्ज करें</string>
+        <string name="contribute_error_zero">राशि ₹0 से अधिक होनी चाहिए</string>
+        <string name="contribute_error_max">अधिकतम राशि ₹10000 है</string>
+        <string name="add_new_chat">नई चैट जोड़ें</string>
+        <string name="mode_phone">फ़ोन</string>
+        <string name="mode_username">यूज़रनेम</string>
+        <string name="label_username">यूज़रनेम</string>
+        <string name="label_phone_number">फ़ोन नंबर</string>
+        <string name="placeholder_username">यूज़रनेम</string>
+        <string name="placeholder_phone_number">फ़ोन नंबर दर्ज करें</string>
+        <string name="username_supporting_text">केवल छोटे अंग्रेज़ी अक्षर और अंक</string>
+        <string name="or_divider">या</string>
+        <string name="camera_permission_required">कैमरे की अनुमति आवश्यक है</string>
+        <string name="scanner_align_qr">QR को फ्रेम के अंदर रखें</string>
+        <string name="scanner_paused">रुका हुआ</string>
+        <string name="flash">फ़्लैश</string>
+        <string name="clear_current_contact">वर्तमान संपर्क हटाएँ</string>
+        <string name="profile_image_placeholder">चित्र</string>
+        <string name="status_user_found">उपयोगकर्ता मिल गया</string>
+        <string name="status_checking">जाँच हो रही है…</string>
+        <string name="status_not_found">कोई खाता नहीं मिला</string>
+        <string name="status_invalid_phone">अमान्य फ़ोन नंबर</string>
+        <string name="status_error">जाँच में त्रुटि</string>
+        <string name="status_already_added">पहले से जोड़ा गया</string>
+        <string name="action_add">जोड़ें</string>
+        <string name="action_invite">आमंत्रित करें</string>
+        <string name="action_retry">फिर से प्रयास करें</string>
+        <string name="action_already_added">पहले से जोड़ा गया</string>
+        <string name="search_placeholder_invite_hint">अपने पसंदीदा व्यक्ति को आमंत्रित करें</string>
+        <string name="add_contact">संपर्क जोड़ें</string>
+</resources>

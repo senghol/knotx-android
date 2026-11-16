@@ -1,0 +1,178 @@
+# =============================================================================
+# 1. GENERAL SAFETY & NATIVE METHODS
+# =============================================================================
+
+-keepattributes SourceFile,LineNumberTable
+-keepattributes Signature
+-keepattributes *Annotation*
+-keepattributes Exceptions
+
+-keepclasseswithmembernames class * {
+    native <methods>;
+}
+
+-keepclassmembers enum * {
+    public static **[] values();
+    public static ** valueOf(java.lang.String);
+}
+
+# =============================================================================
+# 2. APP CONNECTION LAYER
+# =============================================================================
+
+-keep class com.senghol.knotx.connection.** { *; }
+
+# =============================================================================
+# 3. SIGNAL PROTOCOL
+# =============================================================================
+
+-keep class org.signal.** { *; }
+-keep interface org.signal.** { *; }
+-dontwarn org.signal.**
+
+-keepclassmembers class com.senghol.knotx.connection.RoomSignalStore {
+    *;
+}
+
+-keepclassmembers class com.senghol.knotx.connection.RoomSignalStore {
+    org.signal.libsignal.protocol.IdentityKeyPair getIdentityKeyPair();
+    int getLocalRegistrationId();
+    org.signal.libsignal.protocol.state.SessionRecord loadSession(org.signal.libsignal.protocol.SignalProtocolAddress);
+    void storeSession(org.signal.libsignal.protocol.SignalProtocolAddress, org.signal.libsignal.protocol.state.SessionRecord);
+    org.signal.libsignal.protocol.state.PreKeyRecord loadPreKey(int);
+    void storePreKey(int, org.signal.libsignal.protocol.state.PreKeyRecord);
+    org.signal.libsignal.protocol.state.SignedPreKeyRecord loadSignedPreKey(int);
+    void storeSignedPreKey(int, org.signal.libsignal.protocol.state.SignedPreKeyRecord);
+    org.signal.libsignal.protocol.state.KyberPreKeyRecord loadKyberPreKey(int);
+    void storeKyberPreKey(int, org.signal.libsignal.protocol.state.KyberPreKeyRecord);
+    void markKyberPreKeyUsed(int, int, org.signal.libsignal.protocol.ecc.ECPublicKey);
+}
+
+-keep class org.whispersystems.libsignal.** { *; }
+-keep class org.whispersystems.curve25519.** { *; }
+
+# =============================================================================
+# 4. GSON / RETROFIT
+# =============================================================================
+
+-keepclassmembers,allowobfuscation class * {
+    @com.google.gson.annotations.SerializedName <fields>;
+}
+
+-keepclassmembers,allowobfuscation interface * {
+    @retrofit2.http.* <methods>;
+}
+
+-dontwarn retrofit2.**
+-dontwarn javax.annotation.**
+
+# Gson network response models used reflectively
+-keep class com.senghol.knotx.utils.data.FileUploadResponse { *; }
+-keep class com.senghol.knotx.utils.data.FileDownloadResponse { *; }
+-keep class com.senghol.knotx.utils.data.ProfileUploadResponse { *; }
+-keep class com.senghol.knotx.utils.data.ProfileDownloadResponse { *; }
+
+# =============================================================================
+# 5. UI & OTHER LIBRARIES
+# =============================================================================
+
+-keep public class com.canhub.cropper.** { public protected *; }
+-keep public class com.hbb20.** { *; }
+-keep class yuku.ambilwarna.** { *; }
+-keep public class ja.burhanrashid52.photoeditor.** { *; }
+
+# =============================================================================
+# 6. DATABASE & WORKERS
+# =============================================================================
+
+-dontwarn androidx.room.paging.**
+
+-keepclassmembers class * extends androidx.work.ListenableWorker {
+    public <init>(android.content.Context, androidx.work.WorkerParameters);
+}
+
+# =============================================================================
+# 7. THIRD-PARTY WARNINGS / MISC
+# =============================================================================
+
+-dontwarn com.google.firebase.**
+-dontwarn com.google.android.gms.**
+-dontwarn androidx.media3.**
+-dontwarn com.google.mlkit.**
+-dontwarn androidx.camera.**
+-dontwarn okhttp3.**
+-dontwarn okio.**
+-dontwarn coil.**
+-dontwarn com.razorpay.**
+-dontwarn com.google.re2j.**
+-dontwarn j$.*
+
+-keep class com.razorpay.** { *; }
+
+-keep class j$.** { *; }
+
+-keepattributes JavascriptInterface
+
+-keepclassmembers class * {
+    @android.webkit.JavascriptInterface <methods>;
+}
+
+-optimizations !method/inlining/*
+
+-keepclasseswithmembers class * {
+    public void onPayment*(...);
+}
+
+# =============================================================================
+# 8. WEBRTC + JNI_ZERO
+# =============================================================================
+
+-keep class org.webrtc.** { *; }
+-dontwarn org.webrtc.**
+
+-keep class org.jni_zero.** { *; }
+-dontwarn org.jni_zero.**
+
+# =============================================================================
+# BOUNCY CASTLE - GROUP E2E CRYPTO
+# =============================================================================
+
+# Provider is instantiated dynamically
+-keep class org.bouncycastle.jce.provider.BouncyCastleProvider { *; }
+
+# JCA/JCE algorithm implementations and dynamic provider registrations
+-keep class org.bouncycastle.jcajce.provider.** { *; }
+
+-dontwarn org.bouncycastle.**
+
+
+# =============================================================================
+# Drive Google
+# =============================================================================
+
+# Keep generic types and annotations the Google API client reads via reflection
+-keepattributes Signature,RuntimeVisibleAnnotations,AnnotationDefault,InnerClasses,EnclosingMethod
+
+# JSON model fields (File, FileList, etc.) are mapped by @Key. Without this,
+# responses parse as null or empty in release builds.
+-keepclassmembers class * {
+    @com.google.api.client.util.Key <fields>;
+}
+-keepclassmembers class * {
+    @com.google.api.client.util.Value <fields>;
+}
+
+# Drive models, to be safe
+-keep class com.google.api.services.drive.model.** { *; }
+
+# Warnings you can silence
+-dontwarn com.google.api.client.extensions.android.**
+-dontwarn com.google.api.client.googleapis.extensions.android.**
+-dontwarn com.google.android.gms.**
+-dontwarn javax.annotation.**
+-dontwarn javax.naming.**
+-dontwarn org.apache.http.**
+-dontwarn org.checkerframework.**
+-dontwarn com.google.errorprone.annotations.**
+-dontwarn sun.misc.Unsafe
+-dontnote sun.misc.Unsafe
