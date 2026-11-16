@@ -1,0 +1,67 @@
+CREATE TABLE call_session (
+    callId TEXT NOT NULL PRIMARY KEY,
+    callType TEXT NOT NULL,
+    direction TEXT NOT NULL,
+    state TEXT NOT NULL,
+    createdAt INTEGER NOT NULL,
+    startedAt INTEGER,
+    answeredAt INTEGER,
+    endedAt INTEGER,
+    endReason TEXT
+);
+
+getById:
+SELECT *
+FROM call_session
+WHERE callId = ?;
+
+observeById:
+SELECT *
+FROM call_session
+WHERE callId = ?;
+
+observeAll:
+SELECT *
+FROM call_session
+ORDER BY createdAt DESC;
+
+getActiveCall:
+SELECT *
+FROM call_session
+WHERE state NOT IN ('ENDED', 'REJECTED', 'CANCELLED', 'BUSY', 'MISSED', 'FAILED')
+ORDER BY createdAt DESC
+LIMIT 1;
+
+insert:
+INSERT OR REPLACE INTO call_session(
+    callId,
+    callType,
+    direction,
+    state,
+    createdAt,
+    startedAt,
+    answeredAt,
+    endedAt,
+    endReason
+)
+VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?);
+
+update:
+UPDATE call_session
+SET
+    callType = ?,
+    direction = ?,
+    state = ?,
+    createdAt = ?,
+    startedAt = ?,
+    answeredAt = ?,
+    endedAt = ?,
+    endReason = ?
+WHERE callId = ?;
+
+deleteById:
+DELETE FROM call_session
+WHERE callId = ?;
+
+deleteAll:
+DELETE FROM call_session;

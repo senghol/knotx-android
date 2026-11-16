@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">KnotX</string>
+    <string name="cancel">ᱵᱟᱛᱤᱞ ᱢᱮ</string>
+    <string name="enter_phone_number">ᱟᱢᱟᱜ ᱯᱷᱚᱱ ᱱᱚᱢᱵᱚᱨ ᱥᱮᱞᱮᱫ ᱢᱮ</string>
+    <string name="verify">ᱵᱷᱮᱨᱤᱯᱷᱟᱭ ᱢᱮ</string>
+    <string name="settings">ᱥᱮᱴᱤᱝᱥ</string>
+    <string name="account_settings">ᱮᱠᱟᱩᱱᱴ ᱥᱮᱴᱤᱝᱥ</string>
+    <string name="notifications">ᱱᱚᱴᱤᱯᱷᱤᱠᱮᱥᱚᱱ</string>
+    <string name="chats">ᱪᱮᱴᱥ</string>
+    <string name="calls">ᱠᱚᱞᱥ</string>
+    <string name="privacy">ᱯᱨᱟᱭᱣᱮᱥᱤ</string>
+    <string name="storage_data">ᱥᱴᱚᱨᱮᱡ ᱟᱨ ᱰᱮᱴᱟ</string>
+    <string name="data_usage">ᱰᱮᱴᱟ ᱵᱮᱵᱷᱟᱨ</string>
+    <string name="appearance">ᱮᱯᱤᱭᱚᱨᱮᱱᱥ</string>
+    <string name="language">ᱵᱷᱟᱥᱟ</string>
+    <string name="help_support">ᱜᱚᱲᱚ ᱟᱨ ᱥᱟᱯᱚᱨᱴ</string>
+    <string name="backup">ᱵᱮᱠᱚᱯ</string>
+    <string name="block_list">ᱵᱞᱚᱠ ᱠᱟᱱᱟ ᱠᱚᱱᱴᱮᱠᱴ</string>
+    <string name="contribution">ᱜᱚᱲᱚ ᱫᱟᱱ</string>
+    <string name="back">ᱛᱟᱭᱚᱢ</string>
+    <string name="name">ᱧᱩᱛᱩᱢ</string>
+    <string name="phone_number">ᱯᱷᱚᱱ ᱱᱚᱢᱵᱚᱨ</string>
+    <string name="security">ᱥᱮᱠᱭᱩᱨᱤᱴᱤ</string>
+    <string name="delete">ᱢᱮᱴᱟᱣ</string>
+    <string name="delete_account">ᱮᱠᱟᱩᱱᱴ ᱢᱮᱴᱟᱣ ᱢᱮ</string>
+    <string name="app_passcode">ᱮᱯ ᱯᱟᱥᱠᱳᱰ</string>
+    <string name="enter_4_digit_passcode">4 ᱟᱠᱷᱚᱨ ᱨᱮᱱᱟᱜ ᱯᱟᱥᱠᱳᱰ ᱥᱮᱞᱮᱫ ᱢᱮ</string>
+    <string name="confirm_passcode">ᱯᱟᱥᱠᱳᱰ ᱠᱚᱱᱯᱷᱚᱨᱢ ᱢᱮ</string>
+    <string name="passcode_must_be_4_digits">ᱯᱟᱥᱠᱳᱰ 4 ᱟᱠᱷᱚᱨ ᱨᱮᱱᱟᱜ ᱦᱩᱭᱩᱜ ᱞᱟᱹᱠᱛᱤᱭᱟ</string>
+    <string name="passcodes_do_not_match">ᱯᱟᱥᱠᱳᱰ ᱠᱚ ᱵᱟᱝ ᱢᱤᱞᱟᱣ ᱠᱟᱱᱟ</string>
+    <string name="save">ᱥᱮᱵ ᱢᱮ</string>
+    <string name="enter_current_passcode">ᱱᱤᱛᱚᱜᱟᱜ ᱯᱟᱥᱠᱳᱰ ᱥᱮᱞᱮᱫ ᱢᱮ</string>
+    <string name="incorrect_passcode">ᱵᱟᱝ ᱴᱷᱤᱠ ᱯᱟᱥᱠᱳᱰ</string>
+    <string name="disable">ᱵᱚᱸᱫ ᱢᱮ</string>
+
+    <string name="theme">ᱛᱷᱤᱢ</string>
+    <string name="wallpaper">ᱣᱚᱞᱯᱮᱯᱚᱨ</string>
+    <string name="font_size">ᱯᱷᱚᱱᱴ ᱥᱟᱭᱤᱡ</string>
+    <string name="font_size_value">ᱯᱷᱚᱱᱴ ᱥᱟᱭᱤᱡ: %1$d </string>
+    <string name="enter_key_is_send">ᱮᱱᱴᱚᱨ ᱠᱤ ᱢᱮ ᱵᱷᱮᱡᱟᱣ ᱞᱟᱹᱜᱤᱫ</string>
+    <string name="read_receipts">ᱯᱟᱲᱦᱟᱣ ᱨᱤᱥᱤᱴ</string>
+    <string name="typing_indicators">ᱴᱟᱭᱤᱯᱤᱝ ᱨᱮᱱᱟᱜ ᱪᱤᱱᱦᱟᱹ</string>
+    <string name="message_backup">ᱢᱮᱥᱮᱡ ᱵᱮᱠᱚᱯ</string>
+    <string name="auto_download_photos">ᱯᱷᱚᱴᱚ ᱟᱡᱽ ᱠᱷᱚᱱ ᱰᱟᱩᱱᱞᱚᱰ</string>
+    <string name="auto_download_videos">ᱵᱷᱤᱰᱤᱭᱚ ᱟᱡᱽ ᱠᱷᱚᱱ ᱰᱟᱩᱱᱞᱚᱰ</string>
+    <string name="auto_download_voice">ᱟᱣᱟᱡ ᱟᱡᱽ ᱠᱷᱚᱱ ᱰᱟᱩᱱᱞᱚᱰ</string>
+    <string name="auto_download_files">ᱯᱷᱟᱭᱤᱞ ᱟᱡᱽ ᱠᱷᱚᱱ ᱰᱟᱩᱱᱞᱚᱰ</string>
+    <string name="media_quality">ᱢᱤᱰᱤᱭᱟ ᱠᱷᱟᱱᱚᱥ</string>
+    <string name="save_to_gallery">ᱜᱮᱞᱟᱨᱤ ᱨᱮ ᱥᱮᱵ ᱢᱮ</string>
+    <string name="mute_all_groups">ᱡᱚᱛᱚ ᱜᱨᱩᱯ ᱪᱩᱯ ᱢᱮ</string>
+    <string name="view_blocked_contacts">ᱵᱞᱚᱠ ᱠᱟᱱᱟ ᱠᱚᱱᱴᱮᱠᱴ ᱧᱮᱞ ᱢᱮ</string>
+
+    <string name="contact_list">ᱠᱚᱱᱴᱮᱠᱴ ᱞᱤᱥᱴᱤ</string>
+    <string name="blocked_contacts">ᱵᱞᱚᱠ ᱠᱟᱱᱟ ᱠᱚᱱᱴᱮᱠᱴ</string>
+    <string name="last_seen">ᱢᱩᱪᱟᱹᱫ ᱧᱮᱞ</string>
+    <string name="online_status">ᱚᱱᱞᱟᱭᱤᱱ ᱵᱟᱨᱮ</string>
+    <string name="profile_photo">ᱯᱨᱚᱯᱷᱟᱭᱤᱞ ᱯᱷᱚᱴᱚ</string>
+    <string name="bio_about">ᱵᱟᱭᱚ/ᱵᱟᱵᱚᱛ</string>
+    <string name="who_can_message_me">ᱪᱮᱫ ᱦᱚᱲ ᱤᱧ ᱠᱚ ᱢᱮᱥᱮᱡ ᱠᱷᱚᱵᱚᱨ ᱮᱢ ᱫᱟᱲᱮᱭᱟᱜ</string>
+    <string name="group_invites">ᱜᱨᱩᱯ ᱱᱚᱣᱟ</string>
+    <string name="notify_new_device">ᱱᱟᱶᱟ ᱰᱤᱵᱟᱭᱤᱥ ᱠᱷᱚᱱ ᱞᱚᱜ ᱤᱱ ᱦᱚᱪᱚ ᱜᱮ ᱵᱷᱮᱡᱟᱣ ᱢᱮ</string>
+    <string name="suspicious_activity_alerts">ᱥᱚᱸᱥᱟᱭ ᱞᱟᱹᱠᱛᱤ ᱠᱟᱹᱢᱤ ᱠᱷᱚᱵᱚᱨ</string>
+    <string name="everyone">ᱡᱚᱛᱚ ᱦᱚᱲ</string>
+    <string name="nobody">ᱠᱚᱱᱚ ᱦᱚᱲ ᱵᱟᱝ</string>
+
+    <string name="allow_calls_from">ᱠᱚᱞ ᱞᱟᱹᱜᱤᱫ ᱪᱷᱚᱴ</string>
+    <string name="speaker_by_default">ᱥᱯᱤᱠᱚᱨ ᱯᱷᱤᱠᱥᱰ</string>
+    <string name="video_call_quality">ᱵᱷᱤᱰᱤᱭᱚ ᱠᱚᱞ ᱠᱷᱟᱱᱚᱥ</string>
+    <string name="ringtone">ᱨᱤᱝᱴᱚᱱ</string>
+
+    <string name="help_center">ᱜᱚᱲᱚ ᱥᱮᱱᱴᱚᱨ</string>
+    <string name="contact_support">ᱥᱟᱯᱚᱨᱴ ᱥᱟᱶ ᱥᱮᱞᱮᱫ ᱢᱮ</string>
+    <string name="terms_conditions">ᱥᱚᱨᱛ ᱟᱨ ᱱᱤᱭᱚᱢ</string>
+    <string name="privacy_policy">ᱯᱨᱟᱭᱣᱮᱥᱤ ᱯᱚᱞᱤᱥᱤ</string>
+    <string name="report_issue">ᱮᱠ ᱥᱚᱢᱥᱭᱟ ᱨᱤᱯᱚᱨᱴ ᱢᱮ</string>
+
+    <string name="use_system_language">ᱥᱤᱥᱴᱮᱢ ᱵᱷᱟᱥᱟ ᱵᱮᱵᱷᱟᱨ ᱢᱮ</string>
+    <string name="appearance_settings">ᱮᱯᱤᱭᱚᱨᱮᱱᱥ ᱥᱮᱴᱤᱝᱥ</string>
+    <string name="no_blocked_contacts">ᱵᱞᱚᱠ ᱠᱟᱱᱟ ᱠᱚᱱᱴᱮᱠᱴ ᱵᱟᱝ ᱢᱮᱱᱟᱜᱼᱟ</string>
+    <string name="restore_started">ᱨᱤᱥᱴᱚᱨ ᱮᱦᱚᱵ ᱞᱮᱱᱟ…</string>
+    <string name="backup_folder_set">ᱵᱮᱠᱚᱯ ᱯᱷᱚᱞᱰᱟᱨ ᱴᱷᱟᱣ ᱠᱟᱱᱟ!</string>
+    <string name="local_backup">ᱞᱚᱠᱟᱞ ᱵᱮᱠᱚᱯ</string>
+    <string name="enable_backup">ᱵᱮᱠᱚᱯ ᱪᱟᱞᱟᱜ ᱢᱮ</string>
+    <string name="select_backup_folder">ᱵᱮᱠᱚᱯ ᱯᱷᱚᱞᱰᱟᱨ ᱵᱟᱪᱷᱟᱣ ᱢᱮ</string>
+    <string name="include_media">ᱢᱤᱰᱤᱭᱟ ᱥᱮᱞᱮᱫ ᱢᱮ</string>
+    <string name="auto_backup_every">ᱟᱡᱽ ᱠᱷᱚᱱ ᱵᱮᱠᱚᱯ ᱦᱚᱨ:</string>
+    <string name="last_backup">ᱢᱩᱪᱟᱹᱫ ᱵᱮᱠᱚᱯ:</string>
+    <string name="next_backup">ᱛᱟᱭᱚᱢ ᱵᱮᱠᱚᱯ:</string>
+    <string name="no_backups_yet">ᱱᱤᱛᱚᱜ ᱵᱮᱠᱚᱯ ᱵᱟᱝ ᱢᱮᱱᱟᱜᱼᱟ.</string>
+    <string name="select_backup_folder_first">ᱯᱟᱦᱟᱞ ᱵᱮᱠᱚᱯ ᱯᱷᱚᱞᱰᱟᱨ ᱵᱟᱪᱷᱟᱣ ᱢᱮ!</string>
+    <string name="backup_started">ᱵᱮᱠᱚᱯ ᱮᱦᱚᱵ ᱞᱮᱱᱟ…</string>
+    <string name="backup_now">ᱱᱤᱛᱚᱜ ᱵᱮᱠᱚᱯ ᱢᱮ</string>
+    <string name="restore_from_backup_file">ᱵᱮᱠᱚᱯ ᱯᱷᱟᱭᱤᱞ ᱠᱷᱚᱱ ᱨᱤᱥᱴᱚᱨ ᱢᱮ</string>
+
+    <string name="mobile_data_limit">ᱢᱚᱵᱟᱭᱤᱞ ᱰᱮᱴᱟ ᱥᱤᱢᱟ</string>
+    <string name="wifi_usage">ᱣᱟᱭᱯᱷᱟᱭ ᱵᱮᱵᱷᱟᱨ</string>
+    <string name="unlimited">ᱵᱟᱝ ᱥᱤᱢᱟ</string>
+    <string name="restricted">ᱥᱤᱢᱟ ᱠᱟᱱᱟ</string>
+    <string name="storage_management">ᱥᱴᱚᱨᱮᱡ ᱵᱮᱵᱚᱥᱛᱟ</string>
+    <string name="view_storage_usage">ᱥᱴᱚᱨᱮᱡ ᱵᱮᱵᱷᱟᱨ ᱧᱮᱞ ᱢᱮ</string>
+    <string name="backup_restore">ᱵᱮᱠᱚᱯ ᱟᱨ ᱨᱤᱥᱴᱚᱨ</string>
+    <string name="days">ᱡᱟᱹᱛ ᱥᱤᱱ</string>
+
+    <string name="messages">ᱢᱮᱥᱮᱡ</string>
+    <string name="media">ᱢᱤᱰᱤᱭᱟ</string>
+    <string name="sent">ᱵᱷᱮᱡᱟᱜ ᱠᱟᱱᱟ</string>
+    <string name="received">ᱟᱡᱟᱜ ᱠᱟᱱᱟ</string>
+
+    <string name="mobile_data_title">ᱢᱚᱵᱟᱭᱤᱞ ᱰᱮᱴᱟ</string>
+    <string name="wifi_title">ᱣᱟᱭᱯᱷᱟᱭ</string>
+
+    <string name="global">ᱡᱚᱛᱚ</string>
+    <string name="enable_all_notifications">ᱡᱚᱛᱚ ᱱᱚᱴᱤᱯᱷᱤᱠᱮᱥᱚᱱ ᱪᱟᱞᱟᱜ ᱢᱮ</string>
+    <string name="new_message_sound">ᱱᱟᱶᱟ ᱢᱮᱥᱮᱡ ᱟᱣᱟᱡ</string>
+    <string name="vibrate_on_message">ᱢᱮᱥᱮᱡ ᱦᱚᱪᱚ ᱛᱮ ᱵᱷᱟᱭᱵᱨᱮᱴ</string>
+
+    <string name="message_notifications">ᱢᱮᱥᱮᱡ ᱱᱚᱴᱤᱯᱷᱤᱠᱮᱥᱚᱱ</string>
+    <string name="new_messages">ᱱᱟᱶᱟ ᱢᱮᱥᱮᱡ</string>
+    <string name="group_chats">ᱜᱨᱩᱯ ᱪᱮᱴᱥ</string>
+    <string name="mentions">ᱢᱮᱱᱥᱚᱱ</string>
+
+    <string name="call_notifications">ᱠᱚᱞ ᱱᱚᱴᱤᱯᱷᱤᱠᱮᱥᱚᱱ</string>
+    <string name="incoming_calls">ᱦᱚᱪᱚ ᱠᱚᱞ</string>
+    <string name="missed_call_alerts">ᱢᱤᱥ ᱠᱚᱞ ᱠᱷᱚᱵᱚᱨ</string>
+
+    <string name="in_app_notifications">ᱮᱯ ᱵᱷᱤᱛᱤᱨ ᱱᱚᱴᱤᱯᱷᱤᱠᱮᱥᱚᱱ</string>
+    <string name="popup_previews">ᱯᱚᱯ ᱟᱯ ᱯᱨᱤᱵᱷᱤᱭᱩ</string>
+    <string name="badge_count">ᱵᱮᱡ ᱜᱚᱱᱚᱝ</string>
+
+    <string name="do_not_disturb">ᱵᱟᱝ ᱫᱟᱦᱟᱨ ᱢᱮ</string>
+    <string name="enable_dnd">ᱰᱤ ᱮᱱ ᱰᱤ ᱪᱟᱞᱟᱜ ᱢᱮ</string>
+
+    <string name="close">ᱵᱚᱸᱫ ᱢᱮ</string>
+    <string name="scan_to_share">ᱥᱮᱭᱟᱨ ᱞᱟᱹᱜᱤᱫ ᱥᱠᱮᱱ ᱢᱮ</string>
+    <string name="qr_code">ᱠᱭᱩ ᱟᱨ ᱠᱳᱰ</string>
+    <string name="qr_error">ᱠᱭᱩ ᱟᱨ ᱠᱳᱰ ᱵᱮᱱᱟᱣ ᱨᱮ ᱵᱷᱩᱞ</string>
+
+    <string name="logout">ᱞᱚᱜ ᱟᱣᱴ</string>
+    <string name="logout_confirmation">ᱟᱢ ᱪᱮᱫ ᱞᱚᱜ ᱟᱣᱴ ᱥᱮᱱ ᱥᱟᱱᱟᱢ ᱠᱟᱱᱟ?</string>
+    <string name="yes">ᱦᱚᱭ</string>
+    <string name="delete_warning">ᱟᱢᱟᱜ ᱡᱚᱛᱚ ᱰᱮᱴᱟ ᱥᱟᱨᱵᱷᱟᱨ ᱠᱷᱚᱱ ᱱᱤᱛᱚᱜ ᱥᱟᱨᱦᱟᱛ ᱢᱮᱴᱟᱣ ᱠᱟᱛᱮ ᱠᱟᱱᱟ. ᱱᱚᱣᱟ ᱠᱟᱹᱢᱤ ᱫᱚ ᱛᱟᱭᱚᱢ ᱵᱟᱝ ᱦᱩᱭᱩᱜᱼᱟ.\n\nᱞᱟᱛᱟᱨ ᱥᱮᱱ ᱞᱟᱹᱜᱤᱫ CONFIRM ᱞᱤᱠᱷᱟᱣ ᱢᱮ.</string>
+    <string name="type_confirm_label">CONFIRM ᱞᱤᱠᱷᱟᱣ ᱢᱮ</string>
+    <string name="cleaning_up">ᱥᱟᱯᱷᱟ ᱦᱩᱭᱠᱟᱱᱟ…</string>
+    <string name="confirm_keyword">CONFIRM</string>
+
+    <string name="led_indicator">ᱮᱞ ᱤ ᱰᱤ ᱪᱤᱱᱦᱟᱹ</string>
+    <string name="select_led_color">ᱮᱞ ᱤ ᱰᱤ ᱨᱚᱝ ᱵᱟᱪᱷᱟᱣ ᱢᱮ</string>
+
+    <string name="led_off">ᱵᱚᱸᱫ</string>
+    <string name="led_red">ᱟᱨᱟᱜ</string>
+    <string name="led_green">ᱦᱚᱨᱟ</string>
+    <string name="led_blue">ᱱᱤᱞ</string>
+    <string name="led_yellow">ᱥᱚᱱᱟ</string>
+    <string name="led_purple">ᱵᱮᱜᱚᱱᱤ</string>
+
+    <string name="confirmation">ᱠᱚᱱᱯᱷᱚᱨᱢᱮᱥᱚᱱ</string>
+    <string name="delete_both_sides">ᱵᱟᱨᱭᱟ ᱥᱟᱵᱟᱹᱛ ᱠᱷᱚᱱ ᱢᱮᱴᱟᱣ ᱢᱮ</string>
+    <string name="no">ᱵᱟᱝ</string>
+    <string name="confirm_action">ᱠᱟᱹᱢᱤ ᱠᱚᱱᱯᱷᱚᱨᱢ ᱢᱮ</string>
+    <string name="confirm">ᱠᱚᱱᱯᱷᱚᱨᱢ</string>
+
+    <string name="remove_profile_image_confirmation">ᱟᱢ ᱪᱮᱫ ᱯᱨᱚᱯᱷᱟᱭᱤᱞ ᱪᱤᱛᱟᱹᱨ ᱚᱪᱚᱭ ᱥᱮᱱ ᱥᱟᱱᱟᱢ ᱠᱟᱱᱟ?</string>
+    <string name="reset_all_data_usage">🔄 ᱡᱚᱛᱚ ᱰᱮᱴᱟ ᱵᱮᱵᱷᱟᱨ ᱨᱤᱥᱮᱴ ᱢᱮ</string>
+    <string name="coming_soon">ᱪᱮᱛᱟᱱ ᱦᱚᱪᱚ ᱠᱟᱱᱟ</string>
+
+    <string name="invalid_phone_number">ᱵᱟᱝ ᱴᱷᱤᱠ ᱯᱷᱚᱱ ᱱᱚᱢᱵᱚᱨ.</string>
+    <string name="invalid_phone_format">ᱯᱷᱚᱱ ᱱᱚᱢᱵᱚᱨ ᱨᱮᱱᱟᱜ ᱵᱟᱝ ᱴᱷᱤᱠ ᱯᱷᱚᱨᱢᱮᱴ.</string>
+    <string name="invalid_country">ᱵᱟᱝ ᱴᱷᱤᱠ ᱫᱤᱥᱚᱢ.</string>
+    <string name="no_network">ᱱᱮᱴᱣᱚᱨᱠ ᱵᱟᱝ ᱢᱮᱱᱟᱜᱼᱟ. ᱫᱟᱭᱟ ᱠᱟᱛᱮ ᱫᱚᱦᱲᱟ ᱪᱮᱥᱴᱟ ᱢᱮ.</string>
+    <string name="pre_release_notice">Dootawas ᱯᱨᱤ ᱨᱤᱞᱤᱡ ᱠᱷᱚᱵᱚᱨ</string>
+
+    <string name="resend_otp">OTP ᱫᱚᱦᱲᱟ ᱵᱷᱮᱡ ᱢᱮ</string>
+    <string name="max_retry_reached">❌ ᱪᱮᱥᱴᱟ ᱥᱤᱢᱟ ᱥᱟᱱᱟᱢ ᱞᱮᱱᱟ!</string>
+    <string name="enter_complete_otp">ᱯᱩᱨᱟᱹ OTP ᱥᱮᱞᱮᱫ ᱢᱮ</string>
+    <string name="verify_otp">OTP ᱵᱷᱮᱨᱤᱯᱷᱟᱭ ᱢᱮ</string>
+    <string name="finish">ᱪᱟᱵᱟ ᱢᱮ</string>
+    <string name="setup_profile">ᱟᱢᱟᱜ ᱯᱨᱚᱯᱷᱟᱭᱤᱞ ᱵᱮᱱᱟᱣ ᱢᱮ</string>
+    <string name="add_profile_picture">ᱥᱟᱱᱟᱢ ᱪᱤᱱᱦᱟᱹ ᱞᱟᱹᱜᱤᱫ ᱯᱨᱚᱯᱷᱟᱭᱤᱞ ᱪᱤᱛᱟᱹᱨ ᱥᱮᱞᱮᱫ ᱢᱮ!</string>
+    <string name="enter_name">ᱟᱢᱟᱜ ᱧᱩᱛᱩᱢ ᱥᱮᱞᱮᱫ ᱢᱮ</string>
+    <string name="name_empty_error">ᱧᱩᱛᱩᱢ ᱫᱚ ᱠᱷᱟᱞᱤ ᱵᱟᱝ ᱦᱩᱭᱩᱜᱼᱟ!</string>
+
+    <string name="group_calls_coming_soon">ᱜᱨᱩᱯ ᱠᱚᱞ ᱪᱮᱛᱟᱱ ᱦᱚᱪᱚ ᱠᱟᱱᱟ!</string>
+    <string name="scanned_phone_number">ᱥᱠᱮᱱ ᱠᱟᱱᱟ ᱯᱷᱚᱱ ᱱᱚᱢᱵᱚᱨ: %1$s</string>
+    <string name="stories_locked">ᱥᱴᱚᱨᱤ ᱞᱚᱠ ᱠᱟᱱᱟ</string>
+    <string name="stories_unlock_msg">ᱥᱴᱮᱵᱷᱚᱞ ᱨᱤᱞᱤᱡ ᱨᱮ ᱠᱷᱩᱞᱟᱹ ᱛᱟᱦᱮᱱᱟ 🔓</string>
+    <string name="search">ᱠᱷᱚᱡ</string>
+    <string name="already_invited">ᱟᱥᱚᱞ ᱠᱷᱚᱱ ᱱᱚᱣᱟ ᱮᱢ ᱠᱟᱱᱟ.</string>
+
+    <string name="invite">ᱱᱚᱣᱟ ᱮᱢ ᱢᱮ</string>
+    <string name="invited">ᱱᱚᱣᱟ ᱮᱢ ᱠᱟᱱᱟ</string>
+    <string name="add">ᱥᱮᱞᱮᱫ ᱢᱮ</string>
+    <string name="added">ᱥᱮᱞᱮᱫ ᱠᱟᱱᱟ</string>
+
+    <string name="tab_chats">ᱪᱮᱴᱥ</string>
+    <string name="tab_groups">ᱜᱨᱩᱯ</string>
+    <string name="tab_calls">ᱠᱚᱞᱥ</string>
+    <string name="tab_stories">ᱥᱴᱚᱨᱤ</string>
+    <string name="no_messages_yet">ᱱᱤᱛᱚᱜ ᱢᱮᱥᱮᱡ ᱵᱟᱝ ᱢᱮᱱᱟᱜᱼᱟ</string>
+    <string name="sos_contacts">ᱮᱥ ᱚ ᱮᱥ ᱠᱚᱱᱴᱮᱠᱴ</string>
+    <string name="add_sos_contact_number">ᱮᱥ ᱚ ᱮᱥ ᱠᱚᱱᱴᱮᱠᱴ ᱱᱚᱢᱵᱚᱨ ᱥᱮᱞᱮᱫ ᱢᱮ</string>
+    <string name="sos_contacts_description">ᱟᱢ ᱮᱥ ᱚ ᱮᱥ ᱵᱷᱮᱡ ᱫᱚ ᱱᱚᱣᱟ ᱠᱚᱱᱴᱮᱠᱴ ᱠᱚ ᱟᱢᱟᱜ ᱴᱷᱟᱣ ᱟᱨ ᱡᱷᱟᱴᱯᱚᱴ ᱠᱷᱚᱵᱚᱨ ᱵᱷᱮᱡᱟᱣ ᱟᱠᱟᱫ.</string>
+    <string name="no_sos_contacts">ᱮᱥ ᱚ ᱮᱥ ᱠᱚᱱᱴᱮᱠᱴ ᱵᱟᱝ ᱢᱮᱱᱟᱜᱼᱟ.</string>
+    <string name="remove">ᱚᱪᱚᱭ ᱢᱮ</string>
+    <string name="tab_lists">ᱞᱤᱥᱴᱤ</string>
+
+    <string name="username_available">ᱵᱮᱵᱷᱟᱨᱤᱭᱟᱹ ᱧᱩᱛᱩᱢ ᱢᱮᱱᱟᱜᱼᱟ</string>
+    <string name="username_taken">ᱵᱮᱵᱷᱟᱨᱤᱭᱟᱹ ᱧᱩᱛᱩᱢ ᱟᱥᱚᱞ ᱠᱷᱚᱱ ᱵᱮᱵᱷᱟᱨ ᱠᱟᱱᱟ</string>
+    <string name="username">ᱵᱮᱵᱷᱟᱨᱤᱭᱟᱹ ᱧᱩᱛᱩᱢ</string>
+    <string name="apply">ᱞᱟᱜᱟᱣ ᱢᱮ</string>
+    <string name="set_username">ᱵᱮᱵᱷᱟᱨᱤᱭᱟᱹ ᱧᱩᱛᱩᱢ ᱴᱷᱟᱣ ᱢᱮ</string>
+    <string name="edit">ᱥᱟᱦᱴᱮᱨ</string>
+    <string name="choose_username">ᱵᱮᱵᱷᱟᱨᱤᱭᱟᱹ ᱧᱩᱛᱩᱢ ᱵᱟᱪᱷᱟᱣ ᱢᱮ</string>
+    <string name="about">ᱵᱟᱵᱚᱛ</string>
+    <string name="enter_about">ᱟᱢᱟᱜ ᱵᱟᱵᱚᱛ ᱞᱤᱠᱷᱟᱣ ᱢᱮ</string>
+
+    <string name="user_settings_title">ᱵᱮᱵᱷᱟᱨᱤᱭᱟᱹ ᱥᱮᱴᱤᱝᱥ</string>
+    <string name="name_not_set">ᱧᱩᱛᱩᱢ: ᱧᱩᱛᱩᱢ ᱵᱟᱝ ᱴᱷᱟᱣ ᱠᱟᱱᱟ</string>
+    <string name="refresh_balance">ᱵᱮᱞᱮᱱᱥ ᱨᱤᱯᱷᱨᱮᱥ ᱢᱮ</string>
+    <string name="save_to_contacts">ᱠᱚᱱᱴᱮᱠᱴ ᱨᱮ ᱥᱮᱵ ᱢᱮ</string>
+    <string name="name_label">ᱧᱩᱛᱩᱢ: %1$s</string>
+    <string name="phone_label">ᱯᱷᱚᱱ: %1$s</string>
+    <string name="e2e_always_enabled">ᱱᱚᱣᱟ ᱫᱚ ᱟᱢᱟᱜ ᱨᱚᱠᱷᱟ ᱞᱟᱹᱜᱤᱫ ᱡᱚᱛᱚ ᱚᱠᱛᱮ ᱪᱟᱞᱟᱜ ᱢᱮᱱᱟᱜᱼᱟ.</string>
+
+    <string name="reveal_phone_number_title">ᱤᱧᱟᱜ ᱯᱷᱚᱱ ᱱᱚᱢᱵᱚᱨ ᱫᱮᱠᱷᱟᱣ ᱢᱮ</string>
+    <string name="reveal_phone_number_on_description">ᱟᱢᱟᱜ ᱯᱷᱚᱱ ᱱᱚᱢᱵᱚᱨ ᱫᱚ ᱡᱚᱛᱚ ᱦᱚᱲ ᱟᱢ ᱢᱮᱥᱮᱡ ᱵᱷᱮᱡ ᱠᱚ ᱧᱮᱞᱚᱜᱼᱟ</string>
+    <string name="reveal_phone_number_off_description">ᱮᱴᱟᱜ ᱠᱚ ᱫᱚ ᱱᱚᱢᱵᱚᱨ ᱵᱤᱞᱤ ᱵᱮᱵᱷᱟᱨᱤᱭᱟᱹ ᱧᱩᱛᱩᱢ ᱧᱮᱞᱚᱜᱼᱟ, ᱵᱟᱝ ᱥᱮ ᱫᱮᱠᱷᱟᱣ ᱟᱠᱟᱫ ᱡᱟᱦᱟᱸ ᱨᱮ</string>
+    <string name="reveal_confirm_title">ᱟᱢᱟᱜ ᱯᱷᱚᱱ ᱱᱚᱢᱵᱚᱨ ᱫᱮᱠᱷᱟᱣ ᱢᱮ?</string>
+    <string name="reveal_confirm_description">ᱱᱚᱣᱟ ᱠᱚᱱᱴᱮᱠᱴ ᱫᱚ ᱟᱢᱟᱜ ᱯᱷᱚᱱ ᱱᱚᱢᱵᱚᱨ ᱧᱮᱞ ᱫᱟᱲᱮᱭᱟᱜᱼᱟ. ᱱᱚᱣᱟ ᱫᱚ ᱛᱟᱭᱚᱢ ᱵᱟᱝ ᱦᱩᱭᱩᱜᱼᱟ.</string>
+    <string name="reveal">ᱫᱮᱠᱷᱟᱣ ᱢᱮ</string>
+
+    <string name="wallpaper_title">ᱣᱚᱞᱯᱮᱯᱚᱨ</string>
+    <string name="delete_wallpaper">ᱣᱚᱞᱯᱮᱯᱚᱨ ᱢᱮᱴᱟᱣ ᱢᱮ</string>
+    <string name="remove_wallpaper_title">ᱣᱚᱞᱯᱮᱯᱚᱨ ᱚᱪᱚᱭ ᱢᱮ</string>
+    <string name="remove_wallpaper_confirmation">ᱟᱢ ᱪᱮᱫ ᱱᱚᱣᱟ ᱣᱚᱞᱯᱮᱯᱚᱨ ᱚᱪᱚᱭ ᱥᱮᱱ ᱥᱟᱱᱟᱢ ᱠᱟᱱᱟ?</string>
+
+    <string name="appearance_title">ᱮᱯᱤᱭᱚᱨᱮᱱᱥ</string>
+
+    <string name="media_title">ᱢᱤᱰᱤᱭᱟ</string>
+    <string name="media_photo">ᱯᱷᱚᱴᱚ</string>
+    <string name="media_video">ᱵᱷᱤᱰᱤᱭᱚ</string>
+    <string name="media_audio">ᱚᱰᱤᱭᱚ</string>
+    <string name="media_document">ᱰᱚᱠᱩᱢᱮᱱᱴ</string>
+    <string name="media_contact">ᱠᱚᱱᱴᱮᱠᱴ</string>
+    <string name="media_location">ᱴᱷᱟᱣ</string>
+
+    <string name="saved_to_contacts">ᱠᱚᱱᱴᱮᱠᱴ ᱨᱮ ᱥᱮᱵ ᱦᱩᱭ ᱮᱱᱟ</string>
+    <string name="cancelled">ᱵᱟᱛᱤᱞ ᱦᱩᱭ ᱮᱱᱟ</string>
+    <string name="unknown_result">ᱵᱟᱝ ᱪᱤᱱᱦᱟᱹ ᱱᱤᱛᱤᱡ</string>
+
+    <string name="disappearing_messages_row_title">ᱚᱪᱚᱭ ᱦᱩᱭᱩᱜ ᱢᱮᱥᱮᱡ</string>
+    <string name="disappearing_messages_title">ᱚᱪᱚᱭ ᱦᱩᱭᱩᱜ ᱢᱮᱥᱮᱡ</string>
+    <string name="disappearing_messages_description">ᱢᱮᱥᱮᱡ ᱯᱟᱲᱦᱟᱣ ᱛᱟᱭᱚᱢ ᱱᱚᱣᱟ ᱚᱠᱛᱚ ᱛᱮ ᱚᱪᱚᱭ ᱦᱩᱭᱩᱜᱼᱟ.</string>
+    <string name="disappearing_off">ᱵᱚᱸᱫ</string>
+
+    <plurals name="disappearing_seconds">
+        <item quantity="one">%d ᱥᱮᱠᱮᱱᱰ</item>
+        <item quantity="other">%d ᱥᱮᱠᱮᱱᱰ</item>
+    </plurals>
+
+    <plurals name="disappearing_minutes">
+        <item quantity="one">%d ᱢᱤᱱᱤᱴ</item>
+        <item quantity="other">%d ᱢᱤᱱᱤᱴ</item>
+    </plurals>
+
+    <plurals name="disappearing_hours">
+        <item quantity="one">%d ᱜᱷᱚᱱᱴᱟ</item>
+        <item quantity="other">%d ᱜᱷᱚᱱᱴᱟ</item>
+    </plurals>
+
+    <plurals name="disappearing_days">
+        <item quantity="one">%d ᱥᱤᱱ</item>
+        <item quantity="other">%d ᱥᱤᱱ</item>
+    </plurals>
+
+    <string name="duration_picker_title">ᱚᱪᱚᱭ ᱦᱩᱭᱩᱜ ᱢᱮᱥᱮᱡ</string>
+    <string name="duration_picker_subtitle">ᱯᱟᱲᱦᱟᱣ ᱛᱟᱭᱚᱢ ᱟᱡᱽ ᱠᱷᱚᱱ ᱚᱪᱚᱭ ᱦᱩᱭᱩᱜᱼᱟ.</string>
+    <string name="duration_picker_quick_presets_label">ᱡᱷᱟᱴᱯᱚᱴ ᱯᱨᱤᱥᱮᱴ</string>
+    <string name="duration_picker_save_button">ᱴᱷᱟᱣ ᱢᱮ</string>
+
+    <string name="duration_picker_days_label">ᱥᱤᱱ</string>
+    <string name="duration_picker_hours_label">ᱜᱷᱚᱱᱴᱟ</string>
+    <string name="duration_picker_minutes_label">ᱢᱤᱱᱤᱴ</string>
+    <string name="duration_picker_seconds_label">ᱥᱮᱠᱮᱱᱰ</string>
+
+    <string name="duration_preset_10s">10ᱥᱮ</string>
+    <string name="duration_preset_30s">30ᱥᱮ</string>
+    <string name="duration_preset_1m">1ᱢᱤ</string>
+    <string name="duration_preset_5m">5ᱢᱤ</string>
+    <string name="duration_preset_1h">1ᱜᱷ</string>
+    <string name="duration_preset_24h">24ᱜᱷ</string>
+    <string name="duration_preset_7d">7ᱥᱤ</string>
+
+    <string name="send">ᱵᱷᱮᱡ ᱢᱮ</string>
+    <string name="camera">ᱠᱮᱢᱟᱨᱟ</string>
+    <string name="blocked_contact_placeholder">ᱟᱢ ᱱᱚᱣᱟ ᱠᱚᱱᱴᱮᱠᱴ ᱵᱞᱚᱠ ᱠᱟᱱᱟ..</string>
+
+    <string name="privacy_security_title">ᱯᱨᱟᱭᱣᱮᱥᱤ ᱟᱨ ᱥᱮᱠᱭᱩᱨᱤᱴᱤ</string>
+    <string name="e2e_encryption_title">ᱮᱱᱰ ᱴᱩ ᱮᱱᱰ ᱮᱱᱠᱨᱤᱯᱥᱚᱱ</string>
+    <string name="chat_settings_title">ᱪᱮᱴ ᱥᱮᱴᱤᱝᱥ</string>
+
+    <string name="hide_chat_title">ᱪᱮᱴ ᱞᱩᱠᱟᱹ ᱢᱮ</string>
+    <string name="hide_chat_subtitle">ᱯᱟᱥᱠᱤ ᱛᱮ ᱪᱮᱴ ᱨᱚᱠᱷᱟ ᱢᱮ</string>
+    <string name="hide_chat_dialog_title">ᱪᱮᱴ ᱞᱩᱠᱟᱹ ᱢᱮ</string>
+    <string name="hide_chat_dialog_description">ᱱᱚᱣᱟ ᱪᱮᱴ ᱞᱩᱠᱟᱹ ᱟᱨ ᱞᱚᱠ ᱞᱟᱹᱜᱤᱫ ᱯᱟᱥᱠᱤ ᱥᱮᱞᱮᱫ ᱢᱮ. ᱫᱚᱦᱲᱟ ᱠᱷᱩᱞᱟᱹ ᱞᱟᱹᱜᱤᱫ ᱱᱚᱣᱟ ᱞᱟᱹᱠᱛᱤᱭᱟ.</string>
+    <string name="passkey_label">ᱯᱟᱥᱠᱤ</string>
+    <string name="confirm_passkey_label">ᱯᱟᱥᱠᱤ ᱠᱚᱱᱯᱷᱚᱨᱢ ᱢᱮ</string>
+    <string name="passkeys_do_not_match">ᱯᱟᱥᱠᱤ ᱠᱚ ᱵᱟᱝ ᱢᱤᱞᱟᱣ ᱠᱟᱱᱟ</string>
+    <string name="remove_hide_key">ᱦᱟᱭᱤᱰ ᱠᱤ ᱚᱪᱚᱭ ᱢᱮ</string>
+    <string name="hide_action">ᱞᱩᱠᱟᱹ</string>
+
+    <string name="menu_bill">ᱵᱤᱞ</string>
+    <string name="menu_list">ᱞᱤᱥᱴᱤ</string>
+    <string name="menu_gallery">ᱪᱤᱛᱟᱹᱨ</string>
+    <string name="menu_video">ᱵᱷᱤᱰᱤᱭᱚ</string>
+    <string name="menu_audio">ᱚᱰᱤᱭᱚ</string>
+    <string name="menu_location">ᱴᱷᱟᱣ</string>
+    <string name="menu_contact">ᱠᱚᱱᱴᱮᱠᱴ</string>
+    <string name="menu_document">ᱰᱚᱠᱩᱢᱮᱱᱴ</string>
+
+    <string name="group_settings_title">ᱜᱨᱩᱯ ᱥᱮᱴᱤᱝᱥ</string>
+    <string name="profile_picture_title">ᱯᱨᱚᱯᱷᱟᱭᱤᱞ ᱪᱤᱛᱟᱹᱨ</string>
+    <string name="edit_profile_picture_desc">ᱯᱨᱚᱯᱷᱟᱭᱤᱞ ᱪᱤᱛᱟᱹᱨ ᱥᱟᱦᱴᱮᱨ ᱢᱮ</string>
+    <string name="delete_profile_picture_desc">ᱯᱨᱚᱯᱷᱟᱭᱤᱞ ᱪᱤᱛᱟᱹᱨ ᱢᱮᱴᱟᱣ ᱢᱮ</string>
+    <string name="members_title">ᱥᱚᱫᱚᱥᱭ</string>
+    <string name="swami_label">ᱥᱣᱟᱢᱤ</string>
+    <string name="collapse_desc">ᱪᱷᱚᱴᱚ ᱢᱮ</string>
+    <string name="expand_desc">ᱵᱮᱥᱚᱨ ᱢᱮ</string>
+    <string name="permissions_title">ᱪᱷᱚᱴ</string>
+    <string name="permission_message">ᱢᱮᱥᱮᱡ</string>
+    <string name="permission_call">ᱠᱚᱞ</string>
+    <string name="permission_add_members">ᱥᱚᱫᱚᱥᱭ ᱥᱮᱞᱮᱫ ᱢᱮ</string>
+    <string name="permission_update_profile">ᱯᱨᱚᱯᱷᱟᱭᱤᱞ ᱟᱯᱰᱮᱴ ᱢᱮ</string>
+    <string name="only_swami_can_change_permissions">ᱥᱣᱟᱢᱤ ᱡᱷᱚᱜᱮ ᱪᱷᱚᱴ ᱵᱚᱫᱚᱞ ᱫᱟᱲᱮᱭᱟᱜᱼᱟ</string>
+    <string name="update_permissions_button">ᱪᱷᱚᱴ ᱟᱯᱰᱮᱴ ᱢᱮ</string>
+    <string name="remove_member_button">ᱥᱚᱫᱚᱥᱭ ᱚᱪᱚᱭ ᱢᱮ</string>
+    <string name="add_members_button">ᱥᱚᱫᱚᱥᱭ ᱥᱮᱞᱮᱫ ᱢᱮ</string>
+    <string name="delete_group_button">ᱜᱨᱩᱯ ᱢᱮᱴᱟᱣ ᱢᱮ</string>
+    <string name="leave_group_button">ᱜᱨᱩᱯ ᱪᱷᱟᱰᱟᱣ ᱢᱮ</string>
+    <string name="are_you_sure_message">ᱟᱢ ᱪᱮᱫ ᱥᱟᱱᱟᱢ ᱠᱟᱱᱟ?</string>
+
+    <string name="my_status_title">ᱤᱧᱟᱜ ᱥᱴᱮᱴᱚᱥ</string>
+    <string name="tap_to_view_time">ᱧᱮᱞ ᱞᱟᱹᱜᱤᱫ ᱴᱮᱯ ᱢᱮ • %s</string>
+    <string name="tap_to_add_status_update">ᱥᱴᱮᱴᱚᱥ ᱟᱯᱰᱮᱴ ᱥᱮᱞᱮᱫ ᱞᱟᱹᱜᱤᱫ ᱴᱮᱯ ᱢᱮ</string>
+    <string name="my_story_title">ᱤᱧᱟᱜ ᱥᱴᱚᱨᱤ</string>
+    <string name="recent_updates_title">ᱱᱟᱶᱟ ᱟᱯᱰᱮᱴ</string>
+
+    <string name="type_a_message">ᱢᱮᱥᱮᱡ ᱞᱤᱠᱷᱟᱣ ᱢᱮ</string>
+    <string name="you_blocked_this_contact">ᱟᱢ ᱱᱚᱣᱟ ᱠᱚᱱᱴᱮᱠᱴ ᱵᱞᱚᱠ ᱠᱟᱱᱟ..</string>
+    <string name="status_online">🟢 ᱚᱱᱞᱟᱭᱤᱱ</string>
+    <string name="status_long_ago">ᱥᱟᱱᱟᱢ ᱥᱮᱛᱟᱜ</string>
+    <string name="active_minutes_ago">%d ᱢᱤᱱᱤᱴ ᱥᱟᱱᱟᱢ ᱥᱟᱨᱥᱟᱨ</string>
+    <string name="active_hours_ago">%d ᱜᱷᱚᱱᱴᱟ ᱥᱟᱱᱟᱢ ᱥᱟᱨᱥᱟᱨ</string>
+    <string name="active_days_ago">%d ᱥᱤᱱ ᱥᱟᱱᱟᱢ ᱥᱟᱨᱥᱟᱨ</string>
+
+    <string name="no_stories_yet">ᱱᱤᱛᱚᱜ ᱥᱴᱚᱨᱤ ᱵᱟᱝ ᱢᱮᱱᱟᱜᱼᱟ</string>
+    <string name="search_placeholder_sync_hint">ᱠᱷᱚᱡ ᱢᱮ ᱥᱮ ᱡᱚᱛᱚ ᱥᱤᱝᱠ ᱞᱟᱹᱜᱤᱫ ᱪᱮᱛᱟᱱ ᱠᱷᱚᱱ ᱛᱟᱞᱟ ᱥᱮᱱ ᱴᱮᱱᱟᱣ ᱢᱮ</string>
+
+    <string name="contribute_title">❤️ ᱯᱨᱚᱡᱮᱠᱴ ᱜᱚᱲᱚ ᱢᱮ</string>
+    <string name="contribute_subtitle">ᱟᱢᱟᱜ ᱜᱚᱲᱚ ᱫᱚ ᱟᱞᱮᱞᱟᱹ ᱪᱟᱞᱟᱜ ᱨᱟᱠᱷᱟᱣ ᱟ 🚀</string>
+    <string name="contribute_custom">ᱟᱢᱟᱜ ᱨᱚᱯᱟ ✏️</string>
+    <string name="contribute_enter_amount">ᱨᱚᱯᱟ ᱥᱮᱞᱮᱫ ᱢᱮ</string>
+    <string name="contribute_button">ᱜᱚᱲᱚ ᱢᱮ 🚀</string>
+
+    <string name="contribute_error_invalid">ᱴᱷᱤᱠ ᱨᱚᱯᱟ ᱥᱮᱞᱮᱫ ᱢᱮ</string>
+    <string name="contribute_error_zero">ᱨᱚᱯᱟ ₹0 ᱠᱷᱚᱱ ᱵᱟᱹᱲᱛᱤ ᱦᱩᱭᱩᱜ ᱞᱟᱹᱠᱛᱤᱭᱟ</string>
+    <string name="contribute_error_max">ᱥᱟᱱᱟᱢ ᱨᱮ ₹10000 ᱪᱷᱚᱴ ᱢᱮᱱᱟᱜᱼᱟ</string>
+
+    <string name="add_new_chat">ᱱᱟᱶᱟ ᱪᱮᱴ ᱥᱮᱞᱮᱫ ᱢᱮ</string>
+
+    <string name="mode_phone">ᱯᱷᱚᱱ</string>
+    <string name="mode_username">ᱵᱮᱵᱷᱟᱨᱤᱭᱟᱹ ᱧᱩᱛᱩᱢ</string>
+
+    <string name="label_username">ᱵᱮᱵᱷᱟᱨᱤᱭᱟᱹ ᱧᱩᱛᱩᱢ</string>
+    <string name="label_phone_number">ᱯᱷᱚᱱ ᱱᱚᱢᱵᱚᱨ</string>
+    <string name="placeholder_username">ᱵᱮᱵᱷᱟᱨᱤᱭᱟᱹ ᱧᱩᱛᱩᱢ</string>
+    <string name="placeholder_phone_number">ᱯᱷᱚᱱ ᱱᱚᱢᱵᱚᱨ ᱥᱮᱞᱮᱫ ᱢᱮ</string>
+    <string name="username_supporting_text">ᱪᱷᱚᱴᱚ ᱟᱠᱷᱚᱨ ᱟᱨ ᱜᱚᱱᱚᱝ ᱡᱷᱚᱜᱮ</string>
+
+    <string name="or_divider">ᱥᱮ</string>
+    <string name="camera_permission_required">ᱠᱮᱢᱟᱨᱟ ᱪᱷᱚᱴ ᱞᱟᱹᱠᱛᱤᱭᱟ</string>
+    <string name="scanner_align_qr">ᱠᱭᱩ ᱟᱨ ᱯᱷᱨᱮᱢ ᱵᱷᱤᱛᱤᱨ ᱨᱟᱠᱷᱟᱣ ᱢᱮ</string>
+    <string name="scanner_paused">ᱛᱟᱦᱮᱱ ᱠᱟᱱᱟ</string>
+    <string name="flash">ᱯᱷᱞᱮᱥ</string>
+
+    <string name="clear_current_contact">ᱱᱤᱛᱚᱜᱟᱜ ᱠᱚᱱᱴᱮᱠᱴ ᱚᱪᱚᱭ ᱢᱮ</string>
+    <string name="profile_image_placeholder">ᱪᱤᱛᱟᱹᱨ</string>
+    <string name="status_user_found">ᱵᱮᱵᱷᱟᱨᱤᱭᱟᱹ ᱧᱟᱢ ᱞᱮᱱᱟ</string>
+    <string name="status_checking">ᱡᱟᱪᱟᱣ ᱦᱩᱭᱠᱟᱱᱟ…</string>
+    <string name="status_not_found">ᱮᱠᱟᱩᱱᱴ ᱵᱟᱝ ᱧᱟᱢ ᱞᱮᱱᱟ</string>
+    <string name="status_invalid_phone">ᱵᱟᱝ ᱴᱷᱤᱠ ᱯᱷᱚᱱ ᱱᱚᱢᱵᱚᱨ</string>
+    <string name="status_error">ᱡᱟᱪᱟᱣ ᱨᱮ ᱵᱷᱩᱞ</string>
+    <string name="status_already_added">ᱟᱥᱚᱞ ᱠᱷᱚᱱ ᱥᱮᱞᱮᱫ ᱠᱟᱱᱟ</string>
+
+    <string name="action_add">ᱥᱮᱞᱮᱫ ᱢᱮ</string>
+    <string name="action_invite">ᱱᱚᱣᱟ ᱮᱢ ᱢᱮ</string>
+    <string name="action_retry">ᱫᱚᱦᱲᱟ ᱪᱮᱥᱴᱟ ᱢᱮ</string>
+    <string name="action_already_added">ᱟᱥᱚᱞ ᱠᱷᱚᱱ ᱥᱮᱞᱮᱫ</string>
+
+    <string name="search_placeholder_invite_hint">ᱟᱢᱟᱜ ᱯᱷᱮᱨᱟᱛ ᱦᱚᱲ ᱠᱚ ᱱᱚᱣᱟ ᱮᱢ ᱢᱮ</string>
+    <string name="add_contact">ᱠᱚᱱᱴᱮᱠᱴ ᱥᱮᱞᱮᱫ ᱢᱮ</string>
+</resources>

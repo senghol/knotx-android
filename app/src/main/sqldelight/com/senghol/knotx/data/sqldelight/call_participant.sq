@@ -1,0 +1,73 @@
+CREATE TABLE call_participant (
+    callId TEXT NOT NULL,
+    participantId TEXT NOT NULL,
+    userNumber TEXT NOT NULL,
+    userNameId TEXT,
+    connectionState TEXT NOT NULL,
+    isMicrophoneEnabled INTEGER NOT NULL,
+    isCameraEnabled INTEGER NOT NULL,
+    isScreenSharing INTEGER NOT NULL,
+    joinedAt INTEGER,
+    leftAt INTEGER,
+    PRIMARY KEY (callId, participantId)
+);
+
+insert:
+INSERT OR REPLACE INTO call_participant(
+    callId,
+    participantId,
+    userNumber,
+    userNameId,
+    connectionState,
+    isMicrophoneEnabled,
+    isCameraEnabled,
+    isScreenSharing,
+    joinedAt,
+    leftAt
+)
+VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
+
+update:
+UPDATE call_participant
+SET
+    userNumber = ?,
+    userNameId = ?,
+    connectionState = ?,
+    isMicrophoneEnabled = ?,
+    isCameraEnabled = ?,
+    isScreenSharing = ?,
+    joinedAt = ?,
+    leftAt = ?
+WHERE callId = ?
+AND participantId = ?;
+
+observeForCall:
+SELECT *
+FROM call_participant
+WHERE callId = ?
+ORDER BY joinedAt ASC;
+
+getForCall:
+SELECT *
+FROM call_participant
+WHERE callId = ?
+ORDER BY joinedAt ASC;
+
+getParticipant:
+SELECT *
+FROM call_participant
+WHERE callId = ?
+AND participantId = ?
+LIMIT 1;
+
+deleteParticipant:
+DELETE FROM call_participant
+WHERE callId = ?
+AND participantId = ?;
+
+deleteForCall:
+DELETE FROM call_participant
+WHERE callId = ?;
+
+deleteAll:
+DELETE FROM call_participant;

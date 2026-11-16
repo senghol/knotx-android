@@ -1,0 +1,54 @@
+
+# Gradle
+.gradle/
+build/
+**/build/
+
+# Android Studio
+*.iml
+.idea/
+local.properties
+
+# Android build outputs
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+
+# Signing keys and certificates
+*.jks
+*.keystore
+*.p12
+*.pem
+*.key
+
+# Firebase configuration
+**/google-services.json
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+secrets.properties
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+
+# OAuth client secret files
+**/client_secret_*.json
+
+# More signing/secret files
+key.properties
+keystore.properties
+firebase-adminsdk-*.json
+
+# Kotlin / Gradle extras
+.kotlin/
+*.hprof**/mapping.txt
+app/production/
+
+# Release output (apk, aab, mapping) - not source
+/app/production/

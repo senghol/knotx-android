@@ -1,0 +1,1817 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 1,
+    "identityHash": "f48ab55d68cba4091cad9fb5e61f35eb",
+    "entities": [
+      {
+        "tableName": "sandesh",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`sandeshId` TEXT NOT NULL, `userNumber` TEXT NOT NULL, `samagri` TEXT NOT NULL, `isSelf` INTEGER NOT NULL, `time` INTEGER NOT NULL, `sandeshType` INTEGER NOT NULL, `sandeshStithi` INTEGER NOT NULL, PRIMARY KEY(`sandeshId`))",
+        "fields": [
+          {
+            "fieldPath": "sandeshId",
+            "columnName": "sandeshId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "userNumber",
+            "columnName": "userNumber",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "samagri",
+            "columnName": "samagri",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "isSelf",
+            "columnName": "isSelf",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "time",
+            "columnName": "time",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "sandeshType",
+            "columnName": "sandeshType",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "sandeshStithi",
+            "columnName": "sandeshStithi",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "sandeshId"
+          ]
+        }
+      },
+      {
+        "tableName": "unsentFiles",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`messageId` TEXT NOT NULL, `receiver` TEXT NOT NULL, `data` TEXT NOT NULL, `dataType` TEXT NOT NULL, `time` INTEGER NOT NULL, `isGroup` INTEGER NOT NULL, PRIMARY KEY(`messageId`))",
+        "fields": [
+          {
+            "fieldPath": "messageId",
+            "columnName": "messageId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "receiver",
+            "columnName": "receiver",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "data",
+            "columnName": "data",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "dataType",
+            "columnName": "dataType",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "time",
+            "columnName": "time",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "isGroup",
+            "columnName": "isGroup",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "messageId"
+          ]
+        }
+      },
+      {
+        "tableName": "unsentSandesh",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `messId` TEXT NOT NULL, `receiver` TEXT NOT NULL, `message` TEXT, `dataType` TEXT NOT NULL, `time` TEXT NOT NULL, `dataSent` INTEGER NOT NULL, `isGroup` INTEGER NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "messId",
+            "columnName": "messId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "receiver",
+            "columnName": "receiver",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "message",
+            "columnName": "message",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "dataType",
+            "columnName": "dataType",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "time",
+            "columnName": "time",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "dataSent",
+            "columnName": "dataSent",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "isGroup",
+            "columnName": "isGroup",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_unsentSandesh_messId_receiver_dataType",
+            "unique": true,
+            "columnNames": [
+              "messId",
+              "receiver",
+              "dataType"
+            ],
+            "orders": [],
+            "createSql": "CREATE UNIQUE INDEX IF NOT EXISTS `index_unsentSandesh_messId_receiver_dataType` ON `${TABLE_NAME}` (`messId`, `receiver`, `dataType`)"
+          }
+        ]
+      },
+      {
+        "tableName": "contact",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `name` TEXT NOT NULL, `isInstalled` INTEGER NOT NULL, `number` TEXT NOT NULL, `imageUrl` TEXT, `imageTime` INTEGER NOT NULL, `backgroundColor` INTEGER NOT NULL, `isSelected` INTEGER NOT NULL, `buttonState` TEXT NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "name",
+            "columnName": "name",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "isInstalled",
+            "columnName": "isInstalled",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "number",
+            "columnName": "number",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "imageUrl",
+            "columnName": "imageUrl",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "imageTime",
+            "columnName": "imageTime",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "backgroundColor",
+            "columnName": "backgroundColor",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "isSelected",
+            "columnName": "isSelected",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "buttonState",
+            "columnName": "buttonState",
+            "affinity": "TEXT",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        }
+      },
+      {
+        "tableName": "call_sessions",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `sender` TEXT NOT NULL, `receiver` TEXT NOT NULL, `start_time` INTEGER NOT NULL, `call_data_type` INTEGER NOT NULL, `outcome` INTEGER NOT NULL, `room_id` TEXT NOT NULL, `duration` INTEGER)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "sender",
+            "columnName": "sender",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "receiver",
+            "columnName": "receiver",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "startTime",
+            "columnName": "start_time",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "callDataType",
+            "columnName": "call_data_type",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "outcome",
+            "columnName": "outcome",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "roomId",
+            "columnName": "room_id",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "duration",
+            "columnName": "duration",
+            "affinity": "INTEGER"
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_call_sessions_room_id",
+            "unique": true,
+            "columnNames": [
+              "room_id"
+            ],
+            "orders": [],
+            "createSql": "CREATE UNIQUE INDEX IF NOT EXISTS `index_call_sessions_room_id` ON `${TABLE_NAME}` (`room_id`)"
+          },
+          {
+            "name": "index_call_sessions_receiver",
+            "unique": false,
+            "columnNames": [
+              "receiver"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_call_sessions_receiver` ON `${TABLE_NAME}` (`receiver`)"
+          },
+          {
+            "name": "index_call_sessions_start_time",
+            "unique": false,
+            "columnNames": [
+              "start_time"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_call_sessions_start_time` ON `${TABLE_NAME}` (`start_time`)"
+          }
+        ]
+      },
+      {
+        "tableName": "upbhogta",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `contactName` TEXT, `onlineName` TEXT, `userNumber` TEXT NOT NULL, `photoUrl` TEXT, `about` TEXT, `lastMessage` TEXT, `lastOnline` INTEGER NOT NULL, `totalUnread` INTEGER NOT NULL, `status` TEXT, `encryptionKey` TEXT, `isBlocked` INTEGER NOT NULL, `isPinned` INTEGER NOT NULL, `backgroundColor` INTEGER NOT NULL, `isFavourite` INTEGER NOT NULL, `isMuted` INTEGER NOT NULL, `wallpaperImage` TEXT, `isArchived` INTEGER NOT NULL, `isGroup` INTEGER NOT NULL, `lastMessageTime` INTEGER NOT NULL, `imageTime` INTEGER NOT NULL, `sandeshStithi` INTEGER NOT NULL, `lastMessageId` TEXT NOT NULL, `isAccountActive` INTEGER NOT NULL, `draftMessage` TEXT, `customColors` TEXT, `bakaya` REAL NOT NULL, `revealSender` INTEGER NOT NULL, `autoDisappearMsg` INTEGER NOT NULL, `hideKey` TEXT)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "contactName",
+            "columnName": "contactName",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "onlineName",
+            "columnName": "onlineName",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "userNumber",
+            "columnName": "userNumber",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "photoUrl",
+            "columnName": "photoUrl",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "about",
+            "columnName": "about",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "lastMessage",
+            "columnName": "lastMessage",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "lastOnline",
+            "columnName": "lastOnline",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "totalUnread",
+            "columnName": "totalUnread",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "status",
+            "columnName": "status",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "encryptionKey",
+            "columnName": "encryptionKey",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "isBlocked",
+            "columnName": "isBlocked",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "isPinned",
+            "columnName": "isPinned",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "backgroundColor",
+            "columnName": "backgroundColor",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "isFavourite",
+            "columnName": "isFavourite",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "isMuted",
+            "columnName": "isMuted",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "wallpaperImage",
+            "columnName": "wallpaperImage",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "isArchived",
+            "columnName": "isArchived",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "isGroup",
+            "columnName": "isGroup",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "lastMessageTime",
+            "columnName": "lastMessageTime",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "imageTime",
+            "columnName": "imageTime",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "sandeshStithi",
+            "columnName": "sandeshStithi",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "lastMessageId",
+            "columnName": "lastMessageId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "isAccountActive",
+            "columnName": "isAccountActive",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "draftMessage",
+            "columnName": "draftMessage",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "customColors",
+            "columnName": "customColors",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "bakaya",
+            "columnName": "bakaya",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "revealSender",
+            "columnName": "revealSender",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "autoDisappearMsg",
+            "columnName": "autoDisappearMsg",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "hideKey",
+            "columnName": "hideKey",
+            "affinity": "TEXT"
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_upbhogta_userNumber",
+            "unique": true,
+            "columnNames": [
+              "userNumber"
+            ],
+            "orders": [],
+            "createSql": "CREATE UNIQUE INDEX IF NOT EXISTS `index_upbhogta_userNumber` ON `${TABLE_NAME}` (`userNumber`)"
+          }
+        ]
+      },
+      {
+        "tableName": "DakiyaSetting",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`settingKey` TEXT NOT NULL, `setting_value` TEXT NOT NULL, PRIMARY KEY(`settingKey`))",
+        "fields": [
+          {
+            "fieldPath": "settingKey",
+            "columnName": "settingKey",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "settingValue",
+            "columnName": "setting_value",
+            "affinity": "TEXT",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "settingKey"
+          ]
+        }
+      },
+      {
+        "tableName": "group_sandesh",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`sandeshId` TEXT NOT NULL, `userNumber` TEXT NOT NULL, `groupId` TEXT NOT NULL, `samagri` TEXT NOT NULL, `isSelf` INTEGER NOT NULL, `time` INTEGER NOT NULL, `sandeshType` INTEGER NOT NULL, `sandeshStithi` INTEGER NOT NULL, PRIMARY KEY(`sandeshId`))",
+        "fields": [
+          {
+            "fieldPath": "sandeshId",
+            "columnName": "sandeshId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "userNumber",
+            "columnName": "userNumber",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "groupId",
+            "columnName": "groupId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "samagri",
+            "columnName": "samagri",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "isSelf",
+            "columnName": "isSelf",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "time",
+            "columnName": "time",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "sandeshType",
+            "columnName": "sandeshType",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "sandeshStithi",
+            "columnName": "sandeshStithi",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "sandeshId"
+          ]
+        }
+      },
+      {
+        "tableName": "group_entity",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`groupId` TEXT NOT NULL, `groupName` TEXT NOT NULL, `groupDescription` TEXT, `groupImageUrl` TEXT, `lastMessage` TEXT, `totalUnread` INTEGER NOT NULL, `createdBy` TEXT NOT NULL, `createdAt` INTEGER NOT NULL, `imageTime` INTEGER NOT NULL, `isMuted` INTEGER NOT NULL, `isPinned` INTEGER, `lastMessageTime` INTEGER NOT NULL, `wallpaperImage` TEXT, `sandeshStithi` INTEGER NOT NULL, `lastMessageId` TEXT NOT NULL, `isGroupSuspended` INTEGER NOT NULL, `backgroundColor` INTEGER NOT NULL, `draftMessage` TEXT, `isGroupActive` INTEGER, `revealSender` INTEGER NOT NULL, `autoDisappearMsg` INTEGER NOT NULL, `currentEpoch` INTEGER NOT NULL, `currentCommitHash` BLOB, `rosterVersion` INTEGER NOT NULL, `groupCryptoProtocolVersion` INTEGER NOT NULL, PRIMARY KEY(`groupId`))",
+        "fields": [
+          {
+            "fieldPath": "groupId",
+            "columnName": "groupId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "groupName",
+            "columnName": "groupName",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "groupDescription",
+            "columnName": "groupDescription",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "groupImageUrl",
+            "columnName": "groupImageUrl",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "lastMessage",
+            "columnName": "lastMessage",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "totalUnread",
+            "columnName": "totalUnread",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "createdBy",
+            "columnName": "createdBy",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "createdAt",
+            "columnName": "createdAt",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "imageTime",
+            "columnName": "imageTime",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "isMuted",
+            "columnName": "isMuted",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "isPinned",
+            "columnName": "isPinned",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "lastMessageTime",
+            "columnName": "lastMessageTime",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "wallpaperImage",
+            "columnName": "wallpaperImage",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "sandeshStithi",
+            "columnName": "sandeshStithi",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "lastMessageId",
+            "columnName": "lastMessageId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "isGroupSuspended",
+            "columnName": "isGroupSuspended",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "backgroundColor",
+            "columnName": "backgroundColor",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "draftMessage",
+            "columnName": "draftMessage",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "isGroupActive",
+            "columnName": "isGroupActive",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "revealSender",
+            "columnName": "revealSender",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "autoDisappearMsg",
+            "columnName": "autoDisappearMsg",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "currentEpoch",
+            "columnName": "currentEpoch",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "currentCommitHash",
+            "columnName": "currentCommitHash",
+            "affinity": "BLOB"
+          },
+          {
+            "fieldPath": "rosterVersion",
+            "columnName": "rosterVersion",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "groupCryptoProtocolVersion",
+            "columnName": "groupCryptoProtocolVersion",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "groupId"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_group_entity_groupName",
+            "unique": true,
+            "columnNames": [
+              "groupName"
+            ],
+            "orders": [],
+            "createSql": "CREATE UNIQUE INDEX IF NOT EXISTS `index_group_entity_groupName` ON `${TABLE_NAME}` (`groupName`)"
+          }
+        ]
+      },
+      {
+        "tableName": "group_members",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`groupId` TEXT NOT NULL, `userNumber` TEXT NOT NULL, `contactName` TEXT NOT NULL, `onlineName` TEXT, `userDarkColor` INTEGER NOT NULL, `userLightColor` INTEGER NOT NULL, `joinedAt` INTEGER NOT NULL, `isSwami` INTEGER NOT NULL, `canMessage` INTEGER NOT NULL, `canUpdateProfile` INTEGER NOT NULL, `canModifyMembers` INTEGER NOT NULL, `canStartCall` INTEGER NOT NULL, `profileTime` INTEGER NOT NULL, `profileUrl` TEXT NOT NULL, `publicKey` TEXT NOT NULL, `memberInstanceId` TEXT NOT NULL, `deviceId` TEXT NOT NULL, `leafIndex` INTEGER NOT NULL, `keyGeneration` INTEGER NOT NULL, `x25519PublicKey` BLOB NOT NULL, `mlKemPublicKey` BLOB NOT NULL, `ed25519PublicKey` BLOB NOT NULL, `isCryptoActive` INTEGER NOT NULL, PRIMARY KEY(`groupId`, `userNumber`), FOREIGN KEY(`groupId`) REFERENCES `group_entity`(`groupId`) ON UPDATE NO ACTION ON DELETE CASCADE )",
+        "fields": [
+          {
+            "fieldPath": "groupId",
+            "columnName": "groupId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "userNumber",
+            "columnName": "userNumber",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "contactName",
+            "columnName": "contactName",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "onlineName",
+            "columnName": "onlineName",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "userDarkColor",
+            "columnName": "userDarkColor",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "userLightColor",
+            "columnName": "userLightColor",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "joinedAt",
+            "columnName": "joinedAt",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "isSwami",
+            "columnName": "isSwami",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "canMessage",
+            "columnName": "canMessage",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "canUpdateProfile",
+            "columnName": "canUpdateProfile",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "canModifyMembers",
+            "columnName": "canModifyMembers",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "canStartCall",
+            "columnName": "canStartCall",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "profileTime",
+            "columnName": "profileTime",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "profileUrl",
+            "columnName": "profileUrl",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "publicKey",
+            "columnName": "publicKey",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "memberInstanceId",
+            "columnName": "memberInstanceId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "deviceId",
+            "columnName": "deviceId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "leafIndex",
+            "columnName": "leafIndex",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "keyGeneration",
+            "columnName": "keyGeneration",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "x25519PublicKey",
+            "columnName": "x25519PublicKey",
+            "affinity": "BLOB",
+            "notNull": true
+          },
+          {
+            "fieldPath": "mlKemPublicKey",
+            "columnName": "mlKemPublicKey",
+            "affinity": "BLOB",
+            "notNull": true
+          },
+          {
+            "fieldPath": "ed25519PublicKey",
+            "columnName": "ed25519PublicKey",
+            "affinity": "BLOB",
+            "notNull": true
+          },
+          {
+            "fieldPath": "isCryptoActive",
+            "columnName": "isCryptoActive",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "groupId",
+            "userNumber"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_group_members_groupId",
+            "unique": false,
+            "columnNames": [
+              "groupId"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_group_members_groupId` ON `${TABLE_NAME}` (`groupId`)"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "table": "group_entity",
+            "onDelete": "CASCADE",
+            "onUpdate": "NO ACTION",
+            "columns": [
+              "groupId"
+            ],
+            "referencedColumns": [
+              "groupId"
+            ]
+          }
+        ]
+      },
+      {
+        "tableName": "sandeshStatus",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`sandeshId` TEXT NOT NULL, `userNumber` TEXT NOT NULL, `statusJson` TEXT NOT NULL, PRIMARY KEY(`sandeshId`))",
+        "fields": [
+          {
+            "fieldPath": "sandeshId",
+            "columnName": "sandeshId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "userNumber",
+            "columnName": "userNumber",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "statusJson",
+            "columnName": "statusJson",
+            "affinity": "TEXT",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "sandeshId"
+          ]
+        }
+      },
+      {
+        "tableName": "identity_keys",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER NOT NULL, `identityKeyPair` BLOB NOT NULL, `registrationId` INTEGER NOT NULL, PRIMARY KEY(`id`))",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "identityKeyPair",
+            "columnName": "identityKeyPair",
+            "affinity": "BLOB",
+            "notNull": true
+          },
+          {
+            "fieldPath": "registrationId",
+            "columnName": "registrationId",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "id"
+          ]
+        }
+      },
+      {
+        "tableName": "prekeys",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`preKeyId` INTEGER NOT NULL, `record` BLOB NOT NULL, PRIMARY KEY(`preKeyId`))",
+        "fields": [
+          {
+            "fieldPath": "preKeyId",
+            "columnName": "preKeyId",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "record",
+            "columnName": "record",
+            "affinity": "BLOB",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "preKeyId"
+          ]
+        }
+      },
+      {
+        "tableName": "signed_prekeys",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`signedPreKeyId` INTEGER NOT NULL, `record` BLOB NOT NULL, PRIMARY KEY(`signedPreKeyId`))",
+        "fields": [
+          {
+            "fieldPath": "signedPreKeyId",
+            "columnName": "signedPreKeyId",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "record",
+            "columnName": "record",
+            "affinity": "BLOB",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "signedPreKeyId"
+          ]
+        }
+      },
+      {
+        "tableName": "sessions",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`address` TEXT NOT NULL, `record` BLOB NOT NULL, `sessionId` TEXT NOT NULL, PRIMARY KEY(`address`))",
+        "fields": [
+          {
+            "fieldPath": "address",
+            "columnName": "address",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "record",
+            "columnName": "record",
+            "affinity": "BLOB",
+            "notNull": true
+          },
+          {
+            "fieldPath": "sessionId",
+            "columnName": "sessionId",
+            "affinity": "TEXT",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "address"
+          ]
+        }
+      },
+      {
+        "tableName": "trusted_identities",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`address` TEXT NOT NULL, `identityKey` BLOB NOT NULL, PRIMARY KEY(`address`))",
+        "fields": [
+          {
+            "fieldPath": "address",
+            "columnName": "address",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "identityKey",
+            "columnName": "identityKey",
+            "affinity": "BLOB",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "address"
+          ]
+        }
+      },
+      {
+        "tableName": "kyber_prekeys",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER NOT NULL, `record` BLOB NOT NULL, PRIMARY KEY(`id`))",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "record",
+            "columnName": "record",
+            "affinity": "BLOB",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "id"
+          ]
+        }
+      },
+      {
+        "tableName": "key_state",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER NOT NULL, `lastPreKeyId` INTEGER NOT NULL, `lastKyberId` INTEGER NOT NULL, `updatedAt` INTEGER NOT NULL, PRIMARY KEY(`id`))",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "lastPreKeyId",
+            "columnName": "lastPreKeyId",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "lastKyberId",
+            "columnName": "lastKyberId",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "updatedAt",
+            "columnName": "updatedAt",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "id"
+          ]
+        }
+      },
+      {
+        "tableName": "debug_logs",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `timestamp` INTEGER NOT NULL, `readableTime` TEXT NOT NULL, `level` TEXT NOT NULL, `tag` TEXT NOT NULL, `message` TEXT NOT NULL, `msgId` TEXT, `userId` TEXT, `sessionId` TEXT)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "timestamp",
+            "columnName": "timestamp",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "readableTime",
+            "columnName": "readableTime",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "level",
+            "columnName": "level",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "tag",
+            "columnName": "tag",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "message",
+            "columnName": "message",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "msgId",
+            "columnName": "msgId",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "userId",
+            "columnName": "userId",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "sessionId",
+            "columnName": "sessionId",
+            "affinity": "TEXT"
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        }
+      },
+      {
+        "tableName": "transactions_entity",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`paymentId` TEXT NOT NULL, `orderId` TEXT, `signature` TEXT, `amount` INTEGER NOT NULL, `currency` TEXT NOT NULL, `method` TEXT, `status` TEXT NOT NULL, `userId` TEXT, `createdAt` INTEGER NOT NULL, PRIMARY KEY(`paymentId`))",
+        "fields": [
+          {
+            "fieldPath": "paymentId",
+            "columnName": "paymentId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "orderId",
+            "columnName": "orderId",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "signature",
+            "columnName": "signature",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "amount",
+            "columnName": "amount",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "currency",
+            "columnName": "currency",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "method",
+            "columnName": "method",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "status",
+            "columnName": "status",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "userId",
+            "columnName": "userId",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "createdAt",
+            "columnName": "createdAt",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "paymentId"
+          ]
+        }
+      },
+      {
+        "tableName": "group_epoch_keys",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`groupId` TEXT NOT NULL, `epoch` INTEGER NOT NULL, `encryptedEpochSecret` BLOB NOT NULL, `nonce` BLOB NOT NULL, `keyVersion` INTEGER NOT NULL, `commitHash` BLOB NOT NULL, `createdAt` INTEGER NOT NULL, PRIMARY KEY(`groupId`, `epoch`), FOREIGN KEY(`groupId`) REFERENCES `group_entity`(`groupId`) ON UPDATE NO ACTION ON DELETE CASCADE )",
+        "fields": [
+          {
+            "fieldPath": "groupId",
+            "columnName": "groupId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "epoch",
+            "columnName": "epoch",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "encryptedEpochSecret",
+            "columnName": "encryptedEpochSecret",
+            "affinity": "BLOB",
+            "notNull": true
+          },
+          {
+            "fieldPath": "nonce",
+            "columnName": "nonce",
+            "affinity": "BLOB",
+            "notNull": true
+          },
+          {
+            "fieldPath": "keyVersion",
+            "columnName": "keyVersion",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "commitHash",
+            "columnName": "commitHash",
+            "affinity": "BLOB",
+            "notNull": true
+          },
+          {
+            "fieldPath": "createdAt",
+            "columnName": "createdAt",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "groupId",
+            "epoch"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_group_epoch_keys_groupId",
+            "unique": false,
+            "columnNames": [
+              "groupId"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_group_epoch_keys_groupId` ON `${TABLE_NAME}` (`groupId`)"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "table": "group_entity",
+            "onDelete": "CASCADE",
+            "onUpdate": "NO ACTION",
+            "columns": [
+              "groupId"
+            ],
+            "referencedColumns": [
+              "groupId"
+            ]
+          }
+        ]
+      },
+      {
+        "tableName": "group_private_keys",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`groupId` TEXT NOT NULL, `memberInstanceId` TEXT NOT NULL, `encryptedX25519PrivateKey` BLOB NOT NULL, `x25519Nonce` BLOB NOT NULL, `x25519KeyVersion` INTEGER NOT NULL, `encryptedMlKemPrivateKey` BLOB NOT NULL, `mlKemNonce` BLOB NOT NULL, `mlKemKeyVersion` INTEGER NOT NULL, `encryptedEd25519PrivateKey` BLOB NOT NULL, `ed25519Nonce` BLOB NOT NULL, `ed25519KeyVersion` INTEGER NOT NULL, `createdAt` INTEGER NOT NULL, PRIMARY KEY(`groupId`, `memberInstanceId`), FOREIGN KEY(`groupId`) REFERENCES `group_entity`(`groupId`) ON UPDATE NO ACTION ON DELETE CASCADE )",
+        "fields": [
+          {
+            "fieldPath": "groupId",
+            "columnName": "groupId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "memberInstanceId",
+            "columnName": "memberInstanceId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "encryptedX25519PrivateKey",
+            "columnName": "encryptedX25519PrivateKey",
+            "affinity": "BLOB",
+            "notNull": true
+          },
+          {
+            "fieldPath": "x25519Nonce",
+            "columnName": "x25519Nonce",
+            "affinity": "BLOB",
+            "notNull": true
+          },
+          {
+            "fieldPath": "x25519KeyVersion",
+            "columnName": "x25519KeyVersion",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "encryptedMlKemPrivateKey",
+            "columnName": "encryptedMlKemPrivateKey",
+            "affinity": "BLOB",
+            "notNull": true
+          },
+          {
+            "fieldPath": "mlKemNonce",
+            "columnName": "mlKemNonce",
+            "affinity": "BLOB",
+            "notNull": true
+          },
+          {
+            "fieldPath": "mlKemKeyVersion",
+            "columnName": "mlKemKeyVersion",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "encryptedEd25519PrivateKey",
+            "columnName": "encryptedEd25519PrivateKey",
+            "affinity": "BLOB",
+            "notNull": true
+          },
+          {
+            "fieldPath": "ed25519Nonce",
+            "columnName": "ed25519Nonce",
+            "affinity": "BLOB",
+            "notNull": true
+          },
+          {
+            "fieldPath": "ed25519KeyVersion",
+            "columnName": "ed25519KeyVersion",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "createdAt",
+            "columnName": "createdAt",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "groupId",
+            "memberInstanceId"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_group_private_keys_groupId",
+            "unique": false,
+            "columnNames": [
+              "groupId"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_group_private_keys_groupId` ON `${TABLE_NAME}` (`groupId`)"
+          },
+          {
+            "name": "index_group_private_keys_memberInstanceId",
+            "unique": false,
+            "columnNames": [
+              "memberInstanceId"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_group_private_keys_memberInstanceId` ON `${TABLE_NAME}` (`memberInstanceId`)"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "table": "group_entity",
+            "onDelete": "CASCADE",
+            "onUpdate": "NO ACTION",
+            "columns": [
+              "groupId"
+            ],
+            "referencedColumns": [
+              "groupId"
+            ]
+          }
+        ]
+      },
+      {
+        "tableName": "pending_group_key_packages",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`groupId` TEXT NOT NULL, `userNumber` TEXT NOT NULL, `messageJson` TEXT NOT NULL, `createdAt` INTEGER NOT NULL, PRIMARY KEY(`groupId`, `userNumber`))",
+        "fields": [
+          {
+            "fieldPath": "groupId",
+            "columnName": "groupId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "userNumber",
+            "columnName": "userNumber",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "messageJson",
+            "columnName": "messageJson",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "createdAt",
+            "columnName": "createdAt",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "groupId",
+            "userNumber"
+          ]
+        }
+      },
+      {
+        "tableName": "stories",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` TEXT NOT NULL, `ownerId` TEXT NOT NULL, `ownerName` TEXT, `ownerProfile` TEXT, `mediaUrl` TEXT, `thumbnailUrl` TEXT, `localPath` TEXT, `mediaType` TEXT NOT NULL, `visibility` TEXT NOT NULL, `allowedContactIds` TEXT NOT NULL, `durationMs` INTEGER, `createdAt` INTEGER NOT NULL, `expiresAt` INTEGER NOT NULL, `viewCount` INTEGER NOT NULL DEFAULT 0, `likeCount` INTEGER NOT NULL DEFAULT 0, `commentCount` INTEGER NOT NULL DEFAULT 0, `isLikedByMe` INTEGER NOT NULL DEFAULT 0, `isStoryDownloaded` INTEGER NOT NULL DEFAULT 0, `commentsPrivate` INTEGER NOT NULL DEFAULT 0, `storyPass` TEXT, `syncStatus` TEXT NOT NULL, PRIMARY KEY(`id`))",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "ownerId",
+            "columnName": "ownerId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "ownerName",
+            "columnName": "ownerName",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "ownerProfile",
+            "columnName": "ownerProfile",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "mediaUrl",
+            "columnName": "mediaUrl",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "thumbnailUrl",
+            "columnName": "thumbnailUrl",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "localPath",
+            "columnName": "localPath",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "mediaType",
+            "columnName": "mediaType",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "visibility",
+            "columnName": "visibility",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "allowedContactIds",
+            "columnName": "allowedContactIds",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "durationMs",
+            "columnName": "durationMs",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "createdAt",
+            "columnName": "createdAt",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "expiresAt",
+            "columnName": "expiresAt",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "viewCount",
+            "columnName": "viewCount",
+            "affinity": "INTEGER",
+            "notNull": true,
+            "defaultValue": "0"
+          },
+          {
+            "fieldPath": "likeCount",
+            "columnName": "likeCount",
+            "affinity": "INTEGER",
+            "notNull": true,
+            "defaultValue": "0"
+          },
+          {
+            "fieldPath": "commentCount",
+            "columnName": "commentCount",
+            "affinity": "INTEGER",
+            "notNull": true,
+            "defaultValue": "0"
+          },
+          {
+            "fieldPath": "isLikedByMe",
+            "columnName": "isLikedByMe",
+            "affinity": "INTEGER",
+            "notNull": true,
+            "defaultValue": "0"
+          },
+          {
+            "fieldPath": "isStoryDownloaded",
+            "columnName": "isStoryDownloaded",
+            "affinity": "INTEGER",
+            "notNull": true,
+            "defaultValue": "0"
+          },
+          {
+            "fieldPath": "commentsPrivate",
+            "columnName": "commentsPrivate",
+            "affinity": "INTEGER",
+            "notNull": true,
+            "defaultValue": "0"
+          },
+          {
+            "fieldPath": "storyPass",
+            "columnName": "storyPass",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "syncStatus",
+            "columnName": "syncStatus",
+            "affinity": "TEXT",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "id"
+          ]
+        }
+      },
+      {
+        "tableName": "story_views",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`storyId` TEXT NOT NULL, `viewerId` TEXT NOT NULL, `viewedAt` INTEGER NOT NULL, PRIMARY KEY(`storyId`, `viewerId`))",
+        "fields": [
+          {
+            "fieldPath": "storyId",
+            "columnName": "storyId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "viewerId",
+            "columnName": "viewerId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "viewedAt",
+            "columnName": "viewedAt",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "storyId",
+            "viewerId"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_story_views_storyId",
+            "unique": false,
+            "columnNames": [
+              "storyId"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_story_views_storyId` ON `${TABLE_NAME}` (`storyId`)"
+          }
+        ]
+      },
+      {
+        "tableName": "story_likes",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`storyId` TEXT NOT NULL, `userId` TEXT NOT NULL, `likedAt` INTEGER NOT NULL, PRIMARY KEY(`storyId`, `userId`))",
+        "fields": [
+          {
+            "fieldPath": "storyId",
+            "columnName": "storyId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "userId",
+            "columnName": "userId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "likedAt",
+            "columnName": "likedAt",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "storyId",
+            "userId"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_story_likes_storyId",
+            "unique": false,
+            "columnNames": [
+              "storyId"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_story_likes_storyId` ON `${TABLE_NAME}` (`storyId`)"
+          }
+        ]
+      },
+      {
+        "tableName": "story_comments",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` TEXT NOT NULL, `storyId` TEXT NOT NULL, `userId` TEXT NOT NULL, `text` TEXT NOT NULL, `createdAt` INTEGER NOT NULL, `pendingSync` INTEGER NOT NULL DEFAULT 0, PRIMARY KEY(`id`))",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "storyId",
+            "columnName": "storyId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "userId",
+            "columnName": "userId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "text",
+            "columnName": "text",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "createdAt",
+            "columnName": "createdAt",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "pendingSync",
+            "columnName": "pendingSync",
+            "affinity": "INTEGER",
+            "notNull": true,
+            "defaultValue": "0"
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "id"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_story_comments_storyId",
+            "unique": false,
+            "columnNames": [
+              "storyId"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_story_comments_storyId` ON `${TABLE_NAME}` (`storyId`)"
+          }
+        ]
+      }
+    ],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, 'f48ab55d68cba4091cad9fb5e61f35eb')"
+    ]
+  }
+}

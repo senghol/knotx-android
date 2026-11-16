@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">KnotX</string>
+    <string name="cancel">منسوخ ڪريو</string>
+    <string name="enter_phone_number">پنهنجو فون نمبر داخل ڪريو</string>
+    <string name="verify">تصديق ڪريو</string>
+    <string name="settings">سيٽنگون</string>
+    <string name="account_settings">اڪائونٽ سيٽنگون</string>
+    <string name="notifications">اطلاعون</string>
+    <string name="chats">چيٽس</string>
+    <string name="calls">ڪالون</string>
+    <string name="privacy">رازداري</string>
+    <string name="storage_data">اسٽوريج ۽ ڊيٽا</string>
+    <string name="data_usage">ڊيٽا استعمال</string>
+    <string name="appearance">ظاهري شڪل</string>
+    <string name="language">ٻولي</string>
+    <string name="help_support">مدد ۽ سپورٽ</string>
+    <string name="backup">بيڪ اپ</string>
+    <string name="block_list">بلاڪ ٿيل رابطا</string>
+    <string name="contribution">حصو</string>
+    <string name="back">واپس</string>
+    <string name="name">نالو</string>
+    <string name="phone_number">فون نمبر</string>
+    <string name="security">سيڪيورٽي</string>
+    <string name="delete">ڊيليٽ ڪريو</string>
+    <string name="delete_account">اڪائونٽ ڊيليٽ ڪريو</string>
+    <string name="app_passcode">ايپ پاس ڪوڊ</string>
+    <string name="enter_4_digit_passcode">4 انگن وارو پاس ڪوڊ داخل ڪريو</string>
+    <string name="confirm_passcode">پاس ڪوڊ جي تصديق ڪريو</string>
+    <string name="passcode_must_be_4_digits">پاس ڪوڊ 4 انگن جو هجڻ گهرجي</string>
+    <string name="passcodes_do_not_match">پاس ڪوڊ هڪجهڙا نه آهن</string>
+    <string name="save">محفوظ ڪريو</string>
+    <string name="enter_current_passcode">موجوده پاس ڪوڊ داخل ڪريو</string>
+    <string name="incorrect_passcode">غلط پاس ڪوڊ</string>
+    <string name="disable">بند ڪريو</string>
+
+    <string name="theme">ٿيم</string>
+    <string name="wallpaper">وال پيپر</string>
+    <string name="font_size">فونٽ سائيز</string>
+    <string name="font_size_value">فونٽ سائيز: %1$d </string>
+    <string name="enter_key_is_send">اينٽر ڪي موڪلڻ لاءِ</string>
+    <string name="read_receipts">پڙهڻ جي رسيد</string>
+    <string name="typing_indicators">ٽائيپنگ جا نشان</string>
+    <string name="message_backup">پيغام بيڪ اپ</string>
+    <string name="auto_download_photos">فوٽو پاڻمرادو ڊائونلوڊ ڪريو</string>
+    <string name="auto_download_videos">وڊيو پاڻمرادو ڊائونلوڊ ڪريو</string>
+    <string name="auto_download_voice">آواز پاڻمرادو ڊائونلوڊ ڪريو</string>
+    <string name="auto_download_files">فائلون پاڻمرادو ڊائونلوڊ ڪريو</string>
+    <string name="media_quality">ميڊيا معيار</string>
+    <string name="save_to_gallery">گيلري ۾ محفوظ ڪريو</string>
+    <string name="mute_all_groups">سڀ گروپ خاموش ڪريو</string>
+    <string name="view_blocked_contacts">بلاڪ ٿيل رابطا ڏسو</string>
+
+    <string name="contact_list">رابطن جي فهرست</string>
+    <string name="blocked_contacts">بلاڪ ٿيل رابطا</string>
+    <string name="last_seen">آخري ڀيرو ڏٺو ويو</string>
+    <string name="online_status">آن لائن حالت</string>
+    <string name="profile_photo">پروفائل فوٽو</string>
+    <string name="bio_about">بايو/بابت</string>
+    <string name="who_can_message_me">مون کي ڪير پيغام موڪلي سگهي ٿو</string>
+    <string name="group_invites">گروپ دعوتون</string>
+    <string name="notify_new_device">نئين ڊوائس تان لاگ ان تي اطلاع ڏيو</string>
+    <string name="suspicious_activity_alerts">شڪي سرگرمي بابت خبردارِيون</string>
+    <string name="everyone">سڀ</string>
+    <string name="nobody">ڪو به نه</string>
+
+    <string name="allow_calls_from">ڪالن جي اجازت</string>
+    <string name="speaker_by_default">اسپيڪر پاڻمرادو</string>
+    <string name="video_call_quality">وڊيو ڪال معيار</string>
+    <string name="ringtone">رنگ ٽون</string>
+
+    <string name="help_center">مدد مرڪز</string>
+    <string name="contact_support">سپورٽ سان رابطو ڪريو</string>
+    <string name="terms_conditions">شرطون ۽ ضابطا</string>
+    <string name="privacy_policy">رازداري پاليسي</string>
+    <string name="report_issue">مسئلي جي رپورٽ ڪريو</string>
+
+    <string name="use_system_language">سسٽم جي ٻولي استعمال ڪريو</string>
+    <string name="appearance_settings">ظاهري شڪل سيٽنگون</string>
+    <string name="no_blocked_contacts">ڪو به رابطو بلاڪ ٿيل ناهي</string>
+    <string name="restore_started">بحالي شروع ٿي وئي…</string>
+    <string name="backup_folder_set">بيڪ اپ فولڊر مقرر ٿي ويو!</string>
+    <string name="local_backup">مقامي بيڪ اپ</string>
+    <string name="enable_backup">بيڪ اپ فعال ڪريو</string>
+    <string name="select_backup_folder">بيڪ اپ فولڊر چونڊيو</string>
+    <string name="include_media">ميڊيا شامل ڪريو</string>
+    <string name="auto_backup_every">پاڻمرادو بيڪ اپ هر:</string>
+    <string name="last_backup">آخري بيڪ اپ:</string>
+    <string name="next_backup">ايندڙ بيڪ اپ:</string>
+    <string name="no_backups_yet">اڃا ڪو به بيڪ اپ ناهي.</string>
+    <string name="select_backup_folder_first">پهرين بيڪ اپ فولڊر چونڊيو!</string>
+    <string name="backup_started">بيڪ اپ شروع ٿي ويو…</string>
+    <string name="backup_now">هاڻي بيڪ اپ ڪريو</string>
+    <string name="restore_from_backup_file">بيڪ اپ فائل مان بحال ڪريو</string>
+
+    <string name="mobile_data_limit">موبائل ڊيٽا حد</string>
+    <string name="wifi_usage">وائي فائي استعمال</string>
+    <string name="unlimited">لامحدود</string>
+    <string name="restricted">محدود</string>
+    <string name="storage_management">اسٽوريج جو انتظام</string>
+    <string name="view_storage_usage">اسٽوريج استعمال ڏسو</string>
+    <string name="backup_restore">بيڪ اپ ۽ بحالي</string>
+    <string name="days">ڏينهن</string>
+
+    <string name="messages">پيغام</string>
+    <string name="media">ميڊيا</string>
+    <string name="sent">موڪليل</string>
+    <string name="received">مليل</string>
+
+    <string name="mobile_data_title">موبائل ڊيٽا</string>
+    <string name="wifi_title">وائي فائي</string>
+
+    <string name="global">عالمي</string>
+    <string name="enable_all_notifications">سڀ اطلاعون فعال ڪريو</string>
+    <string name="new_message_sound">نئين پيغام جو آواز</string>
+    <string name="vibrate_on_message">پيغام تي وائبريٽ</string>
+
+    <string name="message_notifications">پيغام اطلاعون</string>
+    <string name="new_messages">نوان پيغام</string>
+    <string name="group_chats">گروپ چيٽس</string>
+    <string name="mentions">ذڪر</string>
+
+    <string name="call_notifications">ڪال اطلاعون</string>
+    <string name="incoming_calls">ايندڙ ڪالون</string>
+    <string name="missed_call_alerts">مس ڪال خبردارِيون</string>
+
+    <string name="in_app_notifications">ايپ اندر اطلاعون</string>
+    <string name="popup_previews">پاپ اپ جھلڪ</string>
+    <string name="badge_count">بيج جو تعداد</string>
+
+    <string name="do_not_disturb">تنگ نه ڪريو</string>
+    <string name="enable_dnd">ڊي اين ڊي فعال ڪريو</string>
+
+    <string name="close">بند ڪريو</string>
+    <string name="scan_to_share">شيئر ڪرڻ لاءِ اسڪين ڪريو</string>
+    <string name="qr_code">ڪيو آر ڪوڊ</string>
+    <string name="qr_error">ڪيو آر ڪوڊ ٺاهڻ ۾ نقص</string>
+
+    <string name="logout">لاگ آئوٽ</string>
+    <string name="logout_confirmation">ڇا توهان پڪ سان لاگ آئوٽ ٿيڻ چاهيو ٿا؟</string>
+    <string name="yes">ها</string>
+    <string name="delete_warning">توهان جو سمورو ڊيٽا سرور تان فوري ۽ هميشه لاءِ ڊيليٽ ڪيو ويندو. هي عمل واپس نٿو ٿي سگهي.\n\nجاري رکڻ لاءِ CONFIRM ٽائيپ ڪريو.</string>
+    <string name="type_confirm_label">CONFIRM ٽائيپ ڪريو</string>
+    <string name="cleaning_up">صفائي ٿي رهي آهي…</string>
+    <string name="confirm_keyword">CONFIRM</string>
+
+    <string name="led_indicator">ايل اي ڊي اشارو</string>
+    <string name="select_led_color">ايل اي ڊي رنگ چونڊيو</string>
+
+    <string name="led_off">بند</string>
+    <string name="led_red">ڳاڙهو</string>
+    <string name="led_green">سائو</string>
+    <string name="led_blue">نيرو</string>
+    <string name="led_yellow">پيلو</string>
+    <string name="led_purple">جامني</string>
+
+    <string name="confirmation">تصديق</string>
+    <string name="delete_both_sides">ٻنهي پاسن کان ڊيليٽ ڪريو</string>
+    <string name="no">نه</string>
+    <string name="confirm_action">عمل جي تصديق ڪريو</string>
+    <string name="confirm">تصديق</string>
+
+    <string name="remove_profile_image_confirmation">ڇا توهان پڪ سان پروفائل تصوير هٽائڻ چاهيو ٿا؟</string>
+    <string name="reset_all_data_usage">🔄 سمورو ڊيٽا استعمال ري سيٽ ڪريو</string>
+    <string name="coming_soon">جلد اچي رهيو آهي</string>
+
+    <string name="invalid_phone_number">غلط فون نمبر.</string>
+    <string name="invalid_phone_format">فون نمبر جي غلط شڪل.</string>
+    <string name="invalid_country">غلط ملڪ.</string>
+    <string name="no_network">نيٽ ورڪ موجود ناهي. مهرباني ڪري ٻيهر ڪوشش ڪريو.</string>
+    <string name="pre_release_notice">Dootawas پري ريليز اطلاع</string>
+
+    <string name="resend_otp">OTP ٻيهر موڪليو</string>
+    <string name="max_retry_reached">❌ ڪوششن جي حد پوري ٿي وئي!</string>
+    <string name="enter_complete_otp">مڪمل OTP داخل ڪريو</string>
+    <string name="verify_otp">OTP جي تصديق ڪريو</string>
+    <string name="finish">مڪمل ڪريو</string>
+    <string name="setup_profile">پنهنجو پروفائل ٺاهيو</string>
+    <string name="add_profile_picture">بهتر سڃاڻپ لاءِ پروفائل تصوير شامل ڪريو!</string>
+    <string name="enter_name">پنهنجو نالو داخل ڪريو</string>
+    <string name="name_empty_error">نالو خالي نٿو ٿي سگهي!</string>
+
+    <string name="group_calls_coming_soon">گروپ ڪالون جلد اينديون!</string>
+    <string name="scanned_phone_number">اسڪين ٿيل فون نمبر: %1$s</string>
+    <string name="stories_locked">اسٽوريون بند آهن</string>
+    <string name="stories_unlock_msg">اهي مستحڪم ورزن ۾ کلنديون 🔓</string>
+    <string name="search">ڳولا</string>
+    <string name="already_invited">اڳ ۾ ئي دعوت ڏني وئي آهي.</string>
+
+    <string name="invite">دعوت ڏيو</string>
+    <string name="invited">دعوت ڏني وئي</string>
+    <string name="add">شامل ڪريو</string>
+    <string name="added">شامل ٿيل</string>
+
+    <string name="tab_chats">چيٽس</string>
+    <string name="tab_groups">گروپ</string>
+    <string name="tab_calls">ڪالون</string>
+    <string name="tab_stories">اسٽوريون</string>
+    <string name="no_messages_yet">اڃا ڪو به پيغام ناهي</string>
+    <string name="sos_contacts">ايس او ايس رابطا</string>
+    <string name="add_sos_contact_number">ايس او ايس رابطو نمبر شامل ڪريو</string>
+    <string name="sos_contacts_description">جڏهن توهان ايس او ايس موڪليندا ته انهن رابطن کي توهان جو مقام ۽ ايمرجنسي اطلاع ملندو.</string>
+    <string name="no_sos_contacts">ڪو به ايس او ايس رابطو ناهي.</string>
+    <string name="remove">هٽايو</string>
+    <string name="tab_lists">فهرستون</string>
+
+    <string name="username_available">يوزرنيم موجود آهي</string>
+    <string name="username_taken">يوزرنيم اڳ ۾ ئي ورتل آهي</string>
+    <string name="username">يوزرنيم</string>
+    <string name="apply">لاڳو ڪريو</string>
+    <string name="set_username">يوزرنيم مقرر ڪريو</string>
+    <string name="edit">ايڊٽ ڪريو</string>
+    <string name="choose_username">يوزرنيم چونڊيو</string>
+    <string name="about">بابت</string>
+    <string name="enter_about">پنهنجي باري ۾ لکو</string>
+
+    <string name="user_settings_title">يوزر سيٽنگون</string>
+    <string name="name_not_set">نالو: ڪو نالو مقرر ناهي</string>
+    <string name="refresh_balance">بيلنس ريفريش ڪريو</string>
+    <string name="save_to_contacts">رابطن ۾ محفوظ ڪريو</string>
+    <string name="name_label">نالو: %1$s</string>
+    <string name="phone_label">فون: %1$s</string>
+    <string name="e2e_always_enabled">هي توهان جي حفاظت لاءِ هميشه فعال آهي.</string>
+
+    <string name="reveal_phone_number_title">منهنجو فون نمبر ظاهر ڪريو</string>
+    <string name="reveal_phone_number_on_description">توهان جو فون نمبر انهن سڀني کي ڏسڻ ۾ ايندو جن کي توهان پيغام موڪليو ٿا</string>
+    <string name="reveal_phone_number_off_description">ٻيا ماڻهو توهان جي نمبر بدران يوزرنيم ڏسندا، جيستائين ظاهر نه ڪيو وڃي</string>
+    <string name="reveal_confirm_title">پنهنجو فون نمبر ظاهر ڪريو؟</string>
+    <string name="reveal_confirm_description">هي رابطو توهان جو فون نمبر ڏسي سگهندو. هي عمل واپس نٿو ٿي سگهي.</string>
+    <string name="reveal">ظاهر ڪريو</string>
+
+    <string name="wallpaper_title">وال پيپر</string>
+    <string name="delete_wallpaper">وال پيپر ڊيليٽ ڪريو</string>
+    <string name="remove_wallpaper_title">وال پيپر هٽايو</string>
+    <string name="remove_wallpaper_confirmation">ڇا توهان هي وال پيپر هٽائڻ چاهيو ٿا؟</string>
+
+    <string name="appearance_title">ظاهري شڪل</string>
+
+    <string name="media_title">ميڊيا</string>
+    <string name="media_photo">فوٽو</string>
+    <string name="media_video">وڊيو</string>
+    <string name="media_audio">آڊيو</string>
+    <string name="media_document">دستاويز</string>
+    <string name="media_contact">رابطو</string>
+    <string name="media_location">مقام</string>
+
+    <string name="saved_to_contacts">رابطن ۾ محفوظ ٿي ويو</string>
+    <string name="cancelled">منسوخ ٿي ويو</string>
+    <string name="unknown_result">اڻڄاتل نتيجو</string>
+
+    <string name="disappearing_messages_row_title">غائب ٿيندڙ پيغام</string>
+    <string name="disappearing_messages_title">غائب ٿيندڙ پيغام</string>
+    <string name="disappearing_messages_description">پيغام وصول ڪندڙ جي پڙهڻ کان پوءِ ايتري وقت ۾ غائب ٿي ويندا آهن.</string>
+    <string name="disappearing_off">بند</string>
+
+    <plurals name="disappearing_seconds">
+        <item quantity="one">%d سيڪنڊ</item>
+        <item quantity="other">%d سيڪنڊ</item>
+    </plurals>
+
+    <plurals name="disappearing_minutes">
+        <item quantity="one">%d منٽ</item>
+        <item quantity="other">%d منٽ</item>
+    </plurals>
+
+    <plurals name="disappearing_hours">
+        <item quantity="one">%d ڪلاڪ</item>
+        <item quantity="other">%d ڪلاڪ</item>
+    </plurals>
+
+    <plurals name="disappearing_days">
+        <item quantity="one">%d ڏينهن</item>
+        <item quantity="other">%d ڏينهن</item>
+    </plurals>
+
+    <string name="duration_picker_title">غائب ٿيندڙ پيغام</string>
+    <string name="duration_picker_subtitle">پڙهڻ کان پوءِ پاڻمرادو غائب ٿي وڃي.</string>
+    <string name="duration_picker_quick_presets_label">تڪڙا پريسيٽ</string>
+    <string name="duration_picker_save_button">مقرر ڪريو</string>
+
+    <string name="duration_picker_days_label">ڏينهن</string>
+    <string name="duration_picker_hours_label">ڪلاڪ</string>
+    <string name="duration_picker_minutes_label">منٽ</string>
+    <string name="duration_picker_seconds_label">سيڪنڊ</string>
+
+    <string name="duration_preset_10s">10س</string>
+    <string name="duration_preset_30s">30س</string>
+    <string name="duration_preset_1m">1م</string>
+    <string name="duration_preset_5m">5م</string>
+    <string name="duration_preset_1h">1ڪ</string>
+    <string name="duration_preset_24h">24ڪ</string>
+    <string name="duration_preset_7d">7ڏ</string>
+
+    <string name="send">موڪليو</string>
+    <string name="camera">ڪيمرا</string>
+    <string name="blocked_contact_placeholder">توهان هي رابطو بلاڪ ڪيو آهي..</string>
+
+    <string name="privacy_security_title">رازداري ۽ سيڪيورٽي</string>
+    <string name="e2e_encryption_title">اينڊ ٽو اينڊ انڪرپشن</string>
+    <string name="chat_settings_title">چيٽ سيٽنگون</string>
+
+    <string name="hide_chat_title">چيٽ لڪايو</string>
+    <string name="hide_chat_subtitle">پاس ڪي سان چيٽ محفوظ ڪريو</string>
+    <string name="hide_chat_dialog_title">چيٽ لڪايو</string>
+    <string name="hide_chat_dialog_description">هيءَ چيٽ لڪائڻ ۽ لاڪ ڪرڻ لاءِ پاس ڪي داخل ڪريو. ٻيهر کولڻ لاءِ توهان کي ان جي ضرورت پوندي.</string>
+    <string name="passkey_label">پاس ڪي</string>
+    <string name="confirm_passkey_label">پاس ڪي جي تصديق ڪريو</string>
+    <string name="passkeys_do_not_match">پاس ڪيز هڪجهڙيون نه آهن</string>
+    <string name="remove_hide_key">هائيڊ ڪي هٽايو</string>
+    <string name="hide_action">لڪايو</string>
+
+    <string name="menu_bill">بل</string>
+    <string name="menu_list">فهرست</string>
+    <string name="menu_gallery">تصوير</string>
+    <string name="menu_video">وڊيو</string>
+    <string name="menu_audio">آڊيو</string>
+    <string name="menu_location">مقام</string>
+    <string name="menu_contact">رابطو</string>
+    <string name="menu_document">دستاويز</string>
+
+    <string name="group_settings_title">گروپ سيٽنگون</string>
+    <string name="profile_picture_title">پروفائل تصوير</string>
+    <string name="edit_profile_picture_desc">پروفائل تصوير ايڊٽ ڪريو</string>
+    <string name="delete_profile_picture_desc">پروفائل تصوير ڊيليٽ ڪريو</string>
+    <string name="members_title">ميمبر</string>
+    <string name="swami_label">سوامي</string>
+    <string name="collapse_desc">سمورايو</string>
+    <string name="expand_desc">وڌايو</string>
+    <string name="permissions_title">اجازتون</string>
+    <string name="permission_message">پيغام</string>
+    <string name="permission_call">ڪال</string>
+    <string name="permission_add_members">ميمبر شامل ڪريو</string>
+    <string name="permission_update_profile">پروفائل اپڊيٽ ڪريو</string>
+    <string name="only_swami_can_change_permissions">رڳو سوامي اجازتون تبديل ڪري سگهي ٿو</string>
+    <string name="update_permissions_button">اجازتون اپڊيٽ ڪريو</string>
+    <string name="remove_member_button">ميمبر هٽايو</string>
+    <string name="add_members_button">ميمبر شامل ڪريو</string>
+    <string name="delete_group_button">گروپ ڊيليٽ ڪريو</string>
+    <string name="leave_group_button">گروپ ڇڏيو</string>
+    <string name="are_you_sure_message">ڇا توهان کي پڪ آهي؟</string>
+
+    <string name="my_status_title">منهنجو اسٽيٽس</string>
+    <string name="tap_to_view_time">ڏسڻ لاءِ ٽيپ ڪريو • %s</string>
+    <string name="tap_to_add_status_update">اسٽيٽس اپڊيٽ شامل ڪرڻ لاءِ ٽيپ ڪريو</string>
+    <string name="my_story_title">منهنجي اسٽوري</string>
+    <string name="recent_updates_title">تازيون اپڊيٽس</string>
+
+    <string name="type_a_message">پيغام لکو</string>
+    <string name="you_blocked_this_contact">توهان هي رابطو بلاڪ ڪيو آهي..</string>
+    <string name="status_online">🟢 آن لائن</string>
+    <string name="status_long_ago">گهڻو اڳ</string>
+    <string name="active_minutes_ago">%d منٽ اڳ سرگرم</string>
+    <string name="active_hours_ago">%d ڪلاڪ اڳ سرگرم</string>
+    <string name="active_days_ago">%d ڏينهن اڳ سرگرم</string>
+
+    <string name="no_stories_yet">اڃا ڪا به اسٽوري ناهي</string>
+    <string name="search_placeholder_sync_hint">ڳوليو يا سڀ سنڪ ڪرڻ لاءِ هيٺ ڇڪيو</string>
+
+    <string name="contribute_title">❤️ پروجيڪٽ جي مدد ڪريو</string>
+    <string name="contribute_subtitle">توهان جو حصو اسان کي هلائيندو رکي ٿو 🚀</string>
+    <string name="contribute_custom">پنهنجي رقم ✏️</string>
+    <string name="contribute_enter_amount">رقم داخل ڪريو</string>
+    <string name="contribute_button">حصو وجهو 🚀</string>
+
+    <string name="contribute_error_invalid">صحيح رقم داخل ڪريو</string>
+    <string name="contribute_error_zero">رقم ₹0 کان وڌيڪ هجڻ گهرجي</string>
+    <string name="contribute_error_max">وڌ ۾ وڌ ₹10000 جي اجازت آهي</string>
+
+    <string name="add_new_chat">نئين چيٽ شامل ڪريو</string>
+
+    <string name="mode_phone">فون</string>
+    <string name="mode_username">يوزرنيم</string>
+
+    <string name="label_username">يوزرنيم</string>
+    <string name="label_phone_number">فون نمبر</string>
+    <string name="placeholder_username">يوزرنيم</string>
+    <string name="placeholder_phone_number">فون نمبر داخل ڪريو</string>
+    <string name="username_supporting_text">رڳو ننڍا اکر ۽ انگ</string>
+
+    <string name="or_divider">يا</string>
+    <string name="camera_permission_required">ڪيمرا جي اجازت گهربل آهي</string>
+    <string name="scanner_align_qr">ڪيو آر کي فريم اندر رکو</string>
+    <string name="scanner_paused">روڪيل</string>
+    <string name="flash">فليش</string>
+
+    <string name="clear_current_contact">موجوده رابطو هٽايو</string>
+    <string name="profile_image_placeholder">تصوير</string>
+    <string name="status_user_found">يوزر ملي ويو</string>
+    <string name="status_checking">چڪاس ٿي رهي آهي…</string>
+    <string name="status_not_found">ڪو اڪائونٽ نه مليو</string>
+    <string name="status_invalid_phone">غلط فون نمبر</string>
+    <string name="status_error">چڪاس ۾ نقص</string>
+    <string name="status_already_added">اڳ ۾ ئي شامل آهي</string>
+
+    <string name="action_add">شامل ڪريو</string>
+    <string name="action_invite">دعوت ڏيو</string>
+    <string name="action_retry">ٻيهر ڪوشش ڪريو</string>
+    <string name="action_already_added">اڳ ۾ ئي شامل</string>
+
+    <string name="search_placeholder_invite_hint">پنهنجي پسنديده ماڻهوءَ کي دعوت ڏيو</string>
+    <string name="add_contact">رابطو شامل ڪريو</string>
+</resources>

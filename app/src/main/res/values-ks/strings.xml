@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">KnotX</string>
+    <string name="cancel">منسوخ</string>
+    <string name="enter_phone_number">پنُن فون نمبر درج کٔرو</string>
+    <string name="verify">تصدیق کٔرو</string>
+    <string name="settings">ترتیبات</string>
+    <string name="account_settings">اکاؤنٹ ترتیبات</string>
+    <string name="notifications">اطلاعات</string>
+    <string name="chats">گفتگو</string>
+    <string name="calls">کالز</string>
+    <string name="privacy">رازداری</string>
+    <string name="storage_data">سٹوریج تہٕ ڈیٹا</string>
+    <string name="data_usage">ڈیٹا استعمال</string>
+    <string name="appearance">ظاہری شکل</string>
+    <string name="language">زبان</string>
+    <string name="help_support">مدد تہٕ سپورٹ</string>
+    <string name="backup">بیک اپ</string>
+    <string name="block_list">بلاک کورمُت رابطہ</string>
+    <string name="contribution">تعاون</string>
+    <string name="back">واپس</string>
+    <string name="name">ناو</string>
+    <string name="phone_number">فون نمبر</string>
+    <string name="security">سیکورٹی</string>
+    <string name="delete">مٹاو</string>
+    <string name="delete_account">اکاؤنٹ مٹاو</string>
+    <string name="app_passcode">ایپ پاسکوڈ</string>
+    <string name="enter_4_digit_passcode">4 ہندسن والۍ پاسکوڈ درج کٔرو</string>
+    <string name="confirm_passcode">پاسکوڈ تصدیق کٔرو</string>
+    <string name="passcode_must_be_4_digits">پاسکوڈ ضروری آسن 4 ہندسن</string>
+    <string name="passcodes_do_not_match">پاسکوڈ چھِ نہ میل کھیوان</string>
+    <string name="save">محفوظ کٔرو</string>
+    <string name="enter_current_passcode">مووجود پاسکوڈ درج کٔرو</string>
+    <string name="incorrect_passcode">غلط پاسکوڈ</string>
+    <string name="disable">بند کٔرو</string>
+
+    <string name="theme">تھیم</string>
+    <string name="wallpaper">وال پیپر</string>
+    <string name="font_size">فونٹ سائز</string>
+    <string name="font_size_value">فونٹ سائز: %1$d </string>
+    <string name="enter_key_is_send">اینٹر کی چھہ سینڈ</string>
+    <string name="read_receipts">پڑھنُک ثبوت</string>
+    <string name="typing_indicators">ٹائپنگ نشانی</string>
+    <string name="message_backup">پیغام بیک اپ</string>
+    <string name="auto_download_photos">فوٹو پانے ڈاؤنلوڈ</string>
+    <string name="auto_download_videos">ویڈیو پانے ڈاؤنلوڈ</string>
+    <string name="auto_download_voice">آواز پانے ڈاؤنلوڈ</string>
+    <string name="auto_download_files">فائلز پانے ڈاؤنلوڈ</string>
+    <string name="media_quality">میڈیا معیار</string>
+    <string name="save_to_gallery">گیلری منز محفوظ کٔرو</string>
+    <string name="mute_all_groups">سارے گروپ خاموش کٔرو</string>
+    <string name="view_blocked_contacts">بلاک کورمُت رابطہ وچھو</string>
+
+    <string name="contact_list">رابطہ فہرست</string>
+    <string name="blocked_contacts">بلاک کورمُت رابطہ</string>
+    <string name="last_seen">آخری دفعہ وۄچھمُت</string>
+    <string name="online_status">آن لائن حالت</string>
+    <string name="profile_photo">پروفائل فوٹو</string>
+    <string name="bio_about">بایو/متعلق</string>
+    <string name="who_can_message_me">کُس ہیکہ مے پیغام دِتھ</string>
+    <string name="group_invites">گروپ دعوت</string>
+    <string name="notify_new_device">نوۍ ڈیوائس پؠٹھ لاگ اِن پؠٹھ اطلاع دِیو</string>
+    <string name="suspicious_activity_alerts">شک والی سرگرمی خبردار</string>
+    <string name="everyone">سارِنی</string>
+    <string name="nobody">کانہہ نہ</string>
+
+    <string name="allow_calls_from">کالز ہٕنزِ اجازت</string>
+    <string name="speaker_by_default">سپیکر پانے</string>
+    <string name="video_call_quality">ویڈیو کال معیار</string>
+    <string name="ringtone">رنگ ٹون</string>
+
+    <string name="help_center">مدد مرکز</string>
+    <string name="contact_support">سپورٹ سان رابطہ کٔرو</string>
+    <string name="terms_conditions">شرطھ تہٕ ضابطہ</string>
+    <string name="privacy_policy">رازداری پالیسی</string>
+    <string name="report_issue">مسئلہ رپورٹ کٔرو</string>
+
+    <string name="use_system_language">سسٹم زبان استعمال کٔرو</string>
+    <string name="appearance_settings">ظاہری شکل ترتیبات</string>
+    <string name="no_blocked_contacts">کانہہ رابطہ بلاک چھہ نہ</string>
+    <string name="restore_started">بحالی شروع گومت…</string>
+    <string name="backup_folder_set">بیک اپ فولڈر مقرر!</string>
+    <string name="local_backup">مقامی بیک اپ</string>
+    <string name="enable_backup">بیک اپ چالو کٔرو</string>
+    <string name="select_backup_folder">بیک اپ فولڈر ژارو</string>
+    <string name="include_media">میڈیا شامل کٔرو</string>
+    <string name="auto_backup_every">پانے بیک اپ ہر:</string>
+    <string name="last_backup">آخری بیک اپ:</string>
+    <string name="next_backup">اگلۍ بیک اپ:</string>
+    <string name="no_backups_yet">ہُن تام کانہہ بیک اپ چھہ نہ.</string>
+    <string name="select_backup_folder_first">پؠہلہٕ بیک اپ فولڈر ژارو!</string>
+    <string name="backup_started">بیک اپ شروع گومت…</string>
+    <string name="backup_now">ہُنہ بیک اپ کٔرو</string>
+    <string name="restore_from_backup_file">بیک اپ فائل پؠٹھہ بحال کٔرو</string>
+
+    <string name="mobile_data_limit">موبائل ڈیٹا حد</string>
+    <string name="wifi_usage">وائی فائی استعمال</string>
+    <string name="unlimited">لامحدود</string>
+    <string name="restricted">محدود</string>
+    <string name="storage_management">سٹوریج انتظام</string>
+    <string name="view_storage_usage">سٹوریج استعمال وچھو</string>
+    <string name="backup_restore">بیک اپ تہٕ بحالی</string>
+    <string name="days">دۄہ</string>
+
+    <string name="messages">پیغام</string>
+    <string name="media">میڈیا</string>
+    <string name="sent">یوون</string>
+    <string name="received">موصول</string>
+
+    <string name="mobile_data_title">موبائل ڈیٹا</string>
+    <string name="wifi_title">وائی فائی</string>
+
+    <string name="global">عالمی</string>
+    <string name="enable_all_notifications">سارۍ اطلاعات چالو کٔرو</string>
+    <string name="new_message_sound">نوۍ پیغامچ آواز</string>
+    <string name="vibrate_on_message">پیغام پؠٹھ وائبریٹ</string>
+
+    <string name="message_notifications">پیغام اطلاعات</string>
+    <string name="new_messages">نوۍ پیغام</string>
+    <string name="group_chats">گروپ گفتگو</string>
+    <string name="mentions">ذکر</string>
+
+    <string name="call_notifications">کال اطلاعات</string>
+    <string name="incoming_calls">آمدہ کالز</string>
+    <string name="missed_call_alerts">مس کال خبردار</string>
+
+    <string name="in_app_notifications">ایپ اندرونی اطلاعات</string>
+    <string name="popup_previews">پاپ اپ جھلک</string>
+    <string name="badge_count">بیج گنتی</string>
+
+    <string name="do_not_disturb">تنگ نہ کٔرو</string>
+    <string name="enable_dnd">ڈی این ڈی چالو کٔرو</string>
+
+    <string name="close">بند کٔرو</string>
+    <string name="scan_to_share">شیئر کرنہٕ خاطرٕ سکین کٔرو</string>
+    <string name="qr_code">کیو آر کوڈ</string>
+    <string name="qr_error">کیو آر کوڈ بناونس منز خرابی</string>
+
+    <string name="logout">لاگ آؤٹ</string>
+    <string name="logout_confirmation">توہہ کیا چھوو یقین زِ لاگ آؤٹ کرُن چھہ؟</string>
+    <string name="yes">آ</string>
+    <string name="delete_warning">توہۍ سۅنتھ سارۍ ڈیٹا گیہ سرور پؠٹھہ فوری طور مستقل مٹاونہٕ. یہ عمل ہیکہ نہ واپس کرتھ.\n\nجاری رکھنہٕ خاطرٕ CONFIRM ٹائپ کٔرو.</string>
+    <string name="type_confirm_label">CONFIRM ٹائپ کٔرو</string>
+    <string name="cleaning_up">صفائی جاری چھیہ…</string>
+    <string name="confirm_keyword">CONFIRM</string>
+
+    <string name="led_indicator">ایل ای ڈی نشانی</string>
+    <string name="select_led_color">ایل ای ڈی رنگ ژارو</string>
+
+    <string name="led_off">بند</string>
+    <string name="led_red">ژۄنٛگ</string>
+    <string name="led_green">سبز</string>
+    <string name="led_blue">نیول</string>
+    <string name="led_yellow">زٔرد</string>
+    <string name="led_purple">بۄرۍ</string>
+
+    <string name="confirmation">تصدیق</string>
+    <string name="delete_both_sides">دۄششوین طرفین مٹاو</string>
+    <string name="no">نہ</string>
+    <string name="confirm_action">عمل تصدیق کٔرو</string>
+    <string name="confirm">تصدیق</string>
+
+    <string name="remove_profile_image_confirmation">توہہ کیا چھوو یقین زِ پروفائل تصویر ہٹاون چھہ؟</string>
+    <string name="reset_all_data_usage">🔄 سارۍ ڈیٹا استعمال ریسیٹ کٔرو</string>
+    <string name="coming_soon">جلدی ییوان</string>
+
+    <string name="invalid_phone_number">غلط فون نمبر.</string>
+    <string name="invalid_phone_format">فون نمبرچ غلط شکل.</string>
+    <string name="invalid_country">غلط ملک.</string>
+    <string name="no_network">نیٹ ورک دستیاب چھہ نہ. مہربانی کٔرتھ پتہٕ کوشش کٔرو.</string>
+    <string name="pre_release_notice">Dootawas پری ریلیز اطلاع</string>
+
+    <string name="resend_otp">OTP دوبارہ یوو</string>
+    <string name="max_retry_reached">❌ کوشش حد پوٚز!</string>
+    <string name="enter_complete_otp">مکمل OTP درج کٔرو</string>
+    <string name="verify_otp">OTP تصدیق کٔرو</string>
+    <string name="finish">مکمل کٔرو</string>
+    <string name="setup_profile">پنُن پروفائل تیار کٔرو</string>
+    <string name="add_profile_picture">بہتر پَچھان خاطرٕ پروفائل تصویر شامل کٔرو!</string>
+    <string name="enter_name">پنُن ناو درج کٔرو</string>
+    <string name="name_empty_error">ناو ہیکہ نہ خالی آستھ!</string>
+
+    <string name="group_calls_coming_soon">گروپ کالز جلدی ییوان!</string>
+    <string name="scanned_phone_number">سکین کورمُت فون نمبر: %1$s</string>
+    <string name="stories_locked">سٹوریز چھیہ لاک</string>
+    <string name="stories_unlock_msg">تمۍ چھیہ مستحکم ورژنس منز کھُلان 🔓</string>
+    <string name="search">تلاش</string>
+    <string name="already_invited">پہلے ہی دعوت دِیُت.</string>
+
+    <string name="invite">دعوت دِیو</string>
+    <string name="invited">دعوت دِیُت</string>
+    <string name="add">شامل کٔرو</string>
+    <string name="added">شامل کورمُت</string>
+
+    <string name="tab_chats">گفتگو</string>
+    <string name="tab_groups">گروپ</string>
+    <string name="tab_calls">کالز</string>
+    <string name="tab_stories">سٹوریز</string>
+    <string name="no_messages_yet">ہُن تام کانہہ پیغام چھہ نہ</string>
+    <string name="sos_contacts">ایس او ایس رابطہ</string>
+    <string name="add_sos_contact_number">ایس او ایس رابطہ نمبر شامل کٔرو</string>
+    <string name="sos_contacts_description">یمن رابطن ملہِ پنُن مقام تہٕ ہنگامی اطلاع یلہِ توہہ ایس او ایس یوِو.</string>
+    <string name="no_sos_contacts">کانہہ ایس او ایس رابطہ چھہ نہ.</string>
+    <string name="remove">ہٹاو</string>
+    <string name="tab_lists">فہرستھ</string>
+
+    <string name="username_available">یوزرنیم دستیاب چھہ</string>
+    <string name="username_taken">یوزرنیم پہلے ہی لگیومُت</string>
+    <string name="username">یوزرنیم</string>
+    <string name="apply">لاگو کٔرو</string>
+    <string name="set_username">یوزرنیم مقرر کٔرو</string>
+    <string name="edit">ترمیم</string>
+    <string name="choose_username">یوزرنیم ژارو</string>
+    <string name="about">متعلق</string>
+    <string name="enter_about">متعلق درج کٔرو</string>
+
+    <string name="user_settings_title">یوزر ترتیبات</string>
+    <string name="name_not_set">ناو: کانہہ ناو مقرر چھہ نہ</string>
+    <string name="refresh_balance">بیلنس ریفریش کٔرو</string>
+    <string name="save_to_contacts">رابطن منز محفوظ کٔرو</string>
+    <string name="name_label">ناو: %1$s</string>
+    <string name="phone_label">فون: %1$s</string>
+    <string name="e2e_always_enabled">یہ چھہ توہہندِ تحفظ خاطرٕ ہمیشہ چالو.</string>
+
+    <string name="reveal_phone_number_title">میون فون نمبر ظاہر کٔرو</string>
+    <string name="reveal_phone_number_on_description">توہہندۍ فون نمبر چھہ ہرکانہہ ہندۍ سیتۍ پیغام کران وولۍ سارنی نظر</string>
+    <string name="reveal_phone_number_off_description">باقی لوکھ چھِ توہہندِ نمبرِ بدلہٕ یوزرنیم وچھان، تمہِ تام یمہِ ظاہر نہ کرُن</string>
+    <string name="reveal_confirm_title">پنُن فون نمبر ظاہر کٔرو؟</string>
+    <string name="reveal_confirm_description">یہ رابطہ ہیکہ توہہندۍ فون نمبر وچھتھ. یہ عمل ہیکہ نہ واپس کرتھ.</string>
+    <string name="reveal">ظاہر کٔرو</string>
+
+    <string name="wallpaper_title">وال پیپر</string>
+    <string name="delete_wallpaper">وال پیپر مٹاو</string>
+    <string name="remove_wallpaper_title">وال پیپر ہٹاو</string>
+    <string name="remove_wallpaper_confirmation">کیا چھوو یہ وال پیپر ہٹاون؟</string>
+
+    <string name="appearance_title">ظاہری شکل</string>
+
+    <string name="media_title">میڈیا</string>
+    <string name="media_photo">فوٹو</string>
+    <string name="media_video">ویڈیو</string>
+    <string name="media_audio">آڈیو</string>
+    <string name="media_document">دستاویز</string>
+    <string name="media_contact">رابطہ</string>
+    <string name="media_location">مقام</string>
+
+    <string name="saved_to_contacts">رابطن منز محفوظ گیوو</string>
+    <string name="cancelled">منسوخ گیوو</string>
+    <string name="unknown_result">نامعلوم نتیجہ</string>
+
+    <string name="disappearing_messages_row_title">غائب گژھن والۍ پیغام</string>
+    <string name="disappearing_messages_title">غائب گژھن والۍ پیغام</string>
+    <string name="disappearing_messages_description">پیغام چھِ وصول کرن وول تمہِ پڑھنہٕ پتہٕ یتھ وقتس غائب گژھان.</string>
+    <string name="disappearing_off">بند</string>
+
+    <plurals name="disappearing_seconds">
+        <item quantity="one">%d سیکنڈ</item>
+        <item quantity="other">%d سیکنڈ</item>
+    </plurals>
+
+    <plurals name="disappearing_minutes">
+        <item quantity="one">%d منٹ</item>
+        <item quantity="other">%d منٹ</item>
+    </plurals>
+
+    <plurals name="disappearing_hours">
+        <item quantity="one">%d گنٹہٕ</item>
+        <item quantity="other">%d گنٹہٕ</item>
+    </plurals>
+
+    <plurals name="disappearing_days">
+        <item quantity="one">%d دۄہ</item>
+        <item quantity="other">%d دۄہ</item>
+    </plurals>
+
+    <string name="duration_picker_title">غائب گژھن والۍ پیغام</string>
+    <string name="duration_picker_subtitle">پڑھنہٕ پتہٕ پانے غائب گژھُن.</string>
+    <string name="duration_picker_quick_presets_label">فوری پریسیٹ</string>
+    <string name="duration_picker_save_button">مقرر کٔرو</string>
+
+    <string name="duration_picker_days_label">دۄہ</string>
+    <string name="duration_picker_hours_label">گنٹہٕ</string>
+    <string name="duration_picker_minutes_label">منٹ</string>
+    <string name="duration_picker_seconds_label">سیکنڈ</string>
+
+    <string name="duration_preset_10s">10س</string>
+    <string name="duration_preset_30s">30س</string>
+    <string name="duration_preset_1m">1م</string>
+    <string name="duration_preset_5m">5م</string>
+    <string name="duration_preset_1h">1گ</string>
+    <string name="duration_preset_24h">24گ</string>
+    <string name="duration_preset_7d">7د</string>
+
+    <string name="send">یوو</string>
+    <string name="camera">کیمرہ</string>
+    <string name="blocked_contact_placeholder">توہہ چھوو یہ رابطہ بلاک کورمُت..</string>
+
+    <string name="privacy_security_title">رازداری تہٕ سیکورٹی</string>
+    <string name="e2e_encryption_title">اینڈ ٹو اینڈ انکرپشن</string>
+    <string name="chat_settings_title">گفتگو ترتیبات</string>
+
+    <string name="hide_chat_title">گفتگو چھُپاو</string>
+    <string name="hide_chat_subtitle">پاس کی ہٕندِ مدژ گفتگو محفوظ کٔرو</string>
+    <string name="hide_chat_dialog_title">گفتگو چھُپاو</string>
+    <string name="hide_chat_dialog_description">یہ گفتگو چھُپاونہٕ تہٕ لاک کرنہٕ خاطرٕ پاس کی درج کٔرو. دوبارہ کھولنہٕ خاطرٕ چھہ یہ ضروری.</string>
+    <string name="passkey_label">پاس کی</string>
+    <string name="confirm_passkey_label">پاس کی تصدیق کٔرو</string>
+    <string name="passkeys_do_not_match">پاس کیز چھِ نہ میل کھیوان</string>
+    <string name="remove_hide_key">ہائیڈ کی ہٹاو</string>
+    <string name="hide_action">چھُپاو</string>
+
+    <string name="menu_bill">بل</string>
+    <string name="menu_list">فہرست</string>
+    <string name="menu_gallery">تصویر</string>
+    <string name="menu_video">ویڈیو</string>
+    <string name="menu_audio">آڈیو</string>
+    <string name="menu_location">مقام</string>
+    <string name="menu_contact">رابطہ</string>
+    <string name="menu_document">دستاویز</string>
+
+    <string name="group_settings_title">گروپ ترتیبات</string>
+    <string name="profile_picture_title">پروفائل تصویر</string>
+    <string name="edit_profile_picture_desc">پروفائل تصویر ترمیم کٔرو</string>
+    <string name="delete_profile_picture_desc">پروفائل تصویر مٹاو</string>
+    <string name="members_title">ممبر</string>
+    <string name="swami_label">سوامی</string>
+    <string name="collapse_desc">سمیٹو</string>
+    <string name="expand_desc">پھیلاو</string>
+    <string name="permissions_title">اجازتھ</string>
+    <string name="permission_message">پیغام</string>
+    <string name="permission_call">کال</string>
+    <string name="permission_add_members">ممبر شامل کٔرو</string>
+    <string name="permission_update_profile">پروفائل اپڈیٹ کٔرو</string>
+    <string name="only_swami_can_change_permissions">صرف سوامی ہیکہ اجازتھ بدلاوتھ</string>
+    <string name="update_permissions_button">اجازتھ اپڈیٹ کٔرو</string>
+    <string name="remove_member_button">ممبر ہٹاو</string>
+    <string name="add_members_button">ممبر شامل کٔرو</string>
+    <string name="delete_group_button">گروپ مٹاو</string>
+    <string name="leave_group_button">گروپ ہیتھ نیرو</string>
+    <string name="are_you_sure_message">کیا چھوو یقین؟</string>
+
+    <string name="my_status_title">میون سٹیٹس</string>
+    <string name="tap_to_view_time">وچھنہٕ خاطرٕ ٹیپ کٔرو • %s</string>
+    <string name="tap_to_add_status_update">سٹیٹس اپڈیٹ شامل کرنہٕ خاطرٕ ٹیپ کٔرو</string>
+    <string name="my_story_title">میۅن سٹوری</string>
+    <string name="recent_updates_title">تازہ اپڈیٹس</string>
+
+    <string name="type_a_message">پیغام ٹائپ کٔرو</string>
+    <string name="you_blocked_this_contact">توہہ چھوو یہ رابطہ بلاک کورمُت..</string>
+    <string name="status_online">🟢 آن لائن</string>
+    <string name="status_long_ago">گۄڈنچہ وقتس</string>
+    <string name="active_minutes_ago">%d منٹ پتھ سرگرم</string>
+    <string name="active_hours_ago">%d گنٹہٕ پتھ سرگرم</string>
+    <string name="active_days_ago">%d دۄہ پتھ سرگرم</string>
+
+    <string name="no_stories_yet">ہُن تام کانہہ سٹوری چھیہ نہ</string>
+    <string name="search_placeholder_sync_hint">تلاش کٔرو یا سارنی سنک کرنہٕ خاطرٕ تل کُن کھینچو</string>
+
+    <string name="contribute_title">❤️ پروجیکٹ سپورٹ کٔرو</string>
+    <string name="contribute_subtitle">توہہندۍ تعاون چھہ اسہِ چلان تھاوان 🚀</string>
+    <string name="contribute_custom">اپنۍ رقم ✏️</string>
+    <string name="contribute_enter_amount">رقم درج کٔرو</string>
+    <string name="contribute_button">تعاون کٔرو 🚀</string>
+
+    <string name="contribute_error_invalid">صحیح رقم درج کٔرو</string>
+    <string name="contribute_error_zero">رقم ضروری ₹0 کھۅتہٕ زیادہ آسن</string>
+    <string name="contribute_error_max">زیادہ کھۅتہٕ زیادہ ₹10000 چھہ اجازت</string>
+
+    <string name="add_new_chat">نئی گفتگو شامل کٔرو</string>
+
+    <string name="mode_phone">فون</string>
+    <string name="mode_username">یوزرنیم</string>
+
+    <string name="label_username">یوزرنیم</string>
+    <string name="label_phone_number">فون نمبر</string>
+    <string name="placeholder_username">یوزرنیم</string>
+    <string name="placeholder_phone_number">فون نمبر درج کٔرو</string>
+    <string name="username_supporting_text">صرف لوئر کیس حرف تہٕ ہندسہٕ</string>
+
+    <string name="or_divider">یا</string>
+    <string name="camera_permission_required">کیمرہ اجازت ضروری چھیہ</string>
+    <string name="scanner_align_qr">کیو آر فریم منز رکھو</string>
+    <string name="scanner_paused">روکمُت</string>
+    <string name="flash">فلیش</string>
+
+    <string name="clear_current_contact">مووجود رابطہ ہٹاو</string>
+    <string name="profile_image_placeholder">تصویر</string>
+    <string name="status_user_found">یوزر مِلیوو</string>
+    <string name="status_checking">چیک چھہ گژھان…</string>
+    <string name="status_not_found">کانہہ اکاؤنٹ مِلیوو نہ</string>
+    <string name="status_invalid_phone">غلط فون نمبر</string>
+    <string name="status_error">چیک کرنس منز خرابی</string>
+    <string name="status_already_added">پہلے ہی شامل</string>
+
+    <string name="action_add">شامل کٔرو</string>
+    <string name="action_invite">دعوت دِیو</string>
+    <string name="action_retry">دوبارہ کوشش کٔرو</string>
+    <string name="action_already_added">پہلے ہی شامل</string>
+
+    <string name="search_placeholder_invite_hint">پنُن پسندیدہ شخص کٔرو مدعو</string>
+    <string name="add_contact">رابطہ شامل کٔرو</string>
+</resources>
